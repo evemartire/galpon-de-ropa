@@ -1,0 +1,95 @@
+/*
+COLORES PALETA:
+gris menu lateral: #393939;
+gris titular: #d8d8d8;
+gris botones: #888888;
+gris boton inactivo: #cccccc;
+gris fondo: #ededed;
+
+negro tipografia titulos: #000000;
+
+blanco tipografia menu lateral: #ffffff;
+
+violeta: #a56cff;
+naranja: #ff906e;
+azul: #6c96ff;
+*/
+* {
+	padding: 0px;
+	margin-right: 0px;
+	box-sizing: border-box;
+}
+
+/*----TIPOGRAFÍA-----*/
+@font-face {
+    font-family: "OpenSans-light";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("/fonts/open_sans/OpenSans-Light.woff") format("woff"), url("/fonts/OpenSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("/fonts/open_sans/OpenSans-Regular.woff") format("woff"), url("/fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "OpenSans-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("/fonts/open_sans/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+
+body{
+	font-family: "OpenSans";
+	background-color: #ededed;
+}
+
+/*----MENU LATERAL-----*/
+header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto; 
+    margin-left: auto;
+}
+
+.menu-lateral{
+	padding: 0px;
+	background-color: #393939;
+}
+
+.nav{
+	color: #ffffff;
+}
+
+.nav li{
+	padding: 15px 15px 15px 10px;
+}
+
+.navbar-default {
+    background-color: #393939;
+    border-color: #393939;
+}
+
+.navbar-toggle{
+	margin-top: 15px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+} 
+
+.container-fluid>.navbar-collapse, 
+.container-fluid>.navbar-header, 
+.container>.navbar-collapse, 
+.container>.navbar-header {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
