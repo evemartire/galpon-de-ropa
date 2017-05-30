@@ -155,9 +155,17 @@ h6{
 
 
 /*----DASHBOARD-----*/
+.dashboard-cabeceras{
+  background-color: #393939;
+  color: #ffffff;
+  padding: 5px 5px 5px 10px;
+  margin: 10px 0px 10px 0px;
+}
 
-
-
+.dashboard-cabeceras h5{
+  font-size: 12px;
+  font-family: "OpenSans";
+}
 
 
 
