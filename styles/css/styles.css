@@ -14,12 +14,15 @@ violeta: #a56cff;
 naranja: #ff906e;
 azul: #6c96ff;
 */
+
+/*----SELECTOR UNIVERSAL-----*/
 * {
 	padding: 0px;
 	margin-right: 0px;
 	box-sizing: border-box;
 }
 
+/*----CLASE UNIVERSAL-----*/
 .no-margin-padding{
     margin: 0px;
     padding: 0px;
@@ -52,6 +55,9 @@ body{
 	font-family: "OpenSans";
 	background-color: #ededed;
 }
+/*---------------fin------------------*/
+
+
 
 /*----MENU LATERAL-----*/
 header {
@@ -59,11 +65,18 @@ header {
     margin-left: 0px;
 }
 
+
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: auto; 
     margin-left: auto;
+}
+
+.logo-menu-lateral {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .menu-lateral{
@@ -98,6 +111,8 @@ header {
     margin-right: 0px;
     margin-left: 0px;
 }
+/*---------------fin------------------*/
+
 
 /*----CABECERA DE PAGINA GRIS-----*/
 
@@ -112,6 +127,40 @@ h6{
 h2,
 h5,
 h4,
-h3{
+h3,
+h6{
   font-family: "OpenSans-bold";
 }
+
+.titulo-nueva-venta h5{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.titulo-admin-loyla h6{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.alineacion-titulos{
+    display: flex;
+    align-items: flex-end;
+}
+/*---------------fin------------------*/
+
+
+
+
+/*----DASHBOARD-----*/
+
+
+
+
+
+
+/*---------------fin------------------*/
+
+
