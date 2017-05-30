@@ -1,0 +1,19 @@
+.login{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 200px;
+}
+
+.formulario-login{
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-login{
+	padding: 10px 20px 10px 20px;
+	margin: 5px;
+}
