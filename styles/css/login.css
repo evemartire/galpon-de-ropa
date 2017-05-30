@@ -49,6 +49,7 @@ body{
 .input-login{
 	padding: 10px 20px 10px 20px;
 	margin: 5px;
+	width: 235px;
 }
 
 .boton-login{
@@ -57,6 +58,7 @@ body{
   border-radius: 6px;
   border: 1px solid #ff906e;
   font-family: "OpenSans-bold";
+  padding: 10px 20px 10px 20px;
 }
 
 .boton-login:hover{
@@ -74,13 +76,22 @@ body{
  justify-content: center;
  align-items: center;
  align-content: center;
+ margin: 10px;
 }
 
 .login-checkbox-frase{
-	padding: 10px;
+	padding: 5px;
+	font-size: 12px;
+	margin-right: 40px;
 }
 
 
 h5{
 	color: #ffffff;
 }
+
+
+
+input[type=checkbox], input[type=radio] {
+    margin: 0 0 0;
+    }
