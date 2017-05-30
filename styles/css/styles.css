@@ -168,7 +168,23 @@ h6{
 }
 
 
+.dashboard-tablas{
+  background-color: #ededed;
+}
 
+.dashboard-tablas tbody tr th{
+  font-family: "OpenSans";
+  color: #000000;
+}
+
+.dashboard-tablas tbody tr td{
+  font-family: "OpenSans";
+  color: #000000;
+}
+
+.alineacion-texto-en-tablas{
+    text-align: right;
+}
 /*---------------fin------------------*/
 
 
