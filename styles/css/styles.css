@@ -76,7 +76,8 @@ header {
 }
 
 .nav li{
-	padding: 15px 15px 15px 10px;
+	padding: 15px 15px 13px 10px;
+    font-size: 12px;
 }
 
 .navbar-default {
@@ -100,10 +101,17 @@ header {
 
 /*----CABECERA DE PAGINA GRIS-----*/
 
+.title-site{
+  background-color: #d8d8d8;
+}
+
+h6{
+  font-family: "OpenSans";
+}
+
 h2,
 h5,
 h4,
-h3,
-h6{
-    font-family: "OpenSans-bold";
+h3{
+  font-family: "OpenSans-bold";
 }
