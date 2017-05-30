@@ -1,9 +1,42 @@
+/*
+COLORES PALETA:
+gris menu lateral: #393939;
+gris titular: #d8d8d8;
+gris botones: #888888;
+gris boton inactivo: #cccccc;
+gris fondo: #ededed;
+
+negro tipografia titulos: #000000;
+
+blanco tipografia menu lateral: #ffffff;
+
+violeta: #a56cff;
+naranja: #ff906e;
+azul: #6c96ff;
+*/
+
+@font-face {
+    font-family: "OpenSans-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("/fonts/open_sans/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.ttf") format("truetype");
+}
+
+body{
+	background-color:  #393939;
+}
+
+.logo-login{
+	padding: 50px;
+	width: 100%;
+}
+
 .login{
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin-top: 200px;
+	margin-top: 130px;
 }
 
 .formulario-login{
@@ -16,4 +49,38 @@
 .input-login{
 	padding: 10px 20px 10px 20px;
 	margin: 5px;
+}
+
+.boton-login{
+  background-color: #ff906e;
+  text-decoration: none;
+  border-radius: 6px;
+  border: 1px solid #ff906e;
+  font-family: "OpenSans-bold";
+}
+
+.boton-login:hover{
+	background-color: #ededed;
+	border: 1px solid #ededed;
+	transition-duration: 0.5s;
+
+}
+
+.login-checkbox{
+ color: #ffffff;
+ padding: 10px;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+ align-content: center;
+}
+
+.login-checkbox-frase{
+	padding: 10px;
+}
+
+
+h5{
+	color: #ffffff;
 }

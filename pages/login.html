@@ -15,12 +15,16 @@
 <body>
 
 <div class="login">
-  <h4>Ingrese su información</h4>
+  <div class="logo-login"><img src="../images/cropped-logo-blanco.png"></div> 
+  <h5>Ingrese su información</h5>
   <form name="form1" class="formulario-login">
     <input class="input-login" type="text" name="usser" placeholder="Username"> 
     <input class="input-login" type="text" name="pass" placeholder="Password">
-    <div> <input class="input-login" type="checkbox" name="remember" value="Remember me">Remember me</div> 
-    <input class="input-login" type="button" name="Login" value="LOGIN" onclick = "valida(pass.value)">
+    <div class="login-checkbox"> 
+      <input class="input-login checkbox-login" type="checkbox" name="remember" value="Remember me">
+      <div class="login-checkbox-frase">Remember me</div>
+    </div> 
+    <input class="input-login boton-login" type="button" name="Login" value="LOGIN" onclick = "valida(pass.value)">
   </form>
 </div>
 
