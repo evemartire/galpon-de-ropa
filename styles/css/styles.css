@@ -20,6 +20,11 @@ azul: #6c96ff;
 	box-sizing: border-box;
 }
 
+.no-margin-padding{
+    margin: 0px;
+    padding: 0px;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
@@ -93,3 +98,12 @@ header {
     margin-left: 0px;
 }
 
+/*----CABECERA DE PAGINA GRIS-----*/
+
+h2,
+h5,
+h4,
+h3,
+h6{
+    font-family: "OpenSans-bold";
+}
