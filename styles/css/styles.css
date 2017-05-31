@@ -290,4 +290,21 @@ h6{
 }
 }
 
+.fondo-fila-prendas-seleccionadas{
+  background-color: #ffffff;
+  padding: 20px 30px 20px 30px;
+  margin: 0px 20px 20px 20px;
+}
+
+.table>tbody>tr>td.padding-tabla-prendas-seleccionadas{
+  padding: 10px;
+}
+
+.table>tbody>tr>th.padding-tabla-prendas-seleccionadas{
+  padding: 10px;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+   background-color: #ededed;
+}
 /*---------------fin------------------*/
