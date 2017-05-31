@@ -158,7 +158,7 @@ h6{
 .dashboard-cabeceras{
   background-color: #393939;
   color: #ffffff;
-  padding: 5px 5px 5px 10px;
+  padding: 5px 5px 5px 15px;
   margin: 10px 0px 10px 0px;
 }
 
@@ -174,16 +174,64 @@ h6{
 
 .dashboard-tablas tbody tr th{
   font-family: "OpenSans";
-  color: #000000;
+  font-size: 12px;
+
 }
 
 .dashboard-tablas tbody tr td{
   font-family: "OpenSans";
-  color: #000000;
+  font-size: 12px;
+
 }
 
 .alineacion-texto-en-tablas{
     text-align: right;
+}
+
+/*colores de las tablas*/
+.texto-violeta{
+  color: #a56cff; 
+}
+
+.texto-naranja{
+  color: #ff906e; 
+}
+
+.texto-azul{
+  color: #6c96ff; 
+}
+
+.table>tbody>tr>td, 
+.table>tbody>tr>th, 
+.table>tfoot>tr>td, 
+.table>tfoot>tr>th, 
+.table>thead>tr>td, 
+.table>thead>tr>th {
+    padding: 5px 10px 0px 10px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 0px solid #ddd;
+}
+
+@media screen and (max-width: 767px){
+
+  .table-responsive{
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 0px solid #ddd;
+    font-size: 10px;
+  }
+}
+
+.date-picker{
+  color: #000000;
+  font-size: 8px;
+  padding: 3px;
+  margin: 0px 10px 0px 5px;
+  -webkit-border-radius: 2px;
+  border: 0px none #000000;
 }
 /*---------------fin------------------*/
 
