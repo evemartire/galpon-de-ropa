@@ -236,3 +236,58 @@ h6{
 /*---------------fin------------------*/
 
 
+/*----TRASFERENCIA----*/
+.botones{
+  background-color: #888888;
+  color: #ffffff;
+  width: 150px;
+}
+
+.form-control {
+    height: 30px;
+}
+
+.form-group {
+    margin: 5px;
+}
+
+.btn{
+  padding: 4px 12px;
+}
+
+.fondo-fila-item{
+  background-color: #ffffff;
+  padding: 20px 10px 20px 0px;
+  margin: 30px 20px 20px 20px;
+}
+
+.item-padding{
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+}
+
+.input-codigo-padding{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 767px){
+
+  .item-mobile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .margin-columnas-item{
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+  }
+
+  .item-padding {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+}
+}
+
+/*---------------fin------------------*/
