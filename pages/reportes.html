@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+<div class="row no-margin-padding"> <!--row principal-->
+
+
+<!--menu responsive-->
+    <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding menu-lateral">
+        <div class="container no-margin-padding">
+            <div class="col-xs-12 col-sm-3 col-md-2 menu-lateral">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="logo-menu-lateral"><img class="img-responsive" src="../images/cropped-logo-blanco.png"></div>
+                      <ul class="nav">
+                          <li>DASHBOARD</li>
+                          <li>VENTAS</li>
+                          <li>ELEMENTOS</li>
+                          <li>ADQUISICIONES</li>
+                          <li>LIMPIEZA</li>
+                          <li>TRASFERENCIA</li>
+                          <li>OPERACIONES</li>
+                          <li>CLIENTES</li>
+                          <li>PRENDAS</li>
+                          <li>CAJAS</li>
+                          <li>REPORTES</li>
+                          <li>CONFIGURACIÓN</li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div> <!--cierra las columnas del menu lateral-->
+        </div> <!--cierra el container-->
+    </div> <!--cierra las columnas del menu lateral-->
+<!--fin menu responsive-->
+
+
+    <div class="col-xs-12 col-sm-9 col-md-10 no-margin-padding">
+      <div class="row no-margin-padding">
+
+        <!--titular-->
+        <div class="row no-margin-padding">
+          <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+
+              <div class="row no-margin-padding title-site">
+                <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+                  <div class="row no-margin-padding alineacion-titulos">
+                    <div class="col-xs-7 col-md-8 titulo-nueva-venta">
+                      <h5>REPORTES</h5> 
+                    </div>
+                    <div class="col-xs-5 col-md-4 titulo-admin-loyla">
+                      <h6>ADMIN LOYOLA</h6> 
+                    </div>
+                  </div>
+                </div>
+              </div> <!--cierra la row que contiene "nueva venta" y "admin loyola"-->
+          </div>
+        </div>
+        <!--cierra titular-->
+
+        <div class="row no-margin-padding">
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                
+                <div class="dashboard-cabeceras">
+                  <div class="row no-margin-padding">
+                    <div class="col-sm-3 col-md-2">
+                      <h5>TIPO REPORTE:</h5>
+                    </div>
+                    <div class="col-sm-2 col-md-3 input-codigo-padding margin-columnas-item">
+                          <select  class="form-control trasferencia-opciones-de-local" name="select"> <!--Supplement an id here instead of using 'name'-->
+                            <option value="Loyola">Adquisición en efectivo</option> 
+                            <option value="Arcos" selected>Adquisición en efectivo 2</option>
+                            <option value="Loyola 3">Adquisición en efectivo 3</option>
+                          </select>
+                    </div>
+                    <div class="col-sm-1 col-md-1 reportes-cabecera">
+                      <h5>PERIODO:</h5>
+                    </div>
+                    <div class="col-sm-2 col-md-3">
+                      <input  class="date-picker-reportes margen-izq-reportes" type="text" name="daterange" value="05/01/2017 - 05/31/2017" />
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row no-margin-padding">
+                  <div class="col-xs-12 col-sm-6 col-md-3 totales-reportes">
+                    <table class="table table-responsive">
+                      <tbody>
+                       <tr>
+                         <th scope="row">Total:</th>
+                         <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                       </tr>
+                       <tr>
+                         <td>Monto:</td>
+                         <td class="alineacion-texto-en-tablas">$2,397.50</td>
+                       </tr>
+                       <tr>
+                         <td>Promedio:</td>
+                         <td class="alineacion-texto-en-tablas">$541.78</td>
+                       </tr>
+                       <tr>
+                         <td>Mínimo:</td>
+                         <td class="alineacion-texto-en-tablas">$0.00</td>
+                       </tr>
+                       <tr>
+                         <td>Máximo:</td>
+                         <td class="alineacion-texto-en-tablas">$7,686.00</td>
+                       </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+</div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+</body>
+</html>
