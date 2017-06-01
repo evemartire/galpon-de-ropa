@@ -403,6 +403,10 @@ label {
   margin-left: 30px;
 }
 
+.boton-generar-reportes{
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 767px){
   .reportes-cabecera h5 {
     font-size: 12px;
@@ -416,6 +420,16 @@ label {
 
 .dashboard-cabeceras {
   padding: 5px 5px 5px 5px;
+}
+
+.no-margin-padding-responsive{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.boton-generar-reportes{
+  margin-left: 0px;
 }
 
 }
