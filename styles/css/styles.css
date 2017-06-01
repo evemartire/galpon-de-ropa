@@ -294,6 +294,7 @@ h6{
   background-color: #ffffff;
   padding: 20px 30px 20px 30px;
   margin: 0px 20px 20px 20px;
+  overflow:scroll;
 }
 
 .table>thead>tr>th.padding-tabla-prendas-seleccionadas{
@@ -311,4 +312,23 @@ h6{
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
    background-color: #ededed;
 }
+
+
+.trasferencia-a-local-espacios {
+    padding: 20px 20px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.trasferencia-opciones-de-local{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #a09999;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
 /*---------------fin------------------*/
