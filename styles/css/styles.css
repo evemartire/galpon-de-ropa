@@ -331,4 +331,43 @@ label {
   margin-bottom: 0px;
 }
 
+.boton-buscador-espacios{
+    padding: 0px 0px 20px 20px;
+    margin: 0px 5px 20px 20px;
+    width: 200px;
+}
+
+.boton-cancelar-espacios{
+  width: 120px;
+}
+
+.cancelar-btn{
+ font-weight: 700;
+ background-color: #ededed;
+ color: #333;
+ width: 150px;
+}
+
+ .botones-trasferencia-alineacion{
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px){
+  .botones-trasferencia-responsive {
+    padding: 0px 5px 0px 0px;
+    margin: 0px 25px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+    }
+
+  .cancelar-btn{
+   font-weight: 700;
+   background-color: #ededed;
+   color: #333;
+   width: 60px;
+  }
+
+}
+
 /*---------------fin------------------*/
