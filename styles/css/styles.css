@@ -547,6 +547,20 @@ label {
     margin: 0px 0px 25px 10px;
 }
 
+.total,
+.colgadas,
+.descolgadas{
+  font-size: 8px;
+  background-color: #888888;
+  color: #fff;
+  padding: 5px 10px 5px 10px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+.margen-tags{
+  margin-top: 20px;
+}
 @media screen and (max-width: 767px){
   .selector-pagina {
     font-size: 14px;
@@ -566,6 +580,10 @@ label {
 
     .ajustes-paginador-responsive{
       padding: 0px 15px 0px 15px;
+    }
+
+    .margen-tags{
+      display: none;
     }
 }
 
