@@ -193,27 +193,44 @@
             <!--row que contiene paginador-->
             <div class="row no-margin-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12">
-                  <div class="paginador">  
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                          <li>
-                            <a href="#" aria-label="Previous">
-                              <span aria-hidden="true">&laquo;</span>
-                            </a>
-                          </li>
-                          <li  class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
-                          <li><a href="#">2</a></li>
-                          <li><a href="#">3</a></li>
-                          <li><a href="#">4</a></li>
-                          <li><a href="#">5</a></li>
-                          <li>
-                            <a href="#" aria-label="Next">
-                              <span aria-hidden="true">&raquo;</span>
-                            </a>
-                          </li>
-                        </ul>
-                      </nav>
-                  </div>
+                    <div class="row no-margin-padding">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                          <div class="paginador">  
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination pagination-sm">
+                                  <li>
+                                    <a href="#" aria-label="Previous">
+                                      <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                  </li>
+                                  <li  class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
+                                  <li><a href="#">2</a></li>
+                                  <li><a href="#">3</a></li>
+                                  <li><a href="#">4</a></li>
+                                  <li>
+                                    <a href="#" aria-label="Next">
+                                      <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 input-codigo-padding margin-columnas-item">
+                            <div class="row no-margin-padding ajustes-paginador-responsive">
+                                  <div class="col-xs-12 col-sm-3 col-md-2 h6-ir-pagina">
+                                    <h6>Ir a pág.</h6>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding">
+                                    <select class="form-control selector-pagina" name="select">
+                                        <option value="1" selected>1</option> 
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--row que contiene paginador-->

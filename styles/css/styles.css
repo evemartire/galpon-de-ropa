@@ -6,7 +6,7 @@ gris botones: #888888;
 gris boton inactivo: #cccccc;
 gris fondo: #ededed;
 
-negro tipografia titulos: #000000;
+negro tipografia titulos: #ededed;
 
 blanco tipografia menu lateral: #ffffff;
 
@@ -449,7 +449,69 @@ label {
 }
 
 .paginador{
-  margin: 0px 20px 10px 20px;
+  margin: 0px 20px 10px 5px;
 }
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #d8d8d8;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #000000;
+    cursor: default;
+    background-color: #ededed;;
+    border-color: #ddd;
+}
+
+.selector-pagina{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #a09999;
+  margin: 20px 20px 20px 0px;
+}
+
+.h6-ir-pagina{
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #a09999;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #a09999;
+  margin: 20px 0px 20px 0px;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767px){
+  .selector-pagina {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #a09999;
+    margin: 0px 20px 20px 0px;
+    }
+
+    .h6-ir-pagina {
+    margin: 0px;
+    padding: 0px;
+    } 
+
+    .h6-ir-pagina h6{
+    margin: 0px 0px 10px 5px;
+    } 
+
+    .ajustes-paginador-responsive{
+      padding: 0px 15px 0px 15px;
+    }
+}
+
+
 
 /*---------------fin------------------*/
