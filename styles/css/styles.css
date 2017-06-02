@@ -136,6 +136,7 @@ h6{
     font-size: 20px;
     margin-top: 25px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .titulo-admin-loyla h6{
@@ -432,6 +433,23 @@ label {
   margin-left: 0px;
 }
 
+}
+
+/*---------------fin------------------*/
+
+
+
+/*----PRENDAS----*/
+
+.fondo-prendas{
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 20px 0px 20px;
+    overflow: scroll;
+}
+
+.paginador{
+  margin: 0px 20px 10px 20px;
 }
 
 /*---------------fin------------------*/
