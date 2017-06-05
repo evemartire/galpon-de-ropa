@@ -37,26 +37,42 @@ span.blanco{
 }
 
 span.azul{
-  background: blue;
+  background: #1581c4;
   padding: 3px 10px;
   border-radius: 4px;
   color: #fff;
 }
 
 span.amarillo{
-  background: yellow;
+  background: #fed130;
   padding: 3px 10px;
   border-radius: 4px;
 }
 
 span.rojo{
-  background: red;
+  background: #da0a1f;
+  padding: 3px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+span.negro{
+  background: #000000;
   padding: 3px 10px;
   border-radius: 4px;
   color: #fff;
 }
 
 
+/*----ICONOS-TABLAS-----*/
+.fa-arrow-circle-down{
+  font-size: 16px;
+}
+
+.fa-trash{
+  font-size: 16px;
+  color: #da0a1f;
+}
 
 /*----TIPOGRAFÍA-----*/
 @font-face {
