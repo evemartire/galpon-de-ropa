@@ -28,6 +28,36 @@ azul: #6c96ff;
     padding: 0px;
 }
 
+
+/*---COLORES TAGS---*/
+span.blanco{
+  background: #fff;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+span.azul{
+  background: blue;
+  padding: 3px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+span.amarillo{
+  background: yellow;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+span.rojo{
+  background: red;
+  padding: 3px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
@@ -214,6 +244,7 @@ h6{
     border-top: 0px solid #ddd;
 }
 
+/*---media query---*/
 @media screen and (max-width: 767px){
 
   .table-responsive{
@@ -272,6 +303,7 @@ h6{
     padding: 0px;
 }
 
+/*---media query---*/
 @media screen and (max-width: 767px){
 
   .item-mobile{
@@ -354,6 +386,7 @@ label {
   justify-content: flex-end;
 }
 
+/*---media query---*/
 @media screen and (max-width: 767px){
   .botones-trasferencia-responsive {
     padding: 0px 5px 0px 0px;
@@ -370,7 +403,6 @@ label {
   }
 
 }
-
 /*---------------fin------------------*/
 
 
@@ -408,6 +440,7 @@ label {
   margin-left: 20px;
 }
 
+/*---media query---*/
 @media screen and (max-width: 767px){
   .reportes-cabecera h5 {
     font-size: 12px;
@@ -434,7 +467,6 @@ label {
 }
 
 }
-
 /*---------------fin------------------*/
 
 
@@ -445,7 +477,7 @@ label {
     background-color: #ffffff;
     padding: 20px 30px 20px 30px;
     margin: 0px 20px 0px 20px;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .paginador{
@@ -561,6 +593,8 @@ label {
 .margen-tags{
   margin-top: 20px;
 }
+
+/*---media query---*/
 @media screen and (max-width: 767px){
   .selector-pagina {
     font-size: 14px;
@@ -586,7 +620,6 @@ label {
       display: none;
     }
 }
-
 /*---------------fin------------------*/
 
 
@@ -656,7 +689,7 @@ tbody tr td.no-margin-padding{
 }
 
 
-
+/*---media query---*/
 @media screen and (max-width: 768px){
 
 .fondo-de-caja-1{
@@ -688,5 +721,81 @@ tbody tr td.no-margin-padding{
 }
 
 }
+/*---------------fin------------------*/
 
+
+
+
+
+/*----CLIENTES----*/
+
+.fondo-filtros-limpieza{
+  margin: 10px 20px 20px 20px;
+  background-color: #fff;
+
+}
+
+.filtros-limpieza-input {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.filtros-espacios-limpieza{
+    margin: 20px 10px 20px 10px;
+}
+
+.fondo-cuelgue-descuel{
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 20px 30px 20px;
+    overflow: auto;
+}
+
+.contenedor-botones{
+    margin: 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+ 
+.margen-responsive{
+    margin-bottom: 10px;
+}
+
+.descolgar{
+  margin-right: 50px;
+}
+
+/*---media query---*/
+@media screen and (max-width: 767px){
+
+.contenedor-botones{
+    margin: 0px;
+    display: inline-block;
+}
+
+.descolgar{
+  margin-right: 0px;
+}
+
+}
+
+@media screen and (max-width: 768px){
+
+.descolgar{
+  margin-right: 0px;
+}
+
+}
 /*---------------fin------------------*/
