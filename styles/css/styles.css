@@ -96,6 +96,16 @@ span.negro{
   padding-right: 3px;
 }
 
+.fa-calculator{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
+.fa-gift{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
