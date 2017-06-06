@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+<div class="row no-margin-padding"> <!--row principal-->
+
+
+<!--menu responsive-->
+    <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding menu-lateral">
+        <div class="container no-margin-padding">
+            <div class="col-xs-12 col-sm-3 col-md-2 menu-lateral">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="logo-menu-lateral"><img class="img-responsive" src="../images/cropped-logo-blanco.png"></div>
+                      <ul class="nav">
+                          <li>DASHBOARD</li>
+                          <li>VENTAS</li>
+                          <li>ELEMENTOS</li>
+                          <li>ADQUISICIONES</li>
+                          <li>LIMPIEZA</li>
+                          <li>TRASFERENCIA</li>
+                          <li>OPERACIONES</li>
+                          <li>CLIENTES</li>
+                          <li>PRENDAS</li>
+                          <li>CAJAS</li>
+                          <li>REPORTES</li>
+                          <li>CONFIGURACIÓN</li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div> <!--cierra las columnas del menu lateral-->
+        </div> <!--cierra el container-->
+    </div> <!--cierra las columnas del menu lateral-->
+<!--fin menu responsive-->
+
+
+    <div class="col-xs-12 col-sm-9 col-md-10 no-margin-padding">
+      <div class="row no-margin-padding">
+
+            <!--titular-->
+            <div class="row no-margin-padding">
+              <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+
+                  <div class="row no-margin-padding title-site">
+                    <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+                      <div class="row no-margin-padding alineacion-titulos">
+                        <div class="col-xs-7 col-md-8 titulo-nueva-venta">
+                          <h5>NUEVA VENTA</h5> 
+                        </div>
+                        <div class="col-xs-5 col-md-4 titulo-admin-loyla">
+                          <h6>ADMIN LOYOLA</h6> 
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!--cierra la row que contiene "nueva venta" y "admin loyola"-->
+              </div>
+            </div>
+            <!--cierra titular-->
+            
+            <!--row que contiene item-->
+            <div class="row no-margin-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12">  
+                  <div class="row fondo-fila-item item-mobile">
+
+                      <div class="col-xs-12 col-sm-2 no-margin-padding margin-columnas-item">
+                          <div class="form-group form-group-sm">
+                            <label class="control-label item-padding" for="formGroupInputSmall">ITEM</label>
+                          </div>
+                      </div>
+                      <div class="col-xs-12 col-sm-4 input-codigo-padding margin-columnas-item">
+                          <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Código">
+                      </div>
+                      <div class="col-xs-12 col-sm-2 margin-columnas-item">
+                          <button class="btn botones">BUSCADOR</button>
+                      </div>
+                      <div class="col-xs-12 col-sm-2 no-margin-padding filtros-espacios-ventas">
+                        <input  class="date-picker-ventas" type="text" name="daterange" value="Fecha desde/hasta" />
+                      </div>
+
+                  </div>
+                </div>
+            </div>
+            <!--cierra row item"-->
+
+            
+
+            
+            <!--row que contiene prendas-->
+            <div class="row no-margin-padding">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="fondo-cuelgue-descuel">
+                  <h6>COMPRA</h6>
+                  <table class="table table-striped table-responsive">
+                    <thead>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">Código</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Nº</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Tipo</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Marca</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Talle</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Color</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Acción</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="blanco">Blanco</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="rojo">Rojo</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="amarillo">Amarillo</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="azul">Azul</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="blanco">Blanco</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="rojo">Rojo</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="negro">Negro</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas">$215</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-trash" aria-hidden="true"></i></td>
+                       </tr>
+                    </tbody>
+                  </table>
+
+                  
+
+                </div>
+              </div>
+            </div><!--cierra row culgue/descuelgue-->
+
+              
+      </div><!--cierra la row que contiene todo lo que no es menu lateral-->
+    </div><!--cierra las 12 col que contiene todo lo que no es menu lateral-->
+
+
+
+
+</div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+</body>
+</html>
