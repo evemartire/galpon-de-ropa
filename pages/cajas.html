@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+<div class="row no-margin-padding"> <!--row principal-->
+
+
+<!--menu responsive-->
+    <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding menu-lateral">
+        <div class="container no-margin-padding">
+            <div class="col-xs-12 col-sm-3 col-md-2 menu-lateral">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="logo-menu-lateral"><img class="img-responsive" src="../images/cropped-logo-blanco.png"></div>
+                      <ul class="nav">
+                          <li>DASHBOARD</li>
+                          <li>VENTAS</li>
+                          <li>ELEMENTOS</li>
+                          <li>ADQUISICIONES</li>
+                          <li>LIMPIEZA</li>
+                          <li>TRASFERENCIA</li>
+                          <li>OPERACIONES</li>
+                          <li>CLIENTES</li>
+                          <li>PRENDAS</li>
+                          <li>CAJAS</li>
+                          <li>REPORTES</li>
+                          <li>CONFIGURACIÓN</li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div> <!--cierra las columnas del menu lateral-->
+        </div> <!--cierra el container-->
+    </div> <!--cierra las columnas del menu lateral-->
+<!--fin menu responsive-->
+
+
+    <div class="col-xs-12 col-sm-9 col-md-10 no-margin-padding">
+      <div class="row no-margin-padding">
+
+        <!--titular-->
+        <div class="row no-margin-padding">
+          <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+
+              <div class="row no-margin-padding title-site">
+                <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+                  <div class="row no-margin-padding alineacion-titulos">
+                    <div class="col-xs-7 col-md-8 titulo-nueva-venta">
+                      <h5>CAJAS</h5> 
+                    </div>
+                    <div class="col-xs-5 col-md-4 titulo-admin-loyla">
+                      <h6>ADMIN LOYOLA</h6> 
+                    </div>
+                  </div>
+                </div>
+              </div> <!--cierra la row que contiene "nueva venta" y "admin loyola"-->
+          </div>
+        </div>
+        <!--cierra titular-->
+
+
+
+        <div class="margen-filtros">
+            <!--row que contiene filtros 1-->
+            <div class="row no-margin-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12">  
+                   <div class="row no-margin-padding">
+                       <div class="fondo-filtros-cajas-1">
+                            <div class="titular-cliente-ventas">
+                              <h6>TRASFERIR</h6>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding filtros-espacios-adquisiciones">
+                              <form>
+                                 <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Monto...">
+                              </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding filtros-espacios-adquisiciones">
+                              <select class="form-control" name="select">
+                                <option value="1" selected>Desde...</option> 
+                                <option value="2">Banco</option>
+                                <option value="3">Caja fuerte</option>
+                                <option value="3">Ventas</option>
+                                <option value="2">Operaciones</option>
+                                <option value="2">Consignantes</option>
+                              </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding filtros-espacios-adquisiciones">
+                              <select class="form-control" name="select">
+                                <option value="1" selected>Hacia...</option> 
+                                <option value="2">Banco</option>
+                                <option value="3">Caja fuerte</option>
+                                <option value="3">Ventas</option>
+                                <option value="2">Operaciones</option>
+                                <option value="2">Consignantes</option>
+                              </select>
+                            </div>
+                            <div class="col-sm-2 margin-columnas-item boton-generar-reportes">
+                              <button class="btn botones">ACEPTAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--cierra row de filtros-->
+        </div>
+
+
+
+        <div class="margen-filtros">
+            <!--row que contiene filtros 2-->
+            <div class="row no-margin-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12">  
+                   <div class="row no-margin-padding">
+                       <div class="fondo-filtros-cajas-2">
+                            <div class="titular-cliente-ventas">
+                              <h6>DISCREPANCIA</h6>
+                            </div>
+                            
+                            <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding filtros-espacios-adquisiciones">
+                              <form>
+                                 <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Monto...">
+                              </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding filtros-espacios-adquisiciones">
+                              <select class="form-control" name="select">
+                                <option value="1" selected>Tipo...</option> 
+                                <option value="2">Sobrante</option>
+                                <option value="3">Faltante</option>
+                              </select>
+                            </div>
+                            <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding filtros-espacios-adquisiciones">
+                              <select class="form-control" name="select">
+                                <option value="1" selected>De caja...</option> 
+                                <option value="2">Banco</option>
+                                <option value="3">Caja fuerte</option>
+                                <option value="3">Ventas</option>
+                                <option value="2">Operaciones</option>
+                                <option value="2">Consignantes</option>
+                              </select>
+                            </div>
+                            <div class="col-sm-2 margin-columnas-item boton-generar-reportes">
+                              <button class="btn botones">ACEPTAR</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--cierra row de filtros 2-->
+        </div>
+
+
+        <!--abre row de paneles de estadistica-->
+        <div class="row no-margin-padding">
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="row no-margin-padding">
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>VENTAS</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>OPERACIONES</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>INGRESOS</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="row no-margin-padding">
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>CONSIGNANTES</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>NO SE CUAL VA</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>EGRESOS</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4">
+                <div class="row no-margin-padding">
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>CAJA FUERTE</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                    <div class="col-xs-12">
+                      <div class="dashboard-cabeceras">
+                        <h5>BANCO</h5>
+                      </div>
+                      <div class="scrool-tablas-cajas">
+                        <table class="table table-responsive dashboard-tablas">
+                           <tbody>
+                             <tr>
+                               <td>Consignación:</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">28%</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">410</td>
+                               <td class="alineacion-texto-en-tablas texto-azul">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Crédito:</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">20%</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">290</td>
+                               <td class="alineacion-texto-en-tablas texto-naranja">$4.100</td>
+                             </tr>
+                             <tr>
+                               <td>Efectivo:</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">51%</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">780</td>
+                               <td class="alineacion-texto-en-tablas texto-violeta">$2.900</td>
+                             </tr>
+                             <tr>
+                               <th scope="row">Total:</th>
+                               <th scope="row"></th>
+                               <th scope="row" class="alineacion-texto-en-tablas">1480</th>
+                               <th scope="row" class="alineacion-texto-en-tablas">$148.000</th>
+                             </tr>
+                           </tbody>
+                         </table>
+                       </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <!--cierra row de paneles de estadistica-->
+    </div>
+
+
+
+</div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+</body>
+</html>
