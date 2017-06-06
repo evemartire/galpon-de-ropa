@@ -91,6 +91,11 @@ span.negro{
   padding-right: 3px;
 }
 
+.fa-lock{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
@@ -911,3 +916,11 @@ input.date-picker-ventas {
 
 
 /*---------------fin------------------*/
+
+
+
+.botone-crear-usuario{
+  background-color: #888888;
+    color: #ffffff;
+    width: 150px;
+}
