@@ -88,24 +88,26 @@
             <div class="row no-margin-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12">  
                  <div class="row no-margin-padding">
-                    <div class="fondo-filtros">
+                    <div class="fondo-filtros-ventas-busqueda">
                       <div class="titular-cliente-ventas">
                         <h6>CLIENTE</h6>
                       </div>
-                      <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-2">
-                          <form>
-                             <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre...">
-                          </form>
-                      </div>
-                      <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-2">
-                          <form>
-                             <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Email...">
-                          </form>
-                      </div>
-                      <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-2">
-                          <form>
-                             <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Dni...">
-                          </form>
+                      <div class="">
+                        <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-ventas">
+                            <form>
+                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre...">
+                            </form>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-ventas">
+                            <form>
+                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Email...">
+                            </form>
+                        </div>
+                        <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-ventas">
+                            <form>
+                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Dni...">
+                            </form>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -117,28 +119,31 @@
             <!--row que contiene filtros 2-->
             <div class="row no-margin-padding">
                 <div class="col-xs-12 col-sm-12 col-md-12">  
-                 <div class="row no-margin-padding">
-                     <div class="fondo-filtros">
-                          <div class="col-xs-12 col-sm-4 col-md-4 no-margin-padding filtros-espacios-2">
-                              <input  class="date-picker-reportes" type="text" name="daterange" value="Fecha desde/hasta" />
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-2">
-                            <form>
-                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Mayor a...">
-                            </form>
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-2">
-                            <form>
-                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Menor a...">
-                            </form>
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-2">
-                            <form>
-                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Comentarios...">
-                            </form>
-                          </div>
-                      </div>
-                  </div>
+                   <div class="row no-margin-padding">
+                       <div class="fondo-filtros-ventas-busqueda">
+                            <div class="titular-cliente-ventas">
+                              <h6>ITEM</h6>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-ventas">
+                                <input  class="date-picker-ventas" type="text" name="daterange" value="Fecha desde/hasta" />
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-ventas">
+                              <form>
+                                 <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Mayor a...">
+                              </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-ventas">
+                              <form>
+                                 <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Menor a...">
+                              </form>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding filtros-espacios-ventas">
+                              <form>
+                                 <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Comentarios...">
+                              </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!--cierra row de filtros-->
@@ -169,7 +174,11 @@
                          <td class="padding-tabla-prendas-seleccionadas">Efectivo:160</td>
                          <td class="padding-tabla-prendas-seleccionadas">1</td>
                          <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">Iconos</th>
+                         <th class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-tags" aria-hidden="true"></i>
+                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         </th>
                        </tr>
                        <tr>
                          <th class="padding-tabla-prendas-seleccionadas">00509999</th>
@@ -178,7 +187,11 @@
                          <td class="padding-tabla-prendas-seleccionadas">Efectivo:160</td>
                          <td class="padding-tabla-prendas-seleccionadas">1</td>
                          <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">Iconos</th>
+                         <th class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-tags" aria-hidden="true"></i>
+                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         </th>
                        </tr>
                        <tr>
                          <th class="padding-tabla-prendas-seleccionadas">00509999</th>
@@ -187,7 +200,23 @@
                          <td class="padding-tabla-prendas-seleccionadas">Efectivo:160</td>
                          <td class="padding-tabla-prendas-seleccionadas">1</td>
                          <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">Iconos</th>
+                         <th class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-tags" aria-hidden="true"></i>
+                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         </th>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Juan Perez</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Efectivo:160</td>
+                         <td class="padding-tabla-prendas-seleccionadas">1</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
+                         <th class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-tags" aria-hidden="true"></i>
+                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         </th>
                        </tr>
                        <tr>
                          <th class="padding-tabla-prendas-seleccionadas">00509999</th>
@@ -196,16 +225,11 @@
                          <td class="padding-tabla-prendas-seleccionadas">Efectivo:160</td>
                          <td class="padding-tabla-prendas-seleccionadas">1</td>
                          <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">Iconos</th>
-                       </tr>
-                       <tr>
-                         <th class="padding-tabla-prendas-seleccionadas">00509999</th>
-                         <td class="padding-tabla-prendas-seleccionadas">43056</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Juan Perez</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Efectivo:160</td>
-                         <td class="padding-tabla-prendas-seleccionadas">1</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">Iconos</th>
+                         <th class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-tags" aria-hidden="true"></i>
+                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         </th>
                        </tr>
                        
                     </tbody>
@@ -241,7 +265,7 @@
                               </nav>
                           </div>
                         </div>
-                        <div class="col-xs-12 col-sm-6 col-md-6 input-codigo-padding margin-columnas-item">
+                        <div class="col-xs-12 col-sm-3 col-md-6 input-codigo-padding margin-columnas-item">
                             <div class="row no-margin-padding ajustes-paginador-responsive">
                                   <div class="col-xs-12 col-sm-3 col-md-2 h6-ir-pagina">
                                     <h6>Ir a pág.</h6>
@@ -254,6 +278,9 @@
                                     </select>
                                   </div>
                             </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding ajustes-paginador-responsive">
+                             <button class="btn botone-crear-venta pagination">CREAR VENTA</button>
                         </div>
                     </div>
                 </div>

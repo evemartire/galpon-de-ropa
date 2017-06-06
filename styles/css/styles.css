@@ -76,6 +76,16 @@ span.negro{
   color: #da0a1f;
 }
 
+.fa-tags{
+  font-size: 16px;
+  padding-right: 3px;
+}
+
+.fa-pencil{
+  font-size: 16px;
+  padding-right: 3px;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
@@ -830,4 +840,59 @@ tbody tr td.no-margin-padding{
   font-size: 15px;
   text-align: center;
 }
+/*---------------fin------------------*/
+
+
+
+
+/*----VENTAS-BUSCADOR----*/
+.fondo-filtros-ventas-busqueda {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 15px 20px;
+    overflow: auto;
+}
+
+.filtros-espacios-ventas {
+    margin: 0px 20px 20px 0px;
+}
+
+
+input.date-picker-ventas {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #a09999;
+    padding: 4px 16px 4px 12px;
+    width: 190px;
+}
+
+.botone-crear-venta {
+    background-color: #888888;
+    color: #ffffff;
+    width: 120px;
+}
+
+@media screen and (min-width: 768px){
+  input.date-picker-ventas {
+    width: 110px;
+}
+}
+
+@media screen and (min-width: 1024px){
+  input.date-picker-ventas {
+    width: 180px;
+}
+}
+
+@media screen and (min-width: 1440px){
+  input.date-picker-ventas {
+    width: 270px;
+}
+}
+
+
+
 /*---------------fin------------------*/
