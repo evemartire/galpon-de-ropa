@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+<div class="row no-margin-padding"> <!--row principal-->
+
+
+<!--menu responsive-->
+    <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding menu-lateral">
+        <div class="container no-margin-padding">
+            <div class="col-xs-12 col-sm-3 col-md-2 menu-lateral">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="logo-menu-lateral"><img class="img-responsive" src="../images/cropped-logo-blanco.png"></div>
+                      <ul class="nav">
+                          <li>DASHBOARD</li>
+                          <li>VENTAS</li>
+                          <li>ELEMENTOS</li>
+                          <li>ADQUISICIONES</li>
+                          <li>LIMPIEZA</li>
+                          <li>TRASFERENCIA</li>
+                          <li>OPERACIONES</li>
+                          <li>CLIENTES</li>
+                          <li>PRENDAS</li>
+                          <li>CAJAS</li>
+                          <li>REPORTES</li>
+                          <li>CONFIGURACIÓN</li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div> <!--cierra las columnas del menu lateral-->
+        </div> <!--cierra el container-->
+    </div> <!--cierra las columnas del menu lateral-->
+<!--fin menu responsive-->
+
+
+    <div class="col-xs-12 col-sm-9 col-md-10 no-margin-padding">
+      <div class="row no-margin-padding">
+
+            <!--titular-->
+            <div class="row no-margin-padding">
+              <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+
+                  <div class="row no-margin-padding title-site">
+                    <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+                      <div class="row no-margin-padding alineacion-titulos">
+                        <div class="col-xs-7 col-md-8 titulo-nueva-venta">
+                          <h5>CATALOGACIÓN</h5> 
+                        </div>
+                        <div class="col-xs-5 col-md-4 titulo-admin-loyla">
+                          <h6>ADMIN LOYOLA</h6> 
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!--cierra la row que contiene "nueva venta" y "admin loyola"-->
+              </div>
+            </div>
+            <!--cierra titular-->
+            
+            <!--row que contiene item-->
+            <div class="row no-margin-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12">  
+                  <div class="row fila-buscador-catalogacion">
+                      <div class="col-xs-12 col-sm-12 col-md-12">
+                          <div class="row fondo-fila-item-nueva-venta">
+                              <div class="col-md-5">
+                                <input class="form-control codigo-espacios-catalogar" type="text" id="formGroupInputSmall" placeholder="Código">
+                              </div>
+                              <div class="col-md-1 margin-columnas-item no-margin-padding">
+                                <button class="btn boton-ok"><i class="fa fa-check" aria-hidden="true"></i></button>
+                              </div>
+                              <div class="col-md-3 margin-columnas-item">
+                                <button class="btn botones buscador">BUSCADOR</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                </div>
+            </div>
+            <!--cierra row item"-->
+
+            
+
+            
+            <!--row que contiene info de catalogación-->
+            <div class="row no-margin-padding">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="fondo-comprea-nueva-venta">
+                  <h6>ITEM</h6>
+                  <div class="row">
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares ">PRECIO</span>
+                        </div>
+                        <div class="col-md-3 no-margin-padding">
+                          <span class="precio">$250</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">DESCRIPCIÓN</span>
+                        </div>
+                        <div class="col-md-6 no-margin-padding">
+                          <form>
+                            <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Pantalon bermudas azul con...">
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">GÉNERO</span>
+                        </div>
+                        <div class="col-md-4 no-margin-padding">
+                          <select class="form-control" name="select">
+                            <option value="1" selected>Femenino</option> 
+                            <option value="2">Masculino</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">TIPO DE PRENDA</span>
+                        </div>
+                        <div class="col-md-4 no-margin-padding">
+                          <select class="form-control" name="select">
+                            <option value="1" selected>Pantalón</option> 
+                            <option value="2">Remera</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">MARCA</span>
+                        </div>
+                        <div class="col-md-3 no-margin-padding">
+                          <form>
+                            <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="SOHO">
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">TALLE</span>
+                        </div>
+                        <div class="col-md-4 no-margin-padding">
+                          <select class="form-control" name="select">
+                            <option value="1" selected>42</option> 
+                            <option value="2">46</option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">COLORES</span>
+                        </div>
+                        <div class="col-md-5 no-margin-padding">
+                          <select class="form-control" name="select">
+                            <option value="1" selected>Azul</option> 
+                            <option value="2">Amarillo</option>
+                          </select>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                      <div class="row separacion-entre-rows-catalogacion">
+                        <div class="col-md-2 no-margin-padding alineacion-item-titulares">
+                          <span class="item-titulares">COMENTARIOS</span>
+                        </div>
+                        <div class="col-md-6 no-margin-padding">
+                          <form>
+                            <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Esto es un comentario...">
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                </div>
+              </div>
+            </div><!--cierra row info de la catalogación-->
+
+
+            <div class="row no-margin-padding botones-trasferencia-responsive">
+                <div class="col-xs-12 col-md-6 boton-cancelar-espacios">
+                     <button class="btn botones cancelar-btn">CANCELAR</button>
+                </div>
+                <div class="col-xs-12 col-md-6 boton-buscador-espacios">
+                     <button class="btn botones">CATALOGAR</button>
+                </div>
+            </div>
+
+              
+      </div><!--cierra la row que contiene todo lo que no es menu lateral-->
+    </div><!--cierra las 12 col que contiene todo lo que no es menu lateral-->
+
+
+
+
+</div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+</body>
+</html>
