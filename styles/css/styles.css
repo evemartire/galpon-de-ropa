@@ -106,6 +106,11 @@ span.negro{
   padding-right: 3px;
 }
 
+.fa-check{
+  font-size: 16px;
+  color: #ffffff;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
@@ -999,4 +1004,108 @@ input.date-picker-ventas {
     overflow: auto;
 }
 
+/*---------------fin------------------*/
+
+
+/*----NUEVA VENTA----*/
+
+.fondo-comprea-nueva-venta {
+    background-color: #ffffff;
+    padding: 20px 30px 20px 30px;
+    margin: 0px 20px 10px 20px;
+    overflow: auto;
+}
+
+.fondo-fila-item-nueva-venta{
+    background-color: #ffffff;
+    padding: 20px 10px 20px 10px;
+    margin: 20px 20px 20px 20px;
+    overflow: auto;
+}
+
+.item-estlos{
+    margin: 0px 10px 0px 0px;
+    padding: 10px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.codigo-espacios{
+  margin: 0px 10px 0px 10px;
+}
+
+.boton-ok{
+    background-color: #888888;
+    margin: 0px 10px 0px 0px;
+    color: #ffffff;
+}
+
+.buscador{
+  margin-left: 20px;
+}
+.fondo-datepicker-nueva-venta {
+    background-color: #ffffff;
+    padding: 20px 10px 20px 10px;
+    margin: 20px 20px 20px 20px;
+    overflow: auto;
+}
+
+.fondo-fila-cliente-nueva-venta{
+    background-color: #ffffff;
+    padding: 20px 10px 20px 10px;
+    margin: 10px 20px 20px 20px;
+    overflow: auto;
+}
+
+
+.subtotal-con-decuento,
+.total-descontando-creditos{
+  font-family: "OpenSans-bold";
+  font-size: 16px;
+  display: inline-block;
+}
+
+.fondo-sector-cliente{
+    margin: 0px 20px 30px 20px;
+}
+
+h5.alineacion{
+  margin: 5px;
+}
+
+h6.desc-cred{
+  margin-left: 5px;
+}
+
+.desc-cred{
+  margin-left: 10px;
+}
+
+.desc-cred-tipo{
+      font-size: 10px;
+}
+
+
+.fondo-fila-cliente-nueva-venta{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0px 20px 15px;
+    overflow: auto;
+}
+
+.fondo-fila-cliente-nueva-venta-2{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0px 20px 0px;
+    overflow: auto;
+}
+
+.espacio{
+  margin-bottom: 10px;
+}
+
+.descuelgue-espacios{
+  margin-left: 50px;
+}
 /*---------------fin------------------*/
