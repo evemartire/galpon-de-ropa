@@ -1019,8 +1019,17 @@ input.date-picker-ventas {
 .fondo-fila-item-nueva-venta{
     background-color: #ffffff;
     padding: 20px 10px 20px 10px;
-    margin: 20px 20px 20px 20px;
     overflow: auto;
+}
+
+.fondo-fila-item-datepicker{
+    padding: 20px 5px 15px 20px;
+    margin: 0px;
+}
+
+.fondo-fila-item-datepicker-2 {
+    padding: 15px 20px 15px 5px;
+    margin: 0px;
 }
 
 .item-estlos{
@@ -1046,8 +1055,7 @@ input.date-picker-ventas {
 }
 .fondo-datepicker-nueva-venta {
     background-color: #ffffff;
-    padding: 20px 10px 20px 10px;
-    margin: 20px 20px 20px 20px;
+    padding: 20px;
     overflow: auto;
 }
 
@@ -1066,8 +1074,8 @@ input.date-picker-ventas {
   display: inline-block;
 }
 
-.fondo-sector-cliente{
-    margin: 0px 20px 30px 20px;
+.fondo-sector-cliente {
+    margin: 0px 35px 30px 35px;
 }
 
 h5.alineacion{
@@ -1087,25 +1095,103 @@ h6.desc-cred{
 }
 
 
-.fondo-fila-cliente-nueva-venta{
+.fondo-fila-cliente-nueva-venta-ok{
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
-    margin: 15px 0px 20px 15px;
     overflow: auto;
+    margin-right: 20px;
 }
 
 .fondo-fila-cliente-nueva-venta-2{
     background-color: #ffffff;
-    padding: 20px 20px 20px 20px;
-    margin: 15px 0px 20px 0px;
+    padding: 23px 0px 25px 20px;
     overflow: auto;
 }
 
-.espacio{
-  margin-bottom: 10px;
+.espacio {
+    margin-top: 0px;
+    margin-bottom: 10px;
 }
 
-.descuelgue-espacios{
-  margin-left: 50px;
+input.date-picker-n-ventas {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #a09999;
+    padding: 4px 16px 4px 12px;
+    width: 100%;
 }
+
+
+
+@media screen and (max-width: 768px){
+.codigo-espacios {
+  margin: 0px;
+}
+
+.boton-ok {
+    background-color: #888888;
+    margin: 10px 10px 0px 15px;
+    color: #ffffff;
+}
+
+.buscador {
+  margin: 10px 0px 10px 0px;
+}
+
+.desc-cred {
+  margin-left: 0px;
+}
+
+h5.alineacion {
+  margin: 10px 0px 0px 0px; 
+}
+
+.inputs-responsibe-nv{
+  padding: 0px 20px 20px 0px;
+}
+
+.espacio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input.date-picker-n-ventas {
+    width: 100%;
+}
+
+}
+
+
+@media screen and (max-width: 767px){
+  .buscador {
+    margin: 10px 0px 10px 15px;
+}
+
+.fondo-fila-item-datepicker {
+    padding: 20px 20px 15px 20px;
+    margin: 0px;
+}
+
+.fondo-fila-item-datepicker-2 {
+    padding: 15px 20px 15px 20px;
+    margin: 0px;
+}
+
+.fondo-fila-item-nueva-venta {
+    background-color: #ffffff;
+    padding: 20px 10px 20px 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+}
+
+
 /*---------------fin------------------*/
+
+
+
+
