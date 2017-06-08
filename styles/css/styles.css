@@ -1349,4 +1349,31 @@ td.descolgada{
   padding: 10px;
 }
 
+.borde-izq {
+    border-left: 1px solid #cccccc;
+}
+
+.borde-derecho{
+  border-right: 1px solid #cccccc;
+}
+
+.borde-abajo{
+  border-bottom: 1px solid #cccccc;
+  padding-bottom: 10px;
+}
+
+
+.tabla-desucuelgue-1{
+    background-color: #ededed;
+    padding: 15px;
+}
+
+.tabla-desucuelgue-2{
+    background-color: #ffffff;
+    padding: 15px;
+}
+
+.prendas-subtitulo{
+  padding: 15px;
+}
 /*---------------fin------------------*/
