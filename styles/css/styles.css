@@ -1298,4 +1298,46 @@ td.archive-azul{
 }
 
 
+
+/*---------------modal--ESTADO PRENDAS------------------*/
+
+
+h6.modal-title-name{
+  font-size: 20px;
+  font-family: "OpenSans";
+  margin: 2px 0px;
+}
+
+.btn-cerrar-modal{
+    color: #333;
+    background-color: #fff;
+    border-color: #fff;
+    font-family: "OpenSans-bold";
+}
+
+
+.btn-cerrar-modal:hover {
+    color: #cccccc;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+td.colgada{
+  font-family: "OpenSans-bold";
+}
+
+td.vendida{
+  font-family: "OpenSans-bold"; 
+  color: #1c7ef9;
+}
+
+td.descolgada{
+  font-family: "OpenSans-bold";
+  color: #cccccc;
+}
+
+.modal-content{
+  border-radius: 0px;
+}
+
 /*---------------fin------------------*/
