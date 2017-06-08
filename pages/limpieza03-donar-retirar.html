@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+<div class="container">
+  
+  <!-- Trigger the modal with a button -->
+  <a href="" data-toggle="modal" data-target="#myModalDonarRetirar">row</a>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModalDonarRetirar" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h5 class="modal-title">RETIRO</h5>
+          <div class=" row modal-title">
+            <div class="col-md-3 no-margin-padding">
+              <h6 class="modal-title-name">Juan Perez</h6>
+            </div>
+            <div class="col-md-4">
+              <span>Apertura: 10/10/2017</span>
+            </div>
+            <div class="col-md-2">
+              <span>Cierre:</span>
+            </div>
+            <div class="col-md-3">
+              <span>Finalización:</span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+           
+          <div class="row">
+            <div class="contenido-acciones">
+                <div class="col-md-4">
+                  <span>A retirar</span>
+                </div>
+                <div class="col-md-4">
+                  <span>Descolgadas 6</span>
+                </div>
+                <div class="col-md-4">
+                  <span>A donar</span>
+                </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CERRAR</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+</body>
+</html>

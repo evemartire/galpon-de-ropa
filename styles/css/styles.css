@@ -1300,8 +1300,6 @@ td.archive-azul{
 
 
 /*---------------modal--ESTADO PRENDAS------------------*/
-
-
 h6.modal-title-name{
   font-size: 20px;
   font-family: "OpenSans";
@@ -1338,6 +1336,17 @@ td.descolgada{
 
 .modal-content{
   border-radius: 0px;
+}
+
+/*---------------fin------------------*/
+
+
+
+
+/*---------------modal-DONAR RETIRAR------------------*/
+
+.contenido-acciones{
+  padding: 10px;
 }
 
 /*---------------fin------------------*/
