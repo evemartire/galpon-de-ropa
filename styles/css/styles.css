@@ -6,6 +6,7 @@ gris botones: #888888;
 gris boton inactivo: #cccccc;
 gris fondo: #ededed;
 
+
 negro tipografia titulos: #ededed;
 
 blanco tipografia menu lateral: #ffffff;
@@ -13,6 +14,9 @@ blanco tipografia menu lateral: #ffffff;
 violeta: #a56cff;
 naranja: #ff906e;
 azul: #6c96ff;
+
+rosa-limpieza: #ff0066;
+azul-limpieza: #1c7ef9;
 
 amarillo carteles: #fffacc;
 */
@@ -114,6 +118,31 @@ span.negro{
 .fa-asterisk{
   font-size: 16px; 
   padding-right: 3px;
+}
+
+.fa-archive{
+  font-size: 16px;
+}
+
+.archive-rosa{
+  color: #ff0066;
+}
+
+.archive-azul{
+  color: #1c7ef9;
+}
+
+
+.fa-check-circle{
+  font-size: 16px; 
+  padding-right: 5px;
+  color: #2ead2e;
+}
+
+.fa-times-circle{
+  font-size: 16px; 
+  padding-right: 5px;
+  color: #da0a1f;
 }
 
 /*----TIPOGRAFÍA-----*/
@@ -1251,6 +1280,21 @@ span.precio{
 
 .filtros-espacios-tipos{
     margin: 0px 15px 20px 0px;
+}
+
+
+/*---------------fin------------------*/
+
+
+
+/*----LIMPIEZA-RETIROS----*/
+
+td.archive-rosa{
+  color: #ff0066;
+}
+
+td.archive-azul{
+  color: #1c7ef9;
 }
 
 
