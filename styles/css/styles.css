@@ -111,6 +111,11 @@ span.negro{
   color: #ffffff;
 }
 
+.fa-asterisk{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: "OpenSans-light";
@@ -1230,3 +1235,20 @@ span.precio{
   padding: 5px 10px 5px 10px;
   border-radius: 4px;
 }
+/*---------------fin------------------*/
+
+
+
+
+/*----ELEMENTOS > CATEGORÍAS----*/
+
+
+.botone-agregar {
+    background-color: #888888;
+    color: #ffffff;
+    width: 120px;
+}
+
+
+
+/*---------------fin------------------*/
