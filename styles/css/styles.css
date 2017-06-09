@@ -1422,4 +1422,14 @@ azul: #6c96ff;
   border-radius: 4px;
   font-size: 12px;
 }
+
+
+input.checkbox-limpieza{
+  
+}
+
+input.checkbox-limpieza{
+  width: 30px;
+  height: 30px;
+}
 /*---------------fin------------------*/
