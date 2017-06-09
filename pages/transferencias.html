@@ -198,7 +198,7 @@
                      <button class="btn botones cancelar-btn">CANCELAR</button>
                 </div>
                 <div class="col-xs-12 col-md-6 boton-buscador-espacios">
-                     <button class="btn botones">TRASFERIR</button>
+                     <button data-toggle="modal" data-target="#myModalTransferir" class="btn botones">TRASFERIR</button>
                 </div>
             </div>
             <!--cierra row "trasferir a local""-->
@@ -210,6 +210,84 @@
 
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- Modal  Transferir-->
+<div class="modal fade" id="myModalTransferir" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal trasferir-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="titulo-producto-modal">Remera azul estampada New York</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row info-producto">
+                  <div class="col-md-12 info-producto">
+                    <span>Nº: 20390</span> 
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Código: 20390</span>  
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Tipo: Remera</span>  
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Talle: S</span> 
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Marca: Akiabara</span>
+                  </div>
+                  <div class="col-md-12 color-span">
+                    <span class="azul">Azul</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 precio-margen">
+                    <span class="precio-modal">$80</span>
+                  </div>
+                  <div class="col-md-12">
+                    <span class="consignacion">consignación</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 precio-margen">
+                    <span class="warnign-1">Esta prenda esta en consignación</span>
+                  </div>
+                  <div class="col-md-12">
+                    <span class="warnign-2">Desea trasferirla igualmente?</span>
+                  </div>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal" data-dismiss="modal">TRANSFERIR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal trasferir-->
+
+
+
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

@@ -391,6 +391,51 @@ h6{
     padding: 0px;
 }
 
+
+.info-producto{
+  color: #393939;
+  font-size: 12px;
+  padding-top: 5px;
+}
+
+.color-span{
+  padding-top: 10px;
+}
+
+h2.titulo-producto-modal{
+  margin: 0px 35px 0px 20px;
+}
+
+.precio-modal{
+  font-family: "OpenSans-bold";
+  font-size: 35px;
+}
+
+.precio-margen{
+  margin-top: 20px;
+}
+
+.warnign-1{
+  color: #da0a1f;
+  font-size: 23px;
+  font-family: "OpenSans-bold";
+}
+
+.warnign-2{
+  color:#da0a1f;
+  font-size: 22px;
+}
+
+
+
+.btn-transferir-modal{
+  background-color: #888888;
+  border-color: #888888;
+  color: #ffffff;
+}
+
+
+
 /*---media query---*/
 @media screen and (max-width: 767px){
 
