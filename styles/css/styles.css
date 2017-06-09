@@ -1376,4 +1376,50 @@ td.descolgada{
 .prendas-subtitulo{
   padding: 15px;
 }
+
+
+.descolgadas-titulo {
+    margin-bottom: 10px;
+    font-family: "OpenSans-bold";
+    margin-top: 10px;
+}
+
+.fondo-titulo{
+  background-color: #fffacc; 
+}
+
+.col-descolgadas{
+  display: flex;
+  justify-content: space-between;
+}
+    
+/*
+violeta: #a56cff;
+naranja: #ff906e;
+azul: #6c96ff;
+*/
+
+.consignacion{
+  color: #ffffff;
+  background: #6c96ff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.efectivo{
+  color: #ffffff;
+  background: #a56cff;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.credito{
+  color: #ffffff;
+  background: #ff906e;
+  padding: 2px 5px;
+  border-radius: 4px;
+  font-size: 12px;
+}
 /*---------------fin------------------*/
