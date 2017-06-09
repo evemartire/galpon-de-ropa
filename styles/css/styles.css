@@ -1433,3 +1433,58 @@ input.checkbox-limpieza{
   height: 30px;
 }
 /*---------------fin------------------*/
+
+
+
+
+/*---------------adquisicion-nueva-editar------------------*/
+
+
+.fondo-de-caja-violeta{
+  background-color: #a56cff;
+  padding: 20px 20px 20px 20px;
+  color: #ffffff;
+
+}
+
+.precios{
+  font-family: "OpenSans-bold";
+}
+
+
+.filtros-adquisicion {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+
+.table-striped > tbody > tr:nth-child(2n+1) > td.editar-por-cheeckbox{
+    background-color: #888888;
+}
+
+
+.botones-adquisicion-nueva {
+    background-color: #888888;
+    color: #ffffff;
+    width: 185px;
+}
+
+.cancelar-btn-editar-adqui {
+    font-weight: 700;
+    background-color: #fff;
+    color: #333;
+    width: 188px;
+}
+/*---------------fin------------------*/
