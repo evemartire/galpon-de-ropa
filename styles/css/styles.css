@@ -147,24 +147,27 @@ span.negro{
 
 /*----TIPOGRAFÍA-----*/
 @font-face {
-    font-family: "OpenSans-light";
+    font-family: 'OpenSans-light';
     font-style: normal;
     font-weight: normal;
-    src: local("?"), url("/fonts/open_sans/OpenSans-Light.woff") format("woff"), url("/fonts/OpenSans-Light.ttf") format("truetype");
+    src: url('../../fonts/open_sans/OpenSans-Light.woff') format('woff'), 
+        url('../../fonts/open_sans/OpenSans-Light.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "OpenSans";
+    font-family: 'OpenSans';
     font-style: normal;
     font-weight: normal;
-    src: local("?"), url("/fonts/open_sans/OpenSans-Regular.woff") format("woff"), url("/fonts/OpenSans-Regular.ttf") format("truetype");
+    src:  url('../../fonts/open_sans/OpenSans-Regular.woff') format('woff'), 
+          url('../../fonts/open_sans/OpenSans-Regular.ttf') format('truetype');
 }
 
 @font-face {
-    font-family: "OpenSans-bold";
+    font-family: 'OpenSans-bold';
     font-style: normal;
     font-weight: normal;
-    src: local("?"), url("/fonts/open_sans/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.ttf") format("truetype");
+    src: url('../../fonts/open_sans/OpenSans-Bold.woff') format('woff'), 
+        url('/fonts/open_sans/OpenSans-Bold.ttf') format('truetype');
 }
 
 
@@ -1631,5 +1634,4 @@ input.checkbox-limpieza{
 .main-menu li ul.submenu {
     display: none;
 }
-
 
