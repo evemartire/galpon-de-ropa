@@ -1562,8 +1562,10 @@ input.checkbox-limpieza{
 .botones-adquisicion-nueva {
     background-color: #888888;
     color: #ffffff;
-    width: 185px;
+    width: 140px;
+    font-size: 10px;
 }
+
 
 .cancelar-btn-editar-adqui {
     font-weight: 700;
