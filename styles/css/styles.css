@@ -949,6 +949,10 @@ tbody tr td.no-margin-padding{
   margin-right: 50px;
 }
 
+tbody.cursor{
+  cursor: pointer;
+}
+
 /*---media query---*/
 @media screen and (max-width: 767px){
 
