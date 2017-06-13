@@ -108,6 +108,11 @@ span.white{
   color: #da0a1f;
 }
 
+.fa-minus-circle{
+ font-size: 16px;
+  color: #da0a1f; 
+}
+
 .fa-tags{
   font-size: 16px;
   padding-right: 3px;
@@ -787,8 +792,8 @@ label {
     margin: 0px 10px 20px 10px;
 }
 
-.margen-filtros{
-  margin-top: 30px;
+.margen-filtros {
+  margin-top: 20px;
 }
 
 .filtros-prendas-input{
@@ -880,7 +885,7 @@ label {
 .fondo-de-caja-1,
 .fondo-de-caja-2,
 .fondo-de-caja-3{
- padding: 20px;
+ padding: 15px 0px 0px 18px;
 }
 
 .fondo-de-caja-1{
@@ -932,7 +937,7 @@ ul li{
 }
 
 h6.titulo-caja{
-  margin-bottom: 5px;
+  margin: 0px;
 }
 
 tbody tr td.no-margin-padding{
@@ -1076,7 +1081,7 @@ tbody.cursor{
 /*----VENTAS-BUSCADOR----*/
 .fondo-filtros-ventas-busqueda {
     background-color: #ffffff;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px 0px 30px;
     margin: 0px 20px 15px 20px;
     overflow: auto;
 }
@@ -1085,6 +1090,12 @@ tbody.cursor{
     margin: 0px 20px 20px 0px;
 }
 
+.fondo-ventas{
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 0px 20px;
+    overflow: auto;
+}
 
 input.date-picker-ventas {
     background-color: #fff;
@@ -1121,6 +1132,26 @@ input.date-picker-ventas {
 }
 }
 
+.pagos{
+  display: block;
+}
+
+.btn-ok-modal{
+  background-color: #888888;
+  color: #ffffff;
+}
+
+tbody>tr>th>i.cursor{
+  cursor: pointer;
+}
+
+tbody>tr>td>i.cursor{
+  cursor: pointer;
+}
+
+i.cursor{
+ cursor: pointer; 
+}
 /*---------------fin------------------*/
 
 
@@ -1213,16 +1244,17 @@ input.date-picker-ventas {
 
 .fondo-comprea-nueva-venta {
     background-color: #ffffff;
-    padding: 20px 30px 20px 30px;
+    padding: 10px 30px 10px 30px;
     margin: 0px 20px 0px 20px;
     overflow: auto;
 }
 
-.fondo-fila-item-nueva-venta{
+.fondo-fila-item-nueva-venta {
     background-color: #ffffff;
-    padding: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
     overflow: auto;
 }
+
 .fondo-fila-clientes-credito-nueva-venta{
     background-color: #ffffff;
     padding: 20px;
@@ -1263,7 +1295,7 @@ input.date-picker-ventas {
 
 .fondo-datepicker-nueva-venta {
     background-color: #ffffff;
-    padding: 20px 15px 12px 15px;
+    padding: 10px 15px 2px 15px;
     overflow: auto;
 }
 
@@ -1643,11 +1675,10 @@ input.checkbox-limpieza{
 /*---------------adquisicion-nueva-editar via checkbox------------------*/
 
 
-.fondo-de-caja-violeta{
-  background-color: #a56cff;
-  padding: 20px 20px 20px 20px;
-  color: #ffffff;
-
+.fondo-de-caja-violeta {
+    background-color: #a56cff;
+    padding: 15px 0px 0px 18px;
+    color: #ffffff;
 }
 
 .precios{
@@ -1696,7 +1727,7 @@ input.checkbox-limpieza{
 
 
 
-/*---------------adquisicion-nueva-editar via editar todo------------------*/
+/*---------------adquisicion-nueva-editar via / editar todo------------------*/
 
 .completes-clientes {
     margin: 10px;
@@ -1723,6 +1754,12 @@ input.checkbox-limpieza{
     overflow: auto;
 }
 
+tbody>tr>td.alinear-texto-derecha{
+  text-align: right;
+}
+tbody>tr>th.alinear-texto-derecha{
+  text-align: right;
+}
 
 @media screen and (max-width: 768px){
   .contenedor-botones {
