@@ -1013,9 +1013,9 @@ tbody tr td.no-margin-padding{
     margin: 20px 10px 20px 10px;
 }
 
-.fondo-cuelgue-descuel{
+.fondo-cuelgue-descuel {
     background-color: #ffffff;
-    padding: 20px 30px 20px 30px;
+    padding: 10px 30px 10px 30px;
     margin: 0px 20px 30px 20px;
     overflow: auto;
 }
