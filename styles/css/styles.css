@@ -436,8 +436,20 @@ h6{
   color: #ffffff;
   padding: 1px 5px 1px 15px;
   margin: 20px 0px 10px 0px;
+  display: flex;
+  align-items: center;
 }
 
+.alinecion-en-cabecera-izq{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.alinecion-en-cabecera-der{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
 
 .dashboard-cabeceras h5{
   font-size: 14px;
