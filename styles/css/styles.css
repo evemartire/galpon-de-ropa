@@ -138,6 +138,11 @@ span.white{
   padding-right: 3px;
 }
 
+.fa-credit-card{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
 .fa-gift{
   font-size: 16px; 
   padding-right: 3px;
@@ -996,10 +1001,9 @@ tbody tr td.no-margin-padding{
 
 /*----LIMPIEZA----*/
 
-.fondo-filtros-limpieza{
-  margin: 10px 20px 20px 20px;
-  background-color: #fff;
-
+.fondo-filtros-limpieza {
+    margin: 0px 20px 20px 20px;
+    background-color: #fff;
 }
 
 .filtros-limpieza-input {
@@ -1838,3 +1842,66 @@ tbody>tr>th.alinear-texto-derecha{
     display: none;
 }
 
+
+
+/*-----MODALES ESTILOS COMPARTIDOS------*/
+.btn-modal-estilo{
+  background-color: #888888;
+  color: #ffffff;
+  padding: 5px 20px;
+}
+/*---------------fin------------------*/
+
+
+
+
+
+/*-----CONSIGNANTES------*/
+.info-consiganantes{
+  font-family: "OpenSans-Bold";
+  font-size: 16px;
+  display: inline-block;
+}
+
+.total-precio-modal-consignantes{
+  font-size: 30px;
+  display: inline-block;
+  color: #da0a1f;
+  margin-left: 10px;
+}
+
+.input-deuda{
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ededed;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin-left: 10px;
+    text-align: right;
+}
+
+.alinacion-monto{
+  display: -webkit-inline-box;
+}
+
+.alineacion-derecha{
+  text-align: right;
+}
+.espaciados-modal-consignantes{
+  padding: 10px 0px 10px 0px;
+}
+
+
+.centrado-deuda {
+  display: flex;
+  align-items: center;
+}

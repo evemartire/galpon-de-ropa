@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+<div class="row no-margin-padding"> <!--row principal-->
+
+
+<!--menu responsive-->
+    <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding menu-lateral">
+        <div class="container no-margin-padding">
+            <div class="col-xs-12 col-sm-3 col-md-2 menu-lateral">
+                <nav class="navbar navbar-default">
+                  <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="logo-menu-lateral"><img class="img-responsive" src="../images/cropped-logo-blanco.png"></div>
+
+                      <ul class="nav main-menu" id="navigation">
+                          <li>
+                            <a href="dashboard.html">
+                              <span>DASHBOARD</span>  
+                            </a> 
+                          </li>
+                          <li class="has-submenu">
+                            <a href="">
+                              <span>VENTAS</span>
+                            </a>
+                            <ul class="submenu">
+                              <li>
+                                <a href="ventas-nueva-venta.html">
+                                  <span>NUEVA VENTA</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="ventas-buscador.html">
+                                  <span>BUSCAR VENTAS</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-submenu">
+                            <a href="">
+                              <span>ADQUISICIONES</span>
+                            </a>
+                            <ul class="submenu">
+                              <li>
+                                <a href="adquisicion-04-editar-todo.html">
+                                  <span>CREAR ADQUISICIÓN</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="adquisicion-buscador.html">
+                                  <span>BUSCAR ADQUISICIÓN</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="adquisiciones-catalogacion.html">
+                                  <span>PANEL DE CATALOGACIÓN</span>
+                                </a>
+                              </li>
+
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="transferencias.html">
+                              <span>TRASFERENCIA</span>  
+                            </a> 
+                          </li>
+                          <li class="has-submenu">
+                            <a href="">
+                              <span>LIMPIEZA</span>
+                            </a>
+                            <ul class="submenu">
+                              <li>
+                                <a href="limpieza-cuel-descuel.html">
+                                  <span>CUELGUE / DESCUELGUE</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="limpieza-retiros.html">
+                                  <span>RETIROS</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="limpieza-donaciones-extravios.html">
+                                  <span>DONACIONES Y EXTRAVÍO</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li>
+                            <a href="operaciones-nueva.html">
+                              <span>OPERACIONES</span>  
+                            </a> 
+                          </li>
+                          <li>
+                            <a href="reportes.html">
+                              <span>REPORTES</span>  
+                            </a> 
+                          </li>
+                          <li>
+                            <a href="cajas.html">
+                              <span>CAJAS</span>  
+                            </a> 
+                          </li>
+                          <li>
+                            <a href="clientes-listado.html">
+                              <span>CLIENTES</span>  
+                            </a> 
+                          </li>
+                          <li>
+                            <a href="pago-a-consignantes.html">
+                              <span>PAGO A CONSIGNANTES</span>  
+                            </a> 
+                          </li>
+                          <li>
+                            <a href="prendas.html">
+                              <span>PRENDAS</span>  
+                            </a> 
+                          </li>
+                          <li class="has-submenu">
+                            <a href="">
+                              <span>ELEMENTOS</span>
+                            </a>
+                            <ul class="submenu">
+                              <li>
+                                <a href="elementos-categorias.html">
+                                  <span>CATEGORÍAS</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="elementos-tipos.html">
+                                  <span>TIPOS</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="elementos-marcas.html">
+                                  <span>MARCAS</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="elementos-talles.html">
+                                  <span>TALLES</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="elementos-colores.html">
+                                  <span>COLORES</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                          <li class="has-submenu">
+                            <a href="">
+                              <span>CONFIGURACIÓN</span>
+                            </a>
+                            <ul class="submenu">
+                              <li>
+                                <a href="configurar-usuarios.html">
+                                  <span>USUARIOS</span>
+                                </a>
+                              </li>
+                              <li>
+                                <a href="configurar-cambiar-pass.html">
+                                  <span>MODIFICAR USUARIOS</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </li>
+                      </ul>
+                    </div>
+                  </div>
+                </nav>
+            </div> <!--cierra las columnas del menu lateral-->
+        </div> <!--cierra el container-->
+    </div> <!--cierra las columnas del menu lateral-->
+<!--fin menu responsive-->
+
+
+    <div class="col-xs-12 col-sm-9 col-md-10 no-margin-padding">
+      <div class="row no-margin-padding">
+
+            <!--titular-->
+            <div class="row no-margin-padding">
+              <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+
+                  <div class="row no-margin-padding title-site">
+                    <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding">
+                      <div class="row no-margin-padding alineacion-titulos">
+                        <div class="col-xs-7 col-md-8 titulo-nueva-venta">
+                          <h5>PAGO A CONSIGNANTES</h5> 
+                        </div>
+                        <div class="col-xs-5 col-md-4 titulo-admin-loyla">
+                          <h6>ADMIN LOYOLA</h6> 
+                        </div>
+                      </div>
+                    </div>
+                  </div> <!--cierra la row que contiene "nueva venta" y "admin loyola"-->
+              </div>
+            </div>
+            <!--cierra titular-->
+            
+            <div class="margen-filtros">
+                <!--row que contiene filtros 1-->
+                <div class="row no-margin-padding">
+                    <div class="col-xs-12 col-sm-12 col-md-12">  
+                     <div class="row no-margin-padding fondo-filtros-limpieza">
+                         <div class="fondo-filtros">
+                              <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-limpieza">
+                                <form>
+                                   <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre...">
+                                </form>
+                              </div>
+                              <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-limpieza">
+                                <form>
+                                   <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="Email...">
+                                </form>
+                              </div>
+                              <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-limpieza">
+                                <form>
+                                   <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="Teléfono...">
+                                </form>
+                              </div>
+                              <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-limpieza">
+                                <form>
+                                   <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="DNI...">
+                                </form>
+                              </div>
+                              <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-limpieza">
+                                <form>
+                                   <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="Facebook...">
+                                </form>
+                              </div>
+
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <!--cierra row de filtros-->
+            </div>
+
+            
+
+            
+            <!--row que contiene prendas-->
+            <div class="row no-margin-padding">
+              <div class="col-xs-12 col-sm-12 col-md-12">
+                <div class="fondo-cuelgue-descuel">
+                  <h6>CONSIGNANTES</h6>
+                  <table class="table table-striped table-responsive">
+                    <thead>
+                       <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">Cliente</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Email</th>
+                         <th class="padding-tabla-prendas-seleccionadas">DNI</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Celular</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Vendidas</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Deuda</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Pagar</th>
+                       </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">Tomás Arias</td>
+                         <td class="padding-tabla-prendas-seleccionadas">tomas.arias@gmail.com</td>
+                         <td class="padding-tabla-prendas-seleccionadas">38.123.123</td>
+                         <td class="padding-tabla-prendas-seleccionadas">15-1212-1154</td>
+                         <td class="padding-tabla-prendas-seleccionadas">5</td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$300</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i data-toggle="modal" data-target="#myModalPagoConsignantes" class="fa fa-credit-card" aria-hidden="true"></i>
+                         </td>
+                       </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+            </div><!--cierra row culgue/descuelgue-->
+
+              
+      </div><!--cierra la row que contiene todo lo que no es menu lateral-->
+    </div><!--cierra las 12 col que contiene todo lo que no es menu lateral-->
+
+
+
+
+</div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- Modal pago a consignantes-->
+<div class="modal fade" id="myModalPagoConsignantes" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">CONSIGNNATE</h5>
+        <h6 class="modal-title-name">Tomás Arias</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped table-responsive">
+          <thead>
+             <tr>
+              <th class="padding-tabla-prendas-seleccionadas">Prenda</th>
+               <th class="padding-tabla-prendas-seleccionadas">Marca</th>
+               <th class="padding-tabla-prendas-seleccionadas">Talle</th>
+               <th class="padding-tabla-prendas-seleccionadas">Color</th>
+               <th class="padding-tabla-prendas-seleccionadas">#Adquisición</th>
+               <th class="padding-tabla-prendas-seleccionadas">Estado</th>
+               <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="azul">Azul</span></td>
+               <td class="padding-tabla-prendas-seleccionadas colgada">31465</td>
+               <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+               <td class="padding-tabla-prendas-seleccionadas">$200</td>
+             </tr>
+             <tr>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="amarillo">Amarillo</span></td>
+               <td class="padding-tabla-prendas-seleccionadas colgada">31465</td>
+               <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+               <td class="padding-tabla-prendas-seleccionadas">$200</td>
+             </tr>
+             <tr>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="blanco">Blanco</span></td>
+               <td class="padding-tabla-prendas-seleccionadas colgada">31465</td>
+               <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+               <td class="padding-tabla-prendas-seleccionadas">$200</td>
+             </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="row" style="padding: 15px; display: flex; justify-content: flex-end; margin-right: 20px;">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-12 espaciados-modal-consignantes">
+              <div class="row centrado-deuda">
+                <div class="col-md-7 no-margin-padding alineacion-derecha">
+                  <span class="info-consiganantes">DEUDA</span> 
+                </div>
+                <div class="col-md-5 no-margin-padding alineacion-derecha">
+                  <span class="total-precio-modal-consignantes">$300</span>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 espaciados-modal-consignantes" style="display: -webkit-inline-box;">
+              <div class="row">
+                <div class="col-md-7 no-margin-padding alineacion-derecha">
+                  <span class="info-consiganantes">MONTO A PAGAR</span>
+                </div>
+                <div class="col-md-5 no-margin-padding alineacion-derecha">
+                  <form>
+                     <input class="input-deuda" type="text" id="ejemplo" name="ejemplo" placeholder="$100">
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 espaciados-modal-consignantes">
+              <div class="row">
+                <div class="col-md-7 no-margin-padding alineacion-derecha">
+                  <span class="info-consiganantes">DEUDA RESTANTE</span>
+                </div>
+                <div class="col-md-5 no-margin-padding alineacion-derecha">
+                  <span style="margin-left: 10px;">$300</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CERRAR</button>
+        <button type="button" class="btn btn-default btn-cerrar-modal btn-modal-estilo" data-dismiss="modal">PAGAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal estado prendas-->
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+<script type="text/javascript">
+  /*** Main Menu Animation ***/
+    $('li.has-submenu>a', 'ul.main-menu').click(function () {
+        var link = $(this);
+        var obj = $(this).parent();
+        var child = $('ul.submenu', obj);
+
+        $('li.active', 'ul.main-menu').each(function (i, item) {
+            $(item).removeClass('active');
+            $('ul.submenu', item).slideUp(400);
+        });
+
+        if ($(child).is(':visible')) {
+            $(child).slideUp(400);
+            $(link).removeClass('close-child').parent().removeClass('active');
+        } else {
+            $(child).slideDown(400);
+            $(link).addClass('close-child').parent().addClass('active');
+        }
+
+        return false;
+    });
+</script>
+</body>
+</html>
