@@ -431,14 +431,16 @@ h6{
 
 /*----DASHBOARD-----*/
 
-.dashboard-cabeceras {
+.dashboard-cabeceras{
   background-color: #393939;
   color: #ffffff;
   padding: 1px 5px 1px 15px;
   margin: 20px 0px 10px 0px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
+
 
 .alinecion-en-cabecera-izq{
   display: flex;
@@ -530,6 +532,13 @@ table>tbody>tr>th.bold{
     border: 0px solid #ddd;
     font-size: 10px;
   }
+
+  .dashboard-cabeceras{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
   .dashboard-cabeceras h5 {
     font-size: 11px;
