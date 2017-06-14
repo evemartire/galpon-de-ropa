@@ -134,6 +134,11 @@
                             </a> 
                           </li>
                           <li>
+                            <a href="clientes-listado.html">
+                              <span>PAGO A CONSIGNANTES</span>  
+                            </a> 
+                          </li>
+                          <li>
                             <a href="prendas.html">
                               <span>PRENDAS</span>  
                             </a> 
@@ -386,6 +391,32 @@
                           <div class="row fondo-fila-item-nueva-venta">
 
                               <div class="col-md-12 no-margin-padding">
+                                <div class="row no-margin-padding">
+                                  <div class="col-md-6 no-margin-padding">
+                                    <div class="row no-margin-padding inputs-responsibe-nv">
+                                      <div class="col-md-2 no-margin-padding">
+                                        <h6 class="desc-cred-tipo">CRÉDITO</h6>
+                                      </div>
+                                      <div class="col-md-3 no-margin-padding desc-cred">
+                                        <input class="form-control espacio" type="text" id="formGroupInputSmall" placeholder="$200">
+                                      </div>
+                                      <div class="col-md-4 no-margin-padding desc-cred">
+                                        <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Utilizar">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 no-margin-padding">
+                                    <div class="col-md-9 no-margin-padding">
+                                      <h5 class="alineacion">Total descontando créditos:</h5>
+                                    </div>
+                                    <div class="col-md-1 no-margin-padding">
+                                      <span class="subtotal-con-decuento">$320</span>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div class="col-md-12 no-margin-padding">
                                 <div class="row no-margin-padding espacio">
                                   <div class="col-md-6 no-margin-padding">
                                     <div class="row no-margin-padding inputs-responsibe-nv">
@@ -419,24 +450,81 @@
                                   <div class="col-md-6 no-margin-padding">
                                     <div class="row no-margin-padding inputs-responsibe-nv">
                                       <div class="col-md-2 no-margin-padding">
-                                        <h6 class="desc-cred-tipo">CREDITO A FAVOR</h6>
+                                        <h6 class="desc-cred-tipo">EFECTIVO</h6>
                                       </div>
                                       <div class="col-md-3 no-margin-padding desc-cred">
-                                        <input class="form-control espacio" type="text" id="formGroupInputSmall" placeholder="$200">
+                                        <input class="form-control espacio" type="text" id="formGroupInputSmall" placeholder="0">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                </div>
+                              </div>
+
+                              <div class="col-md-12 no-margin-padding">
+                                <div class="row no-margin-padding">
+                                  <div class="col-md-6 no-margin-padding">
+                                    <div class="row no-margin-padding inputs-responsibe-nv">
+                                      <div class="col-md-2 no-margin-padding">
+                                        <h6 class="desc-cred-tipo">TARJETAS</h6>
+                                      </div>
+                                      <div class="col-md-3 no-margin-padding desc-cred">
+                                        <select class="form-control-tajeta" name="select">
+                                          <option value="1" selected>Crédito</option> 
+                                          <option value="2">Débito</option>
+                                        </select>
                                       </div>
                                       <div class="col-md-4 no-margin-padding desc-cred">
-                                        <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Utilizar">
+                                        <input class="form-control" type="text" id="formGroupInputSmall" placeholder="0">
                                       </div>
                                     </div>
                                   </div>
+
                                   <div class="col-md-6 no-margin-padding">
-                                    <div class="col-md-9 no-margin-padding">
-                                      <h5 class="alineacion">Total descontando créditos:</h5>
+                                    <div class="col-md-4 no-margin-padding">
+                                      <h5 class="alineacion">Nº comprobante</h5>
                                     </div>
-                                    <div class="col-md-1 no-margin-padding">
-                                      <span class="subtotal-con-decuento">$320</span>
+                                    <div class="col-md-5 no-margin-padding">
+                                      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="0">
+                                    </div>
+                                    <div class="col-md-1 margin-columnas-item no-margin-padding">
+                                      <button class="btn boton-mas"><i class="fa fa-plus" aria-hidden="true"></i></button>
                                     </div>
                                   </div>
+
+                                  <div class="col-md-6 no-margin-padding agregar-tarjetas">
+                                    <div class="row no-margin-padding inputs-responsibe-nv">
+                                      <div class="col-md-2 no-margin-padding">
+                                        
+                                      </div>
+                                      <div class="col-md-3 no-margin-padding desc-cred">
+                                        <select class="form-control-tajeta" name="select">
+                                          <option value="1" selected></option> 
+                                          <option value="2">Crédito</option>
+                                          <option value="3">Débito</option>
+                                        </select>
+                                      </div>
+                                      <div class="col-md-4 no-margin-padding desc-cred">
+                                        <input class="form-control" type="text" id="formGroupInputSmall" placeholder="0">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-6 no-margin-padding agregar-tarjetas">
+                                    <div class="col-md-4 no-margin-padding">
+                                      <h5 class="alineacion">Nº comprobante</h5>
+                                    </div>
+                                    <div class="col-md-5 no-margin-padding">
+                                      <input class="form-control" type="text" id="formGroupInputSmall" placeholder="0">
+                                    </div>
+                                    <div class="col-md-1 margin-columnas-item no-margin-padding">
+                                      <button class="btn boton-mas"><i class="fa fa-minus-circle agregar-tarjetas-iconos" aria-hidden="true"></i></button>
+                                    </div>
+                                  </div>
+
+                                  <div class="col-md-12 no-margin-padding total-fondo">
+                                    <span class="total-precio-venta">TOTAL: $200</span>
+                                  </div>
+
                                 </div>
                               </div>
 
