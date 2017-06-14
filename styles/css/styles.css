@@ -641,11 +641,11 @@ h2.titulo-producto-modal{
 }
 }
 
-.fondo-fila-prendas-seleccionadas{
-  background-color: #ffffff;
-  padding: 20px 30px 20px 30px;
-  margin: 0px 20px 20px 20px;
-  overflow:auto;
+.fondo-fila-prendas-seleccionadas {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 20px 20px;
+    overflow: auto;
 }
 
 .table>thead>tr>th.padding-tabla-prendas-seleccionadas{
@@ -949,9 +949,9 @@ label {
  padding: 15px 0px 0px 18px;
 }
 
-.fondo-de-caja-1{
+.fondo-de-caja-1 {
   background-color: #fff;
-  padding: 20px 20px 7px 20px;
+  padding: 12px 20px 1px 20px;
 }
 
 .fondo-de-caja-2{
@@ -972,15 +972,19 @@ label {
 
 .backgrounds-cajas-clientes-2{
   padding: 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
 
 }
 
 .backgrounds-cajas-clientes-3{
   padding: 10px 0px 10px 10px;
-  font-size: 12px;
+  font-size: 14px;
   color: #fff;
+}
+
+.info-tabla-margen{
+  margin-top: 30px;
 }
 
 ul li{
@@ -994,7 +998,7 @@ ul li{
 }
 
 .name-caja{
-  font-weight: bold;
+  font-family: "OpenSans-bold";
 }
 
 h6.titulo-caja{
