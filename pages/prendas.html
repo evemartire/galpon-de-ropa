@@ -211,19 +211,21 @@
                       <div class="row no-margin-padding alineacion-titulos">
                         <div class="col-xs-7 col-md-10 titulo-nueva-venta">
                             <div class="row no-margin-padding">
-                              <div class="col-md-3">
+                              <div class="col-md-2">
                                 <h5>PRENDAS</h5>
                               </div>
-                              <div class="margen-tags">
+                              <div class="col-md-8">
+                                <div class="row">
                                   <div class="col-md-2 total">
                                     TOTAL: 32.000
                                   </div>
                                   <div class="col-md-3 total">
                                     COLGADAS: 20.000 - 62.5%
                                   </div>
-                                  <div class="col-md-3 total">
+                                  <div class="col-md-4 total">
                                     DESCOLGADAS: 20.000 - 62.5%
                                   </div>
+                                </div>
                               </div>
                             </div>
                         </div>
@@ -244,6 +246,11 @@
                  <div class="row no-margin-padding">
                      <div class="fondo-filtros">
                           <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                            <form>
+                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Código...">
+                            </form>
+                          </div>
+                          <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
                             <select class="form-control" name="select">
                                 <option value="1" selected>Tipos...</option> 
                                 <option value="2">2</option>
@@ -260,18 +267,14 @@
                           <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
                             <select class="form-control" name="select">
                                 <option value="1" selected>Talles...</option> 
-                                <option value="2">2</option>
-                                <option value="3">3</option>
+                                <option value="2">S</option>
+                                <option value="3">M</option>
+                                <option value="3">L</option>
                             </select>
                           </div>
                           <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
                             <form>
-                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Color...">
-                            </form>
-                          </div>
-                          <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
-                            <form>
-                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Código...">
+                               <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Colores...">
                             </form>
                           </div>
                       </div>
@@ -338,87 +341,142 @@
                   <table class="table table-striped table-responsive">
                     <thead>
                        <tr>
+                         <th class="padding-tabla-prendas-seleccionadas">Código</th>
                          <th class="padding-tabla-prendas-seleccionadas">Tipo de prenda</th>
                          <th class="padding-tabla-prendas-seleccionadas">Precio</th>
                          <th class="padding-tabla-prendas-seleccionadas">Costo</th>
                          <th class="padding-tabla-prendas-seleccionadas">Adquisición</th>
                          <th class="padding-tabla-prendas-seleccionadas">Tipo de Adquisición</th>
                          <th class="padding-tabla-prendas-seleccionadas">Estado</th>
-                         <th class="padding-tabla-prendas-seleccionadas">Acciones</th>
+                         <th class="padding-tabla-prendas-seleccionadas"></th>
                        </tr>
                     </thead>
                     <tbody>
                        <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Botinetas</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
                          <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas colgada">Colgada</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Cinturón</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Crédito</td>
+                         <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Vestido</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Efectivo</td>
+                         <td class="padding-tabla-prendas-seleccionadas descolgada">Descolgada</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Remera</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Crédito</td>
+                         <td class="padding-tabla-prendas-seleccionadas descolgada">Descolgada</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Swetter</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
                          <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Botinetas</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
                          <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Remera</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Crédito</td>
+                         <td class="padding-tabla-prendas-seleccionadas colgada">Colgada</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
+                         </td>
                        </tr>
                        <tr>
+                        <td class="padding-tabla-prendas-seleccionadas">00509999</td>
                          <td class="padding-tabla-prendas-seleccionadas" scope="row">Jean</td>
-                         <th class="padding-tabla-prendas-seleccionadas">$200</th>
-                         <td class="padding-tabla-prendas-seleccionadas">$80</td>
+                         <th class="padding-tabla-prendas-seleccionadas bold">$200</th>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$80</td>
                          <td class="padding-tabla-prendas-seleccionadas">31469</td>
                          <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Colgada</td>
-                         <td class="padding-tabla-prendas-seleccionadas">iconos</td>
+                         <td class="padding-tabla-prendas-seleccionadas colgada">Colgada</td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalDevolver" class="fa fa-recycle cursor" aria-hidden="true" title="Devolver"></i>
+                         <i data-toggle="modal" data-target="#myModalCosto" class="fa fa-usd cursor" aria-hidden="true" title="Costo"></i>
+                         <i class="fa fa-print cursor" aria-hidden="true" title="Imprimir"></i>
+                         </td>
+                         </td>
                        </tr>
                     </tbody>
                   </table>
@@ -479,6 +537,68 @@
 
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- Modal devolver-->
+<div class="modal fade" id="myModalDevolver" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">INGRESE EL CLIENTE</h5>
+      </div>
+      <div class="modal-body">
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Email...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="DNI...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Teléfono...">
+         </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
+
+<!-- Modal cambiar costo-->
+<div class="modal fade" id="myModalCosto" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">CAMBIAR COSTO ITEM #47913</h5>
+      </div>
+      <div class="modal-body">
+         <span>Costo actual: $80.00</span>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Costo Nuevo...">
+         </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
+
+
+
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

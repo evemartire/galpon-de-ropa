@@ -158,6 +158,21 @@ span.white{
   color: #ffffff;
 }
 
+.fa-print{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
+.fa-recycle{
+  font-size: 16px; 
+  padding-right: 3px;
+}
+
+.fa-usd{
+  font-size: 16px; 
+  padding-right: 3px;  
+}
+
 .agregar-tarjetas-iconos{
   font-size: 16px;
   color: #ffffff;
@@ -382,9 +397,7 @@ h6{
 
 .titulo-nueva-venta h5 {
     font-size: 20px;
-    margin-bottom: 15px;
     margin-left: 20px;
-    margin-top: 0px;
 }
 
 .titulo-admin-loyla h6{
@@ -395,9 +408,12 @@ h6{
     justify-content: flex-end;
 }
 
-.alineacion-titulos{
+.alineacion-titulos {
     display: flex;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
 }
 /*---------------fin------------------*/
 
@@ -875,7 +891,7 @@ label {
 .total,
 .colgadas,
 .descolgadas{
-  font-size: 8px;
+  font-size: 10px;
   background-color: #888888;
   color: #fff;
   padding: 5px 10px 5px 10px;
