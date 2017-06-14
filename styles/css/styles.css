@@ -173,6 +173,15 @@ span.white{
   padding-right: 3px;  
 }
 
+.fa-eye{
+  font-size: 16px; 
+  padding-right: 3px;  
+}
+
+.icon-eye{
+  color: #000000;
+}
+
 .agregar-tarjetas-iconos{
   font-size: 16px;
   color: #ffffff;
@@ -782,9 +791,9 @@ label {
 
 /*----PRENDAS----*/
 
-.fondo-prendas{
+.fondo-prendas {
     background-color: #ffffff;
-    padding: 20px 30px 20px 30px;
+    padding: 10px 30px 10px 30px;
     margin: 0px 20px 0px 20px;
     overflow: auto;
 }
@@ -845,7 +854,7 @@ label {
 }
 
 .margen-filtros {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .filtros-prendas-input{
@@ -1134,7 +1143,7 @@ tbody.cursor{
 .fondo-filtros-ventas-busqueda {
     background-color: #ffffff;
     padding: 10px 30px 0px 30px;
-    margin: 0px 20px 15px 20px;
+    margin: 0px 20px 0px 20px;
     overflow: auto;
 }
 
@@ -1245,9 +1254,9 @@ i.cursor{
     overflow: auto;
 }
 
-.fondo-filtros-operaciones-cheeckbox{
+.fondo-filtros-operaciones-cheeckbox {
     background-color: #ffffff;
-    padding: 20px 10px 20px 30px;
+    padding: 10px 10px 10px 30px;
     margin: 0px 20px 15px 20px;
     overflow: auto;
 }
@@ -1265,6 +1274,18 @@ i.cursor{
 .checkbox-conjunto{
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.fondo-buscador-operaciones {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 15px 20px 0px 20px;
+    overflow: auto;
+}
+
+.boton-crear-operacion{
+    text-align: right;
+    padding-right: 20px;
 }
 /*---------------fin------------------*/
 

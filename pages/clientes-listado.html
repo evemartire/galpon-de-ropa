@@ -249,12 +249,6 @@
                                    <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="DNI...">
                                 </form>
                               </div>
-                              <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-limpieza">
-                                <form>
-                                   <input class="filtros-limpieza-input" type="text" id="ejemplo" name="ejemplo" placeholder="Facebook...">
-                                </form>
-                              </div>
-
                           </div>
                       </div>
                     </div>
@@ -293,9 +287,10 @@
                          <td class="padding-tabla-prendas-seleccionadas">0</td>
                          <td class="padding-tabla-prendas-seleccionadas">$325</td>
                          <td class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-calculator" aria-hidden="true"></i>
-                         <i class="fa fa-gift" aria-hidden="true"></i>
-                         <i class="fa fa-pencil" aria-hidden="true"></i>
+                         <i data-toggle="modal" data-target="#myModalOperar" class="fa fa-calculator cursor" aria-hidden="true" title="Operación"></i>
+                         <i data-toggle="modal" data-target="#myModalGiftcardCliente" class="fa fa-gift cursor" aria-hidden="true" title="Giftcard"></i>
+                         <i data-toggle="modal" data-target="#myModalEditarCliente" class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <a href="clientes-historial.html" class="icon-eye"><i class="fa fa-eye cursor" aria-hidden="true" title="Ver Historial"></i></a>
                          </td>
                        </tr>
                        <tr>
@@ -412,6 +407,108 @@
 
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
+
+
+<!-- Modal editar-->
+<div class="modal fade" id="myModalEditarCliente" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">INGRESE LOS DATOS DEL CLIENTE</h5>
+      </div>
+      <div class="modal-body">
+         <span>Id 31506</span>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Id Nombre...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Teléfono...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Domicilio...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Email...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Facebook...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="DNI...">
+         </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
+
+<!-- Modal giftcard-->
+<div class="modal fade" id="myModalGiftcardCliente" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">INGRESE LOS DATOS DE LA GIFTCARD QUE DESEA CARGAR A NULL</h5>
+      </div>
+      <div class="modal-body">
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Código...">
+         </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
+
+
+<!-- Modal editar-->
+<div class="modal fade" id="myModalOperar" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+         <span>Operación que desea realizar:</span>
+         <select class="form-control-tajeta completes-clientes" name="select">
+           <option value="1" selected>Sacar</option> 
+           <option value="2">Agregar</option>
+         </select>
+         <span>Operación que desea realizar:</span>
+         <select class="form-control-tajeta completes-clientes" name="select">
+           <option value="1" selected>Crédito</option> 
+           <option value="2">Débito</option>
+         </select>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Monto...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Comentario...">
+         </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
 
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
