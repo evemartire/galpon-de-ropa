@@ -204,10 +204,31 @@ span.white{
   padding-left: 5px;
 }
 
+
+
 .fa-arrow-right{
   font-size: 15px; 
   padding-left: 5px;
 }
+
+
+/*-----MODAL------*/
+.chevron-descolgadas{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+.fa-chevron-left{
+  color: #cccccc;
+  font-size: 20px;
+}
+
+.fa-chevron-right{
+  color: #cccccc;
+  font-size: 20px;
+}
+
 /*----TIPOGRAFÍA-----*/
 @font-face {
     font-family: 'OpenSans-light';
