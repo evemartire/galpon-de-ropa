@@ -67,7 +67,7 @@
                             </a>
                             <ul class="submenu">
                               <li>
-                                <a href="adquisicion-04-editar-todo.html">
+                                <a href="adquisicion-03-editar-cheeckbox.html">
                                   <span>CREAR ADQUISICIÓN</span>
                                 </a>
                               </li>
@@ -286,7 +286,7 @@
                          <td class="padding-tabla-prendas-seleccionadas">Juan Perez - juan.perez@gmail.com</td>
                          <td class="padding-tabla-prendas-seleccionadas"><span class="efectivo">Efectivo</span></td>
                          <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-list cursor" aria-hidden="true" title="Listar"></i>
+                         <i data-toggle="modal" data-target="#myModalVerAdquisicion" class="fa fa-list cursor" aria-hidden="true" title="Ver adquisición"></i>
                          <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
                          <i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></i>
                          </th>
@@ -298,7 +298,7 @@
                          <td class="padding-tabla-prendas-seleccionadas">Juan Perez - juan.perez@gmail.com</td>
                          <td class="padding-tabla-prendas-seleccionadas"><span class="consignacion">Consignación</span></td>
                          <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-list cursor" aria-hidden="true" title="Listar"></i>
+                         <i class="fa fa-list cursor" aria-hidden="true" title="Ver adquisición"></i>
                          <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
                          <i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></i>
                          </th>
@@ -310,7 +310,7 @@
                          <td class="padding-tabla-prendas-seleccionadas">Juan Perez - juan.perez@gmail.com</td>
                          <td class="padding-tabla-prendas-seleccionadas"><span class="credito">Crédito</span></td>
                          <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-list cursor" aria-hidden="true" title="Listar"></i>
+                         <i class="fa fa-list cursor" aria-hidden="true" title="Ver adquisición"></i>
                          <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
                          <i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></i>
                          </th>
@@ -322,7 +322,7 @@
                          <td class="padding-tabla-prendas-seleccionadas">Juan Perez - juan.perez@gmail.com</td>
                          <td class="padding-tabla-prendas-seleccionadas"><span class="consignacion">Consignación</span></td>
                          <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-list cursor" aria-hidden="true" title="Listar"></i>
+                         <i class="fa fa-list cursor" aria-hidden="true" title="Ver adquisición"></i>
                          <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
                          <i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></i>
                          </th>
@@ -334,7 +334,7 @@
                          <td class="padding-tabla-prendas-seleccionadas">Juan Perez - juan.perez@gmail.com</td>
                          <td class="padding-tabla-prendas-seleccionadas"><span class="consignacion">Consignación</span></td>
                          <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-list cursor" aria-hidden="true" title="Listar"></i>
+                         <i class="fa fa-list cursor" aria-hidden="true" title="Ver adquisición"></i>
                          <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
                          <i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></i>
                          </th>
@@ -399,6 +399,95 @@
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
 
+
+<!-- MODALES-->
+<!-- Modal ver item-->
+<div class="modal fade" id="myModalVerAdquisicion" role="dialog">
+  <div class="modal-dialog" style="width: 1000px;">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5>DEATALLE DE ASQUISICIÓN</h5>
+      </div>
+      <div class="modal-body">
+      <div class="fondo-modal-deattalle-adq">
+        <table class="table table-striped table-responsive">
+          <h6>CLIENTE</h6>
+          <thead>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">Nombre</th>
+               <th class="padding-tabla-prendas-seleccionadas">Email</th>
+               <th class="padding-tabla-prendas-seleccionadas">DNI</th>
+               <th class="padding-tabla-prendas-seleccionadas">Celular</th>
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+               <td class="padding-tabla-prendas-seleccionadas">Yoel</td>
+               <td class="padding-tabla-prendas-seleccionadas">yoel@braintly.com</td>
+               <td class="padding-tabla-prendas-seleccionadas">34080640</td>
+               <td class="padding-tabla-prendas-seleccionada">15-1234-1234</td>
+             </tr>
+          </tbody>
+        </table>
+
+        <div class="row">
+          <div class="col-md-6" style="margin-top: 20px;">
+            <table class="table table-striped table-responsive">
+              <h6>EFECTIVO</h6>
+              <thead>
+                 <tr>
+                   <th class="padding-tabla-prendas-seleccionadas">Código</th>
+                   <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
+                   <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+                   <th class="padding-tabla-prendas-seleccionadas">Estador</th>
+                 </tr>
+              </thead>
+              <tbody>
+                 <tr>
+                   <td class="padding-tabla-prendas-seleccionadas">LO0001310517</td>
+                   <td class="padding-tabla-prendas-seleccionadas">-</td>
+                   <td class="padding-tabla-prendas-seleccionadas">$100</td>
+                   <td class="padding-tabla-prendas-seleccionada">Ingresada</td>
+                 </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6" style="margin-top: 20px;">
+            <table class="table table-striped table-responsive">
+              <h6>CRÉDITO</h6>
+              <thead>
+                 <tr>
+                   <th class="padding-tabla-prendas-seleccionadas">Código</th>
+                   <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
+                   <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+                   <th class="padding-tabla-prendas-seleccionadas">Estador</th>
+                 </tr>
+                 </tr>
+              </thead>
+              <tbody>
+                 <tr>
+                   <td class="padding-tabla-prendas-seleccionadas">LO0001310517</td>
+                   <td class="padding-tabla-prendas-seleccionadas">-</td>
+                   <td class="padding-tabla-prendas-seleccionadas">$100</td>
+                   <td class="padding-tabla-prendas-seleccionada">Ingresada</td>
+                 </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-ok-modal" data-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal estado prendas-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>

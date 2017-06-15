@@ -67,7 +67,7 @@
                             </a>
                             <ul class="submenu">
                               <li>
-                                <a href="adquisicion-04-editar-todo.html">
+                                <a href="adquisicion-03-editar-cheeckbox.html">
                                   <span>CREAR ADQUISICIÓN</span>
                                 </a>
                               </li>
@@ -422,13 +422,13 @@
                   <div class="row no-margin-padding">
                     <div class="contenedor-botones">
                       <div class="col-xs-12 col-sm-5 col-md-2 no-margin-padding">
-                           <button class="btn botones cancelar-btn-editar-adqui">CANCELAR</button>
+                           <button class="btn botones">CANCELAR</button>
                       </div>
-                      <div class="col-xs-12 col-sm-5 col-md-2 no-margin-padding">
-                           <button class="btn botones-adquisicion-nueva margen-responsive">EDITAR ADQUISISCIÓN</button>
+                      <div class="col-xs-12 col-sm-5 col-md-3">
+                           <button class="btn botones botones-na">EDITAR ADQUISISCIÓN</button>
                       </div>
-                      <div class="col-xs-12 col-sm-5 col-md-2 no-margin-padding ">
-                           <button class="btn botones-adquisicion-nueva margen-responsive">SELECCIONAR CLIENTE</button>
+                      <div class="col-xs-12 col-sm-5 col-md-3 no-margin-padding ">
+                           <button data-toggle="modal" data-target="#myModalSelecionarClientes" class="btn botones botones-na">SELECCIONAR CLIENTE</button>
                       </div>
                     </div>
                   </div>
@@ -450,6 +450,31 @@
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
 
+
+<!-- Modal seleccionar clientes-->
+<div class="modal fade" id="myModalSelecionarClientes" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">SELECCIONAR CLIENTE</h5>
+      </div>
+      <div class="modal-body">
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Mail...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre y Apellido...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="DNI...">
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>

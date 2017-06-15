@@ -563,11 +563,19 @@ table>tbody>tr>th.bold{
 
 
 /*----TRASFERENCIA----*/
-.botones{
+.botones {
   background-color: #888888;
   color: #ffffff;
-  width: 150px;
+  width: 100%;
 }
+
+.trasferencia-botones-alineacion {
+    padding: 20px 0px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 
 .form-control {
     height: 30px;
@@ -660,6 +668,14 @@ h2.titulo-producto-modal{
     margin: 0px;
     padding: 0px 0px 0px 0px;
 }
+
+.trasferencia-botones-alineacion {
+    padding: 20px 0px 20px 20px;
+    margin: 0px 20px 20px 20px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
 }
 
 .fondo-fila-prendas-seleccionadas {
@@ -717,7 +733,7 @@ label {
  font-weight: 700;
  background-color: #ededed;
  color: #333;
- width: 150px;
+ width: 100%;
 }
 
  .botones-trasferencia-alineacion{
@@ -1806,7 +1822,7 @@ input.checkbox-limpieza{
 
 
 
-/*---------------adquisicion-nueva-editar via checkbox------------------*/
+/*---------------03 adquisicion-nueva-editar via checkbox------------------*/
 
 
 .fondo-de-caja-violeta {
@@ -1843,11 +1859,11 @@ input.checkbox-limpieza{
 }
 
 
-.botones-adquisicion-nueva {
+.botones-na{
     background-color: #888888;
     color: #ffffff;
-    width: 140px;
-    font-size: 10px;
+    width: 100%;
+    font-size: 14px;
 }
 
 
@@ -1981,3 +1997,14 @@ tbody>tr>th.alinear-texto-derecha{
   display: flex;
   align-items: center;
 }
+
+
+/*------ADQ. BUSCADOR-----*/
+
+.fondo-modal-deattalle-adq {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    overflow: auto;
+}
+
+/*------CIERRE ADQ. BUSCADOR-----*/
