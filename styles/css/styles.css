@@ -1191,7 +1191,7 @@ input.date-picker-ventas {
     line-height: 1.42857143;
     color: #a09999;
     padding: 4px 16px 4px 12px;
-    width: 190px;
+    width: 100%;
 }
 
 .botone-crear-venta {
@@ -1200,23 +1200,6 @@ input.date-picker-ventas {
     width: 120px;
 }
 
-@media screen and (min-width: 768px){
-  input.date-picker-ventas {
-    width: 110px;
-}
-}
-
-@media screen and (min-width: 1024px){
-  input.date-picker-ventas {
-    width: 180px;
-}
-}
-
-@media screen and (min-width: 1440px){
-  input.date-picker-ventas {
-    width: 270px;
-}
-}
 
 .pagos{
   display: block;
