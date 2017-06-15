@@ -425,7 +425,7 @@
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-2 col-md-2 no-margin-padding ajustes-paginador-responsive">
-                             <button class="btn botone-crear-usuario pagination">CREAR USUARIO</button>
+                             <button data-toggle="modal" data-target="#myModalCrearUsuario" class="btn botone-crear-usuario pagination">CREAR USUARIO</button>
                         </div>
                     </div>
                 </div>
@@ -440,6 +440,48 @@
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
 
+
+<!-- Modal seleccionar clientes-->
+<div class="modal fade" id="myModalCrearUsuario" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">CREAR USUARIO</h5>
+      </div>
+      <div class="modal-body">
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Apellido...">
+         </form>
+         <select class="completes-clientes" name="select">
+          <option value="1" selected>Rol...</option> 
+          <option value="3">Admin</option>
+          <option value="3">Ventas</option>
+          <option value="3">Info</option>
+          <option value="3">Superadmin</option>
+        </select>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Username...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Email...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Password...">
+         </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">GUARDAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal seleccionar clientes-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>

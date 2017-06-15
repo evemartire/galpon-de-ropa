@@ -236,9 +236,8 @@
                           <input class="form-control" type="text" id="formGroupInputSmall" placeholder="Código">
                       </div>
                       <div class="col-sm-4 col-md-2 margin-columnas-item">
-                          <button class="btn botones">BUSCADOR</button>
+                        <button data-toggle="modal" data-target="#myModalBuscador" class="btn botones buscador">BUSCADOR</button>
                       </div>
-
                   </div>
                 </div>
             </div>
@@ -252,59 +251,91 @@
                   <table class="table table-striped table-responsive">
                     <thead>
                        <tr>
-                         <th class="padding-tabla-prendas-seleccionadas">Nº</th>
                          <th class="padding-tabla-prendas-seleccionadas">Código</th>
+                         <th class="padding-tabla-prendas-seleccionadas">Nº</th>
                          <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
                          <th class="padding-tabla-prendas-seleccionadas">Tipo</th>
                          <th class="padding-tabla-prendas-seleccionadas">Marca</th>
                          <th class="padding-tabla-prendas-seleccionadas">Talle</th>
                          <th class="padding-tabla-prendas-seleccionadas">Color</th>
                          <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+                         <th class="padding-tabla-prendas-seleccionadas"></th>
                        </tr>
                     </thead>
                     <tbody>
                        <tr>
-                         <th class="padding-tabla-prendas-seleccionadas" scope="row">4356</th>
                          <td class="padding-tabla-prendas-seleccionadas">0000065656</td>
+                         <td class="padding-tabla-prendas-seleccionadas">4356</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera lviiana con capucha y mangas cortas</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera</td>
                          <td class="padding-tabla-prendas-seleccionadas">Ginebra</td>
                          <td class="padding-tabla-prendas-seleccionadas">S</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Azul</td>
-                         <td class="padding-tabla-prendas-seleccionadas">$1500</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="blanco">Blanco</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$150</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></td>
                        </tr>
                        <tr>
-                         <th class="padding-tabla-prendas-seleccionadas" scope="row">4356</th>
                          <td class="padding-tabla-prendas-seleccionadas">0000065656</td>
+                         <td class="padding-tabla-prendas-seleccionadas">4356</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera lviiana con capucha y mangas cortas</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera</td>
                          <td class="padding-tabla-prendas-seleccionadas">Ginebra</td>
                          <td class="padding-tabla-prendas-seleccionadas">S</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Azul</td>
-                         <td class="padding-tabla-prendas-seleccionadas">$1500</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="azul">Azul</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$150</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></td>
                        </tr>
                        <tr>
-                         <th class="padding-tabla-prendas-seleccionadas" scope="row">4356</th>
                          <td class="padding-tabla-prendas-seleccionadas">0000065656</td>
+                         <td class="padding-tabla-prendas-seleccionadas">4356</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera lviiana con capucha y mangas cortas</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera</td>
                          <td class="padding-tabla-prendas-seleccionadas">Ginebra</td>
                          <td class="padding-tabla-prendas-seleccionadas">S</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Azul</td>
-                         <td class="padding-tabla-prendas-seleccionadas">$1500</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="amarillo">Amarillo</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$150</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></td>
                        </tr>
                        <tr>
-                         <th class="padding-tabla-prendas-seleccionadas" scope="row">4356</th>
                          <td class="padding-tabla-prendas-seleccionadas">0000065656</td>
+                         <td class="padding-tabla-prendas-seleccionadas">4356</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera lviiana con capucha y mangas cortas</td>
                          <td class="padding-tabla-prendas-seleccionadas">Campera</td>
                          <td class="padding-tabla-prendas-seleccionadas">Ginebra</td>
                          <td class="padding-tabla-prendas-seleccionadas">S</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Azul</td>
-                         <td class="padding-tabla-prendas-seleccionadas">$1500</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="rojo">Rojo</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$150</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">0000065656</td>
+                         <td class="padding-tabla-prendas-seleccionadas">4356</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera lviiana con capucha y mangas cortas</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Ginebra</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="negro">Negro</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$150</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></td>
+                       </tr>
+                       <tr>
+                         <td class="padding-tabla-prendas-seleccionadas">0000065656</td>
+                         <td class="padding-tabla-prendas-seleccionadas">4356</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera lviiana con capucha y mangas cortas</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+                         <td class="padding-tabla-prendas-seleccionadas">Ginebra</td>
+                         <td class="padding-tabla-prendas-seleccionadas">S</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><span class="azul">Azul</span></td>
+                         <td class="padding-tabla-prendas-seleccionadas bold">$150</td>
+                         <td class="padding-tabla-prendas-seleccionadas"><i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></td>
                        </tr>
                     </tbody>
                   </table>
+
+                  <div class="total-precio">
+                    <span>TOTAL: 245 Items</span>
+                  </div>
+
                 </div>
               </div>
             </div>
@@ -335,7 +366,7 @@
                      <button class="btn botones cancelar-btn">CANCELAR</button>
                 </div>
                 <div class="col-xs-12 col-md-2">
-                     <button data-toggle="modal" data-target="#myModalTransferir" class="btn botones">TRASFERIR</button>
+                     <button class="btn botones">TRASFERIR</button>
                 </div>
             </div>
 
@@ -348,81 +379,234 @@
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
 
 
-<!-- Modal  Transferir-->
-<div class="modal fade" id="myModalTransferir" role="dialog">
-  <div class="modal-dialog">
-    <!-- Modal trasferir-->
+<!-- MODALES-->
+<!-- Modal buscador-->
+<div class="modal fade" id="myModalBuscador" role="dialog">
+  <div class="modal-dialog" style="width: 1000px; margin: 30px auto;">
+    <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">BUSCAR ITEM</h5>
       </div>
       <div class="modal-body">
-        <div class="row">
-          <div class="col-md-6">
-            <h2 class="titulo-producto-modal">Remera azul estampada New York</h2>
-          </div>
-          <div class="col-md-6">
-            <div class="row">
-              <div class="col-md-12">
-                <div class="row info-producto">
-                  <div class="col-md-12 info-producto">
-                    <span>Nº: 20390</span> 
-                  </div>
-                  <div class="col-md-12 info-producto">
-                    <span>Código: 20390</span>  
-                  </div>
-                  <div class="col-md-12 info-producto">
-                    <span>Tipo: Remera</span>  
-                  </div>
-                  <div class="col-md-12 info-producto">
-                    <span>Talle: S</span> 
-                  </div>
-                  <div class="col-md-12 info-producto">
-                    <span>Marca: Akiabara</span>
-                  </div>
-                  <div class="col-md-12 color-span">
-                    <span class="azul">Azul</span>
-                  </div>
+        <div class="row no-margin-padding">
+           <div class="fondo-filtros">
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Código...">
+                  </form>
                 </div>
-              </div>
-
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col-md-12 precio-margen">
-                    <span class="precio-modal">$80</span>
-                  </div>
-                  <div class="col-md-12">
-                    <span class="consignacion">consignación</span>
-                  </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Tipos...">
+                  </form>
                 </div>
-              </div>
-
-              <div class="col-md-12">
-                <div class="row">
-                  <div class="col-md-12 precio-margen">
-                    <span class="warnign-1">Esta prenda esta en consignación</span>
-                  </div>
-                  <div class="col-md-12">
-                    <span class="warnign-2">Desea trasferirla igualmente?</span>
-                  </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Marcas...">
+                  </form>
                 </div>
-                
-              </div>
-
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Talles...">
+                  </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Colores...">
+                  </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Género...">
+                  </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Precio desde...">
+                  </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Precio hasta...">
+                  </form>
+                </div>
+                <div class="col-xs-12 col-sm-3 col-md-4 no-margin-padding filtros-espacios">
+                  <form>
+                     <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Buscar...">
+                  </form>
+                </div>
+                <div class="col-md-12" style="display: flex; justify-content: flex-end;">
+                  <button data-toggle="modal" data-target="#myModalBuscador" class="btn botones" style="margin-right: 15px;">BUSCADOR</button>  
+                </div>
             </div>
-          </div>
-        </div>  
+        </div>
+      </div>
+      <div class="fondo-comprea-nueva-venta">
+        <h6>COMPRA</h6>
+        <table class="table table-striped table-responsive">
+          <thead>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">Código</th>
+               <th class="padding-tabla-prendas-seleccionadas">Nº</th>
+               <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
+               <th class="padding-tabla-prendas-seleccionadas">Tipo</th>
+               <th class="padding-tabla-prendas-seleccionadas">Marca</th>
+               <th class="padding-tabla-prendas-seleccionadas">Talle</th>
+               <th class="padding-tabla-prendas-seleccionadas">Color</th>
+               <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+               <th class="padding-tabla-prendas-seleccionadas"></th>
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="blanco">Blanco</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+               <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="rojo">Rojo</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+               <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="amarillo">Amarillo</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+               <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="azul">Azul</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+               <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="blanco">Blanco</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+               <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="rojo">Rojo</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+              <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">00509999</th>
+               <td class="padding-tabla-prendas-seleccionadas">43056</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera con capucha y bolsillos</td>
+               <td class="padding-tabla-prendas-seleccionadas">Campera</td>
+               <td class="padding-tabla-prendas-seleccionadas">Akiabara</td>
+               <td class="padding-tabla-prendas-seleccionadas">S</td>
+               <td class="padding-tabla-prendas-seleccionadas"><span class="negro">Negro</span></td>
+               <td class="padding-tabla-prendas-seleccionadas">$215</td>
+               <td class="padding-tabla-prendas-seleccionadas">
+               <i class="fa fa-check-circle cursor" aria-hidden="true" title="Eliminar"></i>
+               </td>
+             </tr>
+          </tbody>
+        </table>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
-        <button type="button" class="btn btn-default btn-transferir-modal" data-dismiss="modal">TRANSFERIR</button>
+        <!--row que contiene paginador-->
+            <div class="row no-margin-padding" style="display: flex; align-items: center;">
+                <div class="col-xs-10 col-sm-10 col-md-10">
+                    <div class="row no-margin-padding">
+                        <div class="col-xs-12 col-sm-6 col-md-4 no-margin-padding">
+                          <div class="paginador">  
+                            <nav aria-label="Page navigation" style="display: flex;">
+                                <ul class="pagination pagination-sm">
+                                  <li>
+                                    <a href="#" aria-label="Previous">
+                                      <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                  </li>
+                                  <li  class="active"><a href="#">1<span class="sr-only">(current)</span></a></li>
+                                  <li><a href="#">2</a></li>
+                                  <li><a href="#">3</a></li>
+                                  <li><a href="#">4</a></li>
+                                  <li>
+                                    <a href="#" aria-label="Next">
+                                      <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                  </li>
+                                </ul>
+                              </nav>
+                          </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 input-codigo-padding margin-columnas-item">
+                            <div class="row no-margin-padding ajustes-paginador-responsive">
+                                  <div class="col-xs-12 col-sm-3 col-md-2 h6-ir-pagina">
+                                    <h6>Ir a pág.</h6>
+                                  </div>
+                                  <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding">
+                                    <select class="form-control selector-pagina" name="select">
+                                        <option value="1" selected>1</option> 
+                                        <option value="2">2</option>
+                                        <option value="3">3</option>
+                                    </select>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-2">
+                  <button type="button" class="btn btn-default btn-cerrar-modal btn-modal-estilo" data-dismiss="modal">CERRAR</button>  
+                </div>
+            </div>
+            <!--row que contiene paginador-->
       </div>
     </div>
   </div>
 </div>
-<!--CIERRA Modal trasferir-->
-
-
+<!--CIERRA Modal buscador-->
 
 
 

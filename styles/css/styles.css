@@ -1492,6 +1492,11 @@ input.date-picker-n-ventas {
   justify-content: flex-end;
 }
 
+.boton-facturar-vn {
+    padding: 0px 0px 20px 20px;
+    margin: 0px 30px 20px 20px;
+}
+
 @media screen and (max-width: 768px){
 .codigo-espacios {
   margin: 0px;
@@ -1534,6 +1539,8 @@ input.date-picker-n-ventas {
 }
 
 }
+
+
 
 
 @media screen and (max-width: 767px){
@@ -2008,3 +2015,10 @@ tbody>tr>th.alinear-texto-derecha{
 }
 
 /*------CIERRE ADQ. BUSCADOR-----*/
+
+
+/*------talas----*/
+thead>tr>th{
+  font-family: "OpenSans-Bold";
+}
+/*------fin talas----*/
