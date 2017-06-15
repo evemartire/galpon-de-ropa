@@ -1624,6 +1624,13 @@ span.precio{
   padding: 5px 10px 5px 10px;
   border-radius: 4px;
 }
+
+.botones-adquisiciones-catalogar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+    padding-top: 10px;
+}
 /*---------------fin------------------*/
 
 
