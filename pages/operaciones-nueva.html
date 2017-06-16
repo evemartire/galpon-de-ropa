@@ -132,7 +132,7 @@
                             </a> 
                           </li>
                           <li>
-                            <a href="clientes-listado.html">
+                            <a href="pago-a-consignantes.html">
                               <span>PAGO A CONSIGNANTES</span>  
                             </a> 
                           </li>
@@ -416,7 +416,7 @@
                          <td class="padding-tabla-prendas-seleccionadas">$100,00</td>
                          <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
                          <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
+                         <i data-toggle="modal" data-target="#myModalEditarOperacion" class="fa fa-pencil cursor" aria-hidden="true" title="Editar"></i>
                          <i class="fa fa-minus-circle cursor" aria-hidden="true" title="Eliminar"></i>
                          </th>
                        </tr>
@@ -528,6 +528,55 @@
 
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
 
+
+<!-- Modal editar operaciones-->
+<div class="modal fade" id="myModalEditarOperacion" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">EDITAR OPERACIÓN</h5>
+      </div>
+      <div class="modal-body">
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Monto...">
+         </form>
+         <select class="completes-clientes" name="select">
+            <option value="1" selected>Tipo...</option> 
+            <option value="2">Insumos</option>
+            <option value="3">Sueldo</option>
+            <option value="3">Publicidad</option>
+            <option value="2">Galpón</option>
+            <option value="3">Activos</option>
+            <option value="3">Alquiler</option>
+            <option value="2">Impuestos</option>
+            <option value="3">Costo financiero</option>
+            <option value="3">Deuda</option>
+            <option value="3">Servicios</option>
+            <option value="2">Legal</option>
+            <option value="3">Desarrollo Web</option>
+            <option value="3">Pago tarjeta</option>
+            <option value="2">Ajustes Consignantes</option>
+            <option value="3">Re-inversión</option>
+            <option value="3">Redondeo</option>
+         </select>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Comentario (Máx. 20 caracteres)...">
+         </form>
+         <form>
+           <input class="completes-clientes" type="text" id="ejemplo" name="ejemplo" placeholder="Fecha...">
+         </form>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal btn-modal-estilo" data-dismiss="modal">GUARDAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal editar peraciones-->
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="../js/jquery.min.js"></script>
