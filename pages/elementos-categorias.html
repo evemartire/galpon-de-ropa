@@ -265,18 +265,23 @@
                          <th class="padding-tabla-prendas-seleccionadas">#</th>
                          <th class="padding-tabla-prendas-seleccionadas">Nombre</th>
                          <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
-                         <th class="padding-tabla-prendas-seleccionadas">Acción</th>
+                         <th class="padding-tabla-prendas-seleccionadas"></th>
                        </tr>
                     </thead>
                     <tbody>
                        <tr>
                          <td class="padding-tabla-prendas-seleccionadas">1</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-asterisk" aria-hidden="true"></i>
-                         <i class="fa fa-pencil" aria-hidden="true"></i>
-                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                           <form>
+                            <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Nombre...">
+                           </form>
+                         </td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                           <textarea class="filtros-prendas-input">Pantalon en buen estado, casi sin uso.</textarea>
+                         </td>
+                         <th class="padding-tabla-prendas-seleccionadas" style="width: 210px;">
+                          <button type="button" class="btn btn-guardar-cerrar-tablas" data-dismiss="modal">GUARDAR</button>
+                          <button type="button" class="btn btn-guardar-cerrar-tablas" data-dismiss="modal">CANCELAR</button>
                          </th>
                        </tr>
                        <tr>
