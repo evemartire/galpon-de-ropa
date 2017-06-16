@@ -1786,6 +1786,14 @@ span.precio{
     color: #ffffff;
     width: 100%;
 }
+
+.btn-cerrar-modal {
+    color: #ffffff;
+    background-color: #888888;
+    border-color: #888888;
+    font-family: "OpenSans-bold";
+}
+
 /*---------------fin------------------*/
 
 
@@ -1809,13 +1817,6 @@ h6.modal-title-name{
   font-size: 20px;
   font-family: "OpenSans";
   margin: 2px 0px;
-}
-
-.btn-cerrar-modal{
-    color: #333;
-    background-color: #fff;
-    border-color: #fff;
-    font-family: "OpenSans-bold";
 }
 
 
