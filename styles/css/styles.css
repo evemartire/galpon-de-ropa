@@ -98,7 +98,23 @@ span.white{
   padding: 5px 5px 5px 5px;
 }
 
+
+/*---COLORES TAGS---*/
+span.gris{
+  background: #cccccc;
+  color: #ffffff;
+  padding: 3px 10px;
+  border-radius: 4px;
+}
+
+.tags{
+  margin: 5px 0px 5px 0px;
+}
+
 /*----ICONOS-TABLAS-----*/
+.fa-times{
+  padding: 5px;
+}
 .fa-arrow-circle-down{
   font-size: 16px;
 }
@@ -1757,7 +1773,19 @@ span.precio{
     margin: 0px 15px 20px 0px;
 }
 
+.fondo-categorias {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 15px 20px 0px 20px;
+    overflow: auto;
+}
 
+
+.botones-combinar{
+    background-color: #888888;
+    color: #ffffff;
+    width: 100%;
+}
 /*---------------fin------------------*/
 
 
