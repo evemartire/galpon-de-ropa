@@ -278,19 +278,35 @@
                          <th class="padding-tabla-prendas-seleccionadas">Nombre</th>
                          <th class="padding-tabla-prendas-seleccionadas">Categoría</th>
                          <th class="padding-tabla-prendas-seleccionadas">Descripción</th>
-                         <th class="padding-tabla-prendas-seleccionadas">Acción</th>
+                         <th class="padding-tabla-prendas-seleccionadas"></th>
                        </tr>
                     </thead>
                     <tbody>
                        <tr>
                          <td class="padding-tabla-prendas-seleccionadas">1</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Campera</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Indefinida</td>
-                         <td class="padding-tabla-prendas-seleccionadas">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</td>
-                         <th class="padding-tabla-prendas-seleccionadas">
-                         <i class="fa fa-asterisk" aria-hidden="true"></i>
-                         <i class="fa fa-pencil" aria-hidden="true"></i>
-                         <i class="fa fa-trash" aria-hidden="true"></i>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                           <form>
+                            <input class="filtros-prendas-input" type="text" id="ejemplo" name="ejemplo" placeholder="Campera">
+                           </form>
+                         </td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                           <select class="form-control" name="select">
+                                <option value="1" selected>Categoría</option> 
+                                <option value="2">Indefinido</option>
+                                <option value="3">Abrigo</option>
+                                <option value="2">Pantalones</option>
+                                <option value="3">Remera</option>
+                                <option value="2">Line up</option>
+                                <option value="3">Accesorios</option>
+                                <option value="3">Calzado</option>
+                            </select>
+                         </td>
+                         <td class="padding-tabla-prendas-seleccionadas">
+                           <textarea class="filtros-prendas-input">Pantalon en buen estado, casi sin uso.</textarea>
+                         </td>
+                         <th class="padding-tabla-prendas-seleccionadas" style="width: 210px;">
+                          <button type="button" class="btn btn-guardar-cerrar-tablas" data-dismiss="modal">GUARDAR</button>
+                          <button type="button" class="btn btn-guardar-cerrar-tablas" data-dismiss="modal">CANCELAR</button>
                          </th>
                        </tr>
                        <tr>
@@ -354,6 +370,43 @@
               </div>
             </div>
             <!--cierra row CATEGORIAS-->
+
+
+
+          <div class="margen-filtros">
+            <!--row que contiene agregar-->
+            <div class="row no-margin-padding">
+                <div class="col-xs-12 col-sm-12 col-md-12">  
+                 <div class="row no-margin-padding">
+                    <div class="fondo-filtros-ventas-busqueda">
+                      <div class="titular-cliente-ventas" style="margin-bottom: 15px;">
+                        <h6>COMBINAR TIPOS</h6>
+                      </div>
+                        <div class="row no-margin-padding">
+                            <div class="col-xs-12 col-sm-12 col-md-12 no-margin-padding"> 
+                              <span class="gris">Remera<i class="fa fa-times" aria-hidden="true"></i></span>
+                              <span class="gris">Musculosa<i class="fa fa-times" aria-hidden="true"></i></span>
+                              <span class="gris">Remera<i class="fa fa-times" aria-hidden="true"></i></span>
+                              <span class="gris">Musculosa<i class="fa fa-times" aria-hidden="true"></i></span>
+                            </div>
+                            <div class="col-md-12 no-margin-padding">
+                                <div class="row tags">
+                                  <div class="col-xs-12 col-sm-3 col-md-1 no-margin-padding filtros-espacios-ventas">
+                                      <button type="button" class="btn btn-default btn-modal-estilo" data-dismiss="modal">COMBINAR</button> 
+                                  </div>
+                                  <div class="col-xs-12 col-sm-3 col-md-2 no-margin-padding filtros-espacios-ventas">
+                                      <button type="button" class="btn btn-default btn-modal-estilo" data-dismiss="modal">CANCELAR</button> 
+                                  </div>
+                              </div> 
+                            </div>
+                        </div>  
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--cierra row agragar-->
+          </div>
+
 
             <!--row que contiene paginador-->
             <div class="row no-margin-padding">
