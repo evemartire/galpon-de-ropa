@@ -294,7 +294,7 @@
                                   </form>
                                 </div>
                                 <div class="col-xs-12 col-sm-3 col-md-3 no-margin-padding filtros-espacios-adquisiciones">
-                                      <div class="button-group open">
+                                      <div class="button-group">
                                           <button style="width: 100%;" type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">Filtrar Operaciones<span class="caret"></span></button>
                                           <ul class="dropdown-menu menu-estados">
                                               <li>
@@ -384,6 +384,35 @@
                                               </li>
                                           </ul>
                                       </div>
+
+                                       <!--
+                                       <div class="col-md-3">
+                                          <div class="button-group">
+                                            <button style="width: 100%;" type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown">Filtrar Operaciones<span class="caret"></span></button>
+                                            <ul class="dropdown-menu">
+                                              <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Todos</a></li>
+                                              <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Insumos</a></li>
+                                              <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Sueldos</a></li>
+                                              <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Publicidad</a></li>
+                                              <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Galpón</a></li>
+                                              <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Activos</a></li>
+                                              <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Alquiler</a></li>
+                                              <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Insumos</a></li>
+                                              <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Impuestos</a></li>
+                                              <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Costo financiero</a></li>
+                                              <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Deuda</a></li>
+                                              <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Servicios</a></li>
+                                              <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/>&nbsp;Legal</a></li>
+                                              <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/>&nbsp;Desarrollo web</a></li>
+                                              <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/>&nbsp;Pago tarjeta</a></li>
+                                              <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/>&nbsp;Ajustes consignantes</a></li>
+                                              <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/>&nbsp;Re-inversion</a></li>
+                                              <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/>&nbsp;Redondeo</a></li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                        -->
+                                    
                                   </div>
                                 </div>
                             </div>
@@ -523,9 +552,6 @@
       </div>
     </div>
 
-
-
-
 </div><!--cierra la row que contiene menu lateral y contenido ppal-->
 
 
@@ -618,6 +644,31 @@ $(function() {
 
         return false;
     });
+</script>
+
+<script type="text/javascript">
+  var options = [];
+
+$( '.dropdown-menu a' ).on( 'click', function( event ) {
+
+   var $target = $( event.currentTarget ),
+       val = $target.attr( 'data-value' ),
+       $inp = $target.find( 'input' ),
+       idx;
+
+   if ( ( idx = options.indexOf( val ) ) > -1 ) {
+      options.splice( idx, 1 );
+      setTimeout( function() { $inp.prop( 'checked', false ) }, 0);
+   } else {
+      options.push( val );
+      setTimeout( function() { $inp.prop( 'checked', true ) }, 0);
+   }
+
+   $( event.target ).blur();
+      
+   console.log( options );
+   return false;
+});
 </script>
 </body>
 </html>
