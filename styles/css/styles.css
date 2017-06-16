@@ -949,6 +949,13 @@ label {
   margin-top: 20px;
 }
 
+
+.boton-buscador-prendas{
+    position: relative;
+    float: right;
+    margin-bottom: 20px;
+}
+
 /*---media query---*/
 @media screen and (max-width: 767px){
   .selector-pagina {
@@ -1255,9 +1262,13 @@ i.cursor{
 
 /*----USUARIOS----*/
 .botone-crear-usuario{
-  background-color: #888888;
-  color: #ffffff;
-  width: 150px;
+    background-color: #888888;
+    color: #ffffff;
+    width: 100%;
+}
+
+.botone-crear-usuario-padding{
+    padding-right: 20px;
 }
 /*---------------fin------------------*/
 
@@ -1310,6 +1321,75 @@ i.cursor{
 .boton-crear-operacion{
     text-align: right;
     padding-right: 20px;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.dropdown-menu {
+    position: relative;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+    color: #333;
+    background-color: #fff;
+    border-color: #8c8c8c;
+}
+
+.btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    color: #888;
+    background-color: #fff;
+    border-color: #ccc;
+    font-size: 14px;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 10px;
+    vertical-align: middle;
+    border-top: 4px solid;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+}
+
+.btn .caret {
+    margin-left: 10px;
 }
 /*---------------fin------------------*/
 
@@ -1654,6 +1734,11 @@ span.precio{
     padding-right: 35px;
     padding-top: 10px;
 }
+
+.botones-catalogar {
+    padding: 0px 0px 20px 20px;
+    margin: 20px 30px 20px 20px;
+}
 /*---------------fin------------------*/
 
 
@@ -1687,7 +1772,9 @@ td.archive-azul{
   color: #1c7ef9;
 }
 
-
+.btn-descolgar{
+  margin-right: 10px;
+}
 
 /*---------------modal--ESTADO PRENDAS------------------*/
 h6.modal-title-name{
