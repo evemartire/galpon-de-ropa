@@ -1380,9 +1380,12 @@ i.cursor{
     border-radius: 4px;
 }
 
+.fondo-filtros-operaciones .dropdown-menu{
+position: relative !important;
+}
+
 .dropdown-menu {
-    position: relative;
-    width: 100%;
+    position: absolute;
     top: 100%;
     left: 0;
     z-index: 1000;

@@ -7,7 +7,7 @@
     <title>GDR</title>
     <link rel="stylesheet" href="../styles/css/normalize.css">
     <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/daterangepicker.css">
     <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
     <link rel="stylesheet" href="../styles/css/styles.css">
 </head>
@@ -392,16 +392,18 @@
 
 <!--NECESARIO PARA EL DATE PICKER-->
 <!-- Include Required Prerequisites -->
-<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
-<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="../js/jquery.min.js"></script>
+<script type="text/javascript" src="../js/moment.min.js"></script>
  
 <!-- Include Date Range Picker -->
-<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript" src="../js/daterangepicker.js"></script>
 <script type="text/javascript">
 $(function() {
     $('input[name="daterange"]').daterangepicker();
 });
 </script>
+
+
 <script type="text/javascript">
   /*** Main Menu Animation ***/
     $('li.has-submenu>a', 'ul.main-menu').click(function () {
