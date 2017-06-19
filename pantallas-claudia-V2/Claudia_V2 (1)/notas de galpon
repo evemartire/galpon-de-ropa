@@ -1,13 +1,32 @@
-Adquisición 05: añadir campos direccion y telefono. es un autocomplete q si no traer resultados te obliga a completar los 5 campos y CREA el cliente c esa data.
+
+-Adquisición 05: añadir campos dirección y teléfono (DONE EVE). Es un autocomplete q si no traer resultados te obliga a completar los 5 campos y CREA el cliente c esa data.
 
 
-extravio de prendas 
-en limpieza 02 --> lo restrigne
-prendas --> solo para algunos
+-Extravio de prendas 
+  .en limpieza 02 --> lo restringe
+  .prendas --> solo para algunos
 
-- tooltip en TODOS lados
+- tooltip en TODOS lados (DONE EVE)
 
 
--------
+- En lugar de EN VENTA --> COLGADA
 
-En lugar de EN VENTA --> COLGADA
+———————————————————
+
+Observaciones EVE:
+
+-Agregar gráficos
+
+-Hacer que el menú lateral se extienda de altura, según el contenido de cada pagina. Que sea full le height.
+
+-Menú lateral, cuando se ingresa a una opción del submenu, debe permanecer
+Desplegado al cargar la opción seleccionada. Actualmente si se ingresa a una opción de un submenu, se vuelve a cargar la pagina y el droopdown se cierra. 
+
+-Adquisición-03: esta simulado como se ve cuando se edita desde la primera fila.
+
+-Adquisición-04: esta simulado como se ve cuando se usa la función del botón “editar adquisición”. Se pueden editar todos los campos de a uno.
+
+-Elementos: en cada uno se los elementos se simula las funcionalidad de los iconos “combinar” y “editar”. 
+En el caso de presionar combinar, aparece el modulo de “comisar categoría” que actualmente esta en el html. Si no se presiona el icono de combinare este modulo no debe estar activo. 
+Por otro lado cuando se presiona  el icono “editar”, se ejemplifico en la primera fila de la tabla como seria el comportamiento.
+

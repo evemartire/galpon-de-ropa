@@ -1889,6 +1889,10 @@ span.precio{
     font-family: "OpenSans-bold";
 }
 
+.filtros-espacios-elementos {
+    margin: 0px 40px 20px 0px;
+}
+
 /*---------------fin------------------*/
 
 
@@ -2160,7 +2164,7 @@ tbody>tr>th.alinear-texto-derecha{
 
 
 
-/*-----MODALES ESTILOS COMPARTIDOS------*/
+/*-----MODALES ESTILOS Y ESTILOS COMPARTIDOS------*/
 .btn-modal-estilo{
   background-color: #888888;
   color: #ffffff;
@@ -2174,6 +2178,44 @@ tbody>tr>th.alinear-texto-derecha{
   font-size: 10px;
 }
 
+.precio-modal-total{
+  font-family: "OpenSans-bold";
+  font-size: 35px;
+}
+
+.precio-margen-total{
+    margin-top: 100px;
+}
+
+.info-giftcard{
+  color: #393939;
+  font-size: 12px;
+  padding-top: 5px;
+  margin: 0px 35px 0px 40px;
+}
+
+.indicacion{
+  font-family: "OpenSans-Bold";
+  color: #da0a1f;
+}
+
+span.valor-modal{
+  font-family: "OpenSans-bold";
+  font-size: 30px;
+  padding: 10px 10px 10px 40px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.margen-valor-leyenda{
+  margin: 50px 15px 20px 20px;
+  font-family: "OpenSans-bold";
+}
+
+.margen-valor{
+  margin: 0px 15px 40px 20px;
+  font-family: "OpenSans-bold";
+}
 /*---------------fin------------------*/
 
 

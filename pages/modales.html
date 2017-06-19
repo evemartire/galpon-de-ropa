@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDR</title>
+    <link rel="stylesheet" href="../styles/css/normalize.css">
+    <link rel="stylesheet" href="../styles/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css"/>
+    <link rel="stylesheet" href="../styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styles/css/styles.css">
+</head>
+
+<body>
+
+
+  <button data-toggle="modal" data-target="#myModalEstadoPrendas" class="btn botones">modal estado prendas</button>
+  <button data-toggle="modal" data-target="#myModalDonarRetirar" class="btn botones">modal donar/retirar</button>
+  <button data-toggle="modal" data-target="#myModalTransferir" class="btn botones">modal trasferencia</button>
+  <button data-toggle="modal" data-target="#myModalVentas01" class="btn botones">modal ventas 01</button>
+  <button data-toggle="modal" data-target="#myModalVentas02" class="btn botones">modal ventas 02</button>
+  <button data-toggle="modal" data-target="#myModalVentas03" class="btn botones">modal ventas 03</button>
+
+<!-- MODALES-->
+<!-- Modal estado prendas-->
+<div class="modal fade" id="myModalEstadoPrendas" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h5 class="modal-title">ADQUISICIÓN 31465</h5>
+        <h6 class="modal-title-name">Tomás Arias</h6>
+      </div>
+      <div class="modal-body">
+        <table class="table table-striped table-responsive">
+          <thead>
+             <tr>
+               <th class="padding-tabla-prendas-seleccionadas">Código</th>
+               <th class="padding-tabla-prendas-seleccionadas">Prenda</th>
+               <th class="padding-tabla-prendas-seleccionadas">Tipo de Adquisición</th>
+               <th class="padding-tabla-prendas-seleccionadas">Precio</th>
+               <th class="padding-tabla-prendas-seleccionadas">Estado</th>
+             </tr>
+          </thead>
+          <tbody>
+             <tr>
+              <td class="padding-tabla-prendas-seleccionadas">05200</td>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
+               <td class="padding-tabla-prendas-seleccionadas">$200</td>
+               <td class="padding-tabla-prendas-seleccionadas colgada">Colgada</td>
+             </tr>
+             <tr>
+              <td class="padding-tabla-prendas-seleccionadas">05200</td>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
+               <td class="padding-tabla-prendas-seleccionadas">$100</td>
+               <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+             </tr>
+             <tr>
+              <td class="padding-tabla-prendas-seleccionadas">05200</td>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
+               <td class="padding-tabla-prendas-seleccionadas">$80</td>
+               <td class="padding-tabla-prendas-seleccionadas descolgada">Descolgada</td>
+             </tr>
+             <tr>
+             <td class="padding-tabla-prendas-seleccionadas">05200</td>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
+               <td class="padding-tabla-prendas-seleccionadas">$200</td>
+               <td class="padding-tabla-prendas-seleccionadas colgada">Colgada</td>
+             </tr>
+             <tr>
+              <td class="padding-tabla-prendas-seleccionadas">05200</td>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
+               <td class="padding-tabla-prendas-seleccionadas">$100</td>
+               <td class="padding-tabla-prendas-seleccionadas vendida">Vendida</td>
+             </tr>
+             <tr>
+              <td class="padding-tabla-prendas-seleccionadas">05200</td>
+               <td class="padding-tabla-prendas-seleccionadas">Botinetas</td>
+               <td class="padding-tabla-prendas-seleccionadas">Consignación</td>
+               <td class="padding-tabla-prendas-seleccionadas">$80</td>
+               <td class="padding-tabla-prendas-seleccionadas descolgada">Descolgada</td>
+             </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal btn-modal-estilo" data-dismiss="modal">CERRAR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal estado prendas-->
+
+<!-- MODAL donar/retirar -->
+<!-- Modal -->
+  <div class="modal fade" id="myModalDonarRetirar" role="dialog">
+    <div class="modal-dialog" style="width: 1000px;">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="width: 1000px;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h5 class="modal-title">RETIRO</h5>
+          <div class=" row modal-title">
+            <div class="col-md-3 no-margin-padding">
+              <h6 class="modal-title-name">Juan Perez</h6>
+            </div>
+            <div class="col-md-4">
+              <span>Apertura: 10/10/2017</span>
+            </div>
+            <div class="col-md-2">
+              <span>Cierre:</span>
+            </div>
+            <div class="col-md-3">
+              <span>Finalización:</span>
+            </div>
+          </div>
+        </div>
+        <div class="modal-body">
+           
+          <div class="row">
+            <div>
+              <h5 class="prendas-subtitulo">PRENDAS</h5>
+            </div>
+            <div class="contenido-acciones">
+                <div class="col-md-4 fondo-titulo">
+                  <div class="descolgadas-titulo">
+                      <span>A Retirar</span> 
+                    </div>
+                </div>
+                <div class="col-md-4 fondo-titulo borde-derecho borde-izq">
+                    <div class="descolgadas-titulo">
+                      <span>Descolgadas 4</span> 
+                    </div>
+                    <div class="row">
+                          <div class="col-md-12 tabla-desucuelgue-1">
+                            <div class="chevron-descolgadas">
+                              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-descolgadas">
+                                <span>43056</span>
+                                <span class="consignacion">consignacion</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>000046479</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>Remera azul espampada New York</span>
+                              </div>
+                            </div>
+                          </div>
+
+                          <div class="col-md-12 tabla-desucuelgue-2">
+                            <div class="chevron-descolgadas">
+                              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-descolgadas">
+                                <span>43056</span>
+                                <span class="consignacion">consignacion</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>000046479</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>Remera azul espampada New York</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 tabla-desucuelgue-1">
+                            <div class="chevron-descolgadas">
+                              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-descolgadas">
+                                <span>43056</span>
+                                <span class="efectivo">efectivo</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>000046479</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>Remera azul espampada New York</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-md-12 tabla-desucuelgue-2">
+                            <div class="chevron-descolgadas">
+                              <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              <i class="fa fa-chevron-right" aria-hidden="true"></i> 
+                            </div>
+                            <div class="row">
+                              <div class="col-md-12 col-descolgadas">
+                                <span>43056</span>
+                                <span class="credito">crédito</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>000046479</span>
+                              </div>
+                              <div class="col-md-12">
+                                <span>Remera azul espampada New York</span>
+                              </div>
+                            </div>
+                          </div>
+                      
+                    </div>
+                </div>
+                <div class="col-md-4 fondo-titulo">
+                  <div class="descolgadas-titulo">
+                      <span>A Donar</span> 
+                    </div>
+                </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+          <button type="button" class="btn btn-default btn-cerrar-modal btn-modal-estilo" data-dismiss="modal">CERRAR</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+<!-- ./ MODAL donar/retirar -->
+
+<!-- Modal  Transferir-->
+<div class="modal fade" id="myModalTransferir" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal trasferir-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="titulo-producto-modal">Remera azul estampada New York</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row info-producto">
+                  <div class="col-md-12 info-producto">
+                    <span>Nº: 20390</span> 
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Código: 20390</span>  
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Tipo: Remera</span>  
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Talle: S</span> 
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Marca: Akiabara</span>
+                  </div>
+                  <div class="col-md-12 color-span">
+                    <span class="azul">Azul</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 precio-margen">
+                    <span class="precio-modal">$80</span>
+                  </div>
+                  <div class="col-md-12">
+                    <span class="consignacion">consignación</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 precio-margen">
+                    <span class="warnign-1">Esta prenda esta en consignación</span>
+                  </div>
+                  <div class="col-md-12">
+                    <span class="warnign-2">Desea trasferirla igualmente?</span>
+                  </div>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default btn-cerrar-modal" data-dismiss="modal">CANCELAR</button>
+        <button type="button" class="btn btn-default btn-transferir-modal" data-dismiss="modal">TRANSFERIR</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal trasferir-->
+
+<!-- Modal  Ventas 01-->
+<div class="modal fade" id="myModalVentas01" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal trasferir-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-6">
+            <h2 class="titulo-producto-modal">Remera azul estampada New York</h2>
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row info-producto">
+                  <div class="col-md-12 info-producto">
+                    <span>Nº: 20390</span> 
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Código: 20390</span>  
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Tipo: Remera</span>  
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Talle: S</span> 
+                  </div>
+                  <div class="col-md-12 info-producto">
+                    <span>Marca: Akiabara</span>
+                  </div>
+                  <div class="col-md-12 color-span">
+                    <span class="azul">Azul</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 precio-margen">
+                    <span class="precio-modal">$80</span>
+                  </div>
+                  <div class="col-md-12">
+                    <span class="consignacion">consignación</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12">
+                <div class="row">
+                  <div class="col-md-12 precio-margen-total">
+                    <span class="precio-modal-total">Total: $185 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal ventas01-->
+
+<!-- Modal  Ventas 02-->
+<div class="modal fade" id="myModalVentas02" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal trasferir-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <h2 class="titulo-producto-modal">Gift Card</h2>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row" style="margin-top: 15px;">
+                  <div class="col-md-12 no-margin-padding info-giftcard">
+                    <span>Nº: 20390</span> 
+                  </div>
+                  <div class="col-md-12 no-margin-padding info-giftcard">
+                    <span>Tipo: Gift Card</span>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="../images/giftcard.png"> 
+          </div>
+          <div class="col-md-12" style="text-align: center;  margin: 50px 0px 50px 0px;">
+            <span class="indicacion">Pistolear código de barra de la GiftCard</span>
+          </div>
+
+        </div><!--cierra row--> 
+
+      </div><!--cierra modal body-->
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal ventas02-->
+
+<!-- Modal  Ventas 03-->
+<div class="modal fade" id="myModalVentas03" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal trasferir-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+
+        <div class="row">
+
+          <div class="col-md-6">
+            <h2 class="titulo-producto-modal">Gift Card</h2>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row" style="margin-top: 15px;">
+                  <div class="col-md-12 no-margin-padding info-giftcard">
+                    <span>Nº: 20390</span> 
+                  </div>
+                  <div class="col-md-12 no-margin-padding info-giftcard">
+                    <span>Tipo: Gift Card</span>  
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="../images/giftcard.png"> 
+            <div class="row" style="text-align: right;">
+              <div class="col-md-10 margen-valor-leyenda">
+                <span class="">VALOR</span>
+              </div> 
+              <div class="col-md-10 margen-valor">
+                <span class="valor-modal">$185</span>
+              </div> 
+              <div class="col-md-11">
+                <span class="precio-modal-total">Total: $185 </span>
+              </div> 
+            </div>
+          </div>
+
+        </div><!--cierra row--> 
+
+      </div><!--cierra modal body-->
+    </div>
+  </div>
+</div>
+<!--CIERRA Modal ventas03-->
+
+
+<!-- ./ Modales -->
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="../js/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/bootstrap.min.js"></script>
+
+<!--NECESARIO PARA EL DATE PICKER-->
+<!-- Include Required Prerequisites -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+ 
+<!-- Include Date Range Picker -->
+<script type="text/javascript" src="http://cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<script type="text/javascript">
+$(function() {
+    $('input[name="daterange"]').daterangepicker();
+});
+</script>
+<script type="text/javascript">
+  /*** Main Menu Animation ***/
+    $('li.has-submenu>a', 'ul.main-menu').click(function () {
+        var link = $(this);
+        var obj = $(this).parent();
+        var child = $('ul.submenu', obj);
+
+        $('li.active', 'ul.main-menu').each(function (i, item) {
+            $(item).removeClass('active');
+            $('ul.submenu', item).slideUp(400);
+        });
+
+        if ($(child).is(':visible')) {
+            $(child).slideUp(400);
+            $(link).removeClass('close-child').parent().removeClass('active');
+        } else {
+            $(child).slideDown(400);
+            $(link).addClass('close-child').parent().addClass('active');
+        }
+
+        return false;
+    });
+</script>
+</body>
+</html>
