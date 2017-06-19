@@ -1616,6 +1616,24 @@ input.date-picker-n-ventas {
     margin: 0px 30px 20px 20px;
 }
 
+.porcentajes-atajos-display{
+  display: -webkit-inline-box;
+}
+
+.porcentajes-atajos {
+  display: inline-block;
+  background-color: #888888;
+  margin: 0px 5px 0px 0px;
+  color: #ffffff;
+  padding: 4px 9px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.input-descuento{
+  margin-right: 12px;
+}
+
 @media screen and (max-width: 768px){
 .codigo-espacios {
   margin: 0px;
