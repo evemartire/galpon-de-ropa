@@ -1211,7 +1211,7 @@ tbody.cursor{
 .fondo-filtros-ventas-busqueda {
     background-color: #ffffff;
     padding: 10px 30px 0px 30px;
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 15px 20px;
     overflow: auto;
 }
 
@@ -1264,6 +1264,25 @@ tbody>tr>td>i.cursor{
 i.cursor{
  cursor: pointer; 
 }
+
+
+@media screen and (max-width: 767px){
+
+.mobile-ajustes-cliente{
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.mobile-ajustes-cliente-padding{
+  padding: 0px;
+}
+
+.paginador {
+  margin: 0px 0px 0px 0px;
+}
+
+}
+
 /*---------------fin------------------*/
 
 
@@ -1663,6 +1682,10 @@ input.date-picker-n-ventas {
     padding: 20px 10px 20px 10px;
     overflow: auto;
     margin-bottom: 20px;
+}
+
+.mobile-ajustes-datepicker{
+  padding: 0px; 
 }
 
 }
