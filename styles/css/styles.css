@@ -1758,6 +1758,13 @@ input.date-picker-n-ventas {
   padding-right: 20px;
 }
 
+@media screen and (max-width: 767px){
+.alineacion-item-titulares {
+    text-align: left;
+    padding-right: 20px;
+}
+}
+
 span.item-titulares{
   font-size: 12px;
   padding: 0px;
