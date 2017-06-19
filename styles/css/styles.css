@@ -1459,6 +1459,26 @@ i.cursor{
     overflow: auto;
 }
 
+.fondo-filtros-discrepancia{
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 15px 20px;
+    overflow: auto;
+}
+
+.contenedor-botones-cajas {
+    background-color: #fff;
+    margin: 0px 35px 5px 35px;
+    padding: 20px 20px 10px 20px;
+}
+
+.apertura-caja{
+  margin-right: 15px;
+}
+
+.cierre-caja{
+  margin-right: 15px; 
+}
 /*---------------fin------------------*/
 
 
