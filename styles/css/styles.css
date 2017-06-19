@@ -1036,7 +1036,7 @@ label {
 
 .backgrounds-cajas-clientes-1{
   padding: 10px 10px 10px 0px;
-  font-size: 12px;
+  font-size: 14px;
 
 }
 
@@ -1064,7 +1064,7 @@ ul li{
 
 .fondo-fila-cajas-clientes{
   padding: 10px;
-  margin: 10px;
+  margin: 10px 10px 0px 10px;
 }
 
 .name-caja{
@@ -1832,6 +1832,23 @@ span.precio{
 .botones-catalogar {
     padding: 0px 0px 20px 20px;
     margin: 20px 30px 20px 20px;
+}
+
+.text-area-catalogacion{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 /*---------------fin------------------*/
 
