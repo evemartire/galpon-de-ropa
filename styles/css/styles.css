@@ -255,7 +255,13 @@ span.gris{
   padding-left: 5px;
 }
 
+.fa-info-circle{
+ font-size: 16px;
+}
 
+.icono-tabla-alineacion{
+  text-align: center;
+}
 /*-----MODAL------*/
 .chevron-descolgadas{
   display: flex;
