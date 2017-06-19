@@ -2068,6 +2068,12 @@ tbody>tr>th.alinear-texto-derecha{
 }
 }
 
+@media screen and (max-width: 767px){
+  .botones-adq-mobile{
+    margin-bottom: 10px; 
+  }
+}
+    
 
 /*---------------fin------------------*/
 
