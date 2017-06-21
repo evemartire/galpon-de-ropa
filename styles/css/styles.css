@@ -1970,6 +1970,12 @@ span.precio{
     overflow: auto;
 }
 
+.fondo-marcas {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 0px 20px;
+    overflow: auto;
+}
 
 @media screen and (max-width: 767px){
   .filtros-espacios-elementos {
@@ -1980,6 +1986,13 @@ span.precio{
     background-color: #ffffff;
     padding: 10px 30px 10px 30px;
     margin: 10px 20px 0px 20px;
+    overflow: auto;
+}
+
+.fondo-marcas {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 15px 20px 0px 20px;
     overflow: auto;
 }
 }
