@@ -1007,6 +1007,10 @@ label {
     .margen-tags{
       display: none;
     }
+
+    .buscador{
+      width: 100%;
+    }
 }
 /*---------------fin------------------*/
 
@@ -1959,8 +1963,25 @@ span.precio{
     font-family: "OpenSans-bold";
 }
 
-.filtros-espacios-elementos {
-    margin: 0px 40px 20px 0px;
+.fondo-tipos {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 0px 20px;
+    overflow: auto;
+}
+
+
+@media screen and (max-width: 767px){
+  .filtros-espacios-elementos {
+    margin: 10px 40px 10px 0px;
+} 
+
+.fondo-tipos {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 10px 20px 0px 20px;
+    overflow: auto;
+}
 }
 
 /*---------------fin------------------*/
