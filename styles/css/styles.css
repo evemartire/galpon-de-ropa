@@ -2402,3 +2402,14 @@ thead>tr>th{
   font-family: "OpenSans-Bold";
 }
 /*------fin talas----*/
+
+
+/*--CONFIGURAR-*/
+
+
+@media screen and (max-width: 767px){
+  .boton-modificar-pass{
+    margin-bottom: 15px;
+}  
+}
+
