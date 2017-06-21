@@ -1447,6 +1447,14 @@ position: relative !important;
 .btn .caret {
     margin-left: 10px;
 }
+
+
+@media screen and (max-width: 767px){
+.fondo-filtros-ventas-busqueda {
+    margin: 0px 20px 0px 20px;
+} 
+}
+
 /*---------------fin------------------*/
 
 
@@ -1490,6 +1498,15 @@ position: relative !important;
 .cierre-caja{
   margin-right: 15px; 
 }
+
+@media screen and (max-width: 767px){
+  .contenedor-botones-cajas {
+    background-color: #fff;
+    margin: 0px 20px 5px 20px;
+    padding: 20px 20px 10px 40px;
+}  
+}
+
 /*---------------fin------------------*/
 
 
