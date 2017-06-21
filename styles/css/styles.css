@@ -1669,6 +1669,7 @@ input.date-picker-n-ventas {
 
 .input-descuento{
   margin-right: 12px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px){
@@ -1715,20 +1716,18 @@ input.date-picker-n-ventas {
 }
 
 
-
-
 @media screen and (max-width: 767px){
   .buscador {
     margin: 10px 0px 10px 15px;
 }
 
 .fondo-fila-item-datepicker {
-    padding: 20px 20px 15px 20px;
+    padding: 20px 10px 15px 10px;
     margin: 0px;
 }
 
 .fondo-fila-item-datepicker-2 {
-    padding: 15px 20px 15px 20px;
+    padding: 15px 10px 15px 10px;
     margin: 0px;
 }
 
@@ -1741,6 +1740,18 @@ input.date-picker-n-ventas {
 
 .mobile-ajustes-datepicker{
   padding: 0px; 
+}
+
+.fondo-comprea-nueva-venta {
+    margin: 0px 10px 0px 10px;
+}
+
+.form-control-tajeta {
+    margin: 10px 0px;
+}
+
+.form-control {
+  margin-top: 10px;
 }
 
 }
@@ -1856,6 +1867,9 @@ span.precio{
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
 }
 
+.facturar{
+  width: 100%;
+}
 @media screen and (max-width: 767px){
 .alineacion-item-titulares {
     text-align: left;
@@ -1868,6 +1882,9 @@ span.precio{
 
 .botones {
     width: 90%;
+}
+.facturar{
+  width: 100%;
 }
 
 .inputs-espacios-catalogacion-mobile{
@@ -2075,6 +2092,14 @@ input.checkbox-limpieza{
   width: 30px;
   height: 30px;
 }
+
+
+@media screen and (max-width: 767px){
+  .mobile-ajustes{
+  padding: 0px;
+}
+}
+
 /*---------------fin------------------*/
 
 
