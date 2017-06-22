@@ -1487,7 +1487,13 @@ position: relative !important;
 @media screen and (max-width: 767px){
 .fondo-filtros-ventas-busqueda {
     margin: 0px 20px 15px 20px;
-} 
+}
+
+.boton-crear-operacion {
+    text-align: right;
+    padding-right: 0px;
+}
+
 }
 
 /*---------------fin------------------*/
@@ -2351,9 +2357,9 @@ tbody>tr>th.alinear-texto-derecha{
 }
 
 .fondo-cuelgue-descuel {
-    margin: 0px 10px 30px 10px;
+    margin: 0px 20px 30px 20px;
     overflow: auto;
-}
+    }
 }
     
 
