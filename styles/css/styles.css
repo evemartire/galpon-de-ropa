@@ -743,6 +743,7 @@ label {
     margin: 30px 0px 20px 0px;
 }
 
+
 /*---media query---*/
 @media screen and (max-width: 767px){
 
@@ -802,6 +803,11 @@ label {
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
     margin: 15px 0px 20px 0px;
+    }
+
+  .boton-trasferencia {
+    padding: 0px 0px 20px 20px;
+    margin: 0px 10px 20px 20px;
     }
 
 }
@@ -1701,7 +1707,7 @@ input.date-picker-n-ventas {
 
 .boton-facturar-vn {
     padding: 0px 0px 20px 20px;
-    margin: 0px 30px 20px 20px;
+    margin: 0px 10px 20px 20px;
 }
 
 .porcentajes-atajos-display{
@@ -1856,7 +1862,7 @@ input.date-picker-n-ventas {
     color: #ffffff;
 }
 
-.boton-facturar-vn {
+.cancelar-btn {
     padding: 0px 0px 20px 20px;
     margin: 0px 0px 20px 20px;
 }
