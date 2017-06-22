@@ -764,9 +764,9 @@ label {
 
 .trasferencia-botones-alineacion {
   padding: 20px 0px 20px 20px;
-  margin: 0px 20px 20px 20px;
+  margin: 0px 0px 20px 20px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
   }
 
 }
@@ -774,8 +774,8 @@ label {
 /*---media query---*/
 @media screen and (max-width: 767px){
   .botones-trasferencia-responsive {
-    padding: 0px 5px 0px 0px;
-    margin: 0px 25px 20px 20px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 5px 20px 20px;
     display: flex;
     justify-content: flex-end;
     }
@@ -1944,6 +1944,12 @@ span.precio{
 .botones {
     width: 90%;
 }
+
+/*--Esta clase es de trasferencia, pero la pongo aca para que pise a la clase de arriva .boton--*/
+.btn-transferir{
+  width: 100%;
+}
+
 .facturar{
   width: 100%;
 }
