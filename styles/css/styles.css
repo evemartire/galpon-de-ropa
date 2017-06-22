@@ -2366,6 +2366,14 @@ tbody>tr>th.alinear-texto-derecha{
   text-align: right;
 }
 
+
+.fondo-adquisicion-03 {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 30px 20px;
+    overflow: auto;
+}
+
 @media screen and (max-width: 768px){
   .contenedor-botones {
     margin: 0px;
@@ -2384,10 +2392,12 @@ tbody>tr>th.alinear-texto-derecha{
     margin: 0px 0px 0px 0px;
 }
 
-.fondo-cuelgue-descuel {
-    margin: 0px 20px 30px 20px;
-    overflow: auto;
-    }
+  .fondo-adquisicion-03 {
+  background-color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  margin: 0px 0px 30px 0px;
+  overflow: auto;
+  }
 }
     
 
