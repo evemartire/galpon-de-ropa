@@ -2273,6 +2273,10 @@ input.checkbox-limpieza{
     overflow: auto;
 }
 
+.separador-btn-adq{
+  padding: 0px 10px;
+}
+
 tbody>tr>td.alinear-texto-derecha{
   text-align: right;
 }
@@ -2290,6 +2294,7 @@ tbody>tr>th.alinear-texto-derecha{
 @media screen and (max-width: 767px){
   .botones-adq-mobile{
     margin-bottom: 10px; 
+    width: 100%;
   }
 }
     
