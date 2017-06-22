@@ -1019,7 +1019,8 @@ label {
 
 .fondo-de-caja-1,
 .fondo-de-caja-2,
-.fondo-de-caja-3{
+.fondo-de-caja-3,
+.fondo-de-caja-violeta{
  padding: 15px 0px 0px 18px;
 }
 
@@ -1100,6 +1101,9 @@ tbody tr td.no-margin-padding{
   overflow: auto;  
 }
 
+.fondo-de-caja-violeta {
+   overflow: auto;  
+}
 }
 
 @media screen and (max-width: 320px){
@@ -2193,9 +2197,7 @@ input.checkbox-limpieza{
 
 .fondo-de-caja-violeta {
     background-color: #a56cff;
-    padding: 15px 0px 0px 18px;
     color: #ffffff;
-    overflow: auto;
 }
 
 .precios{
