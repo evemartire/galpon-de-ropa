@@ -1112,12 +1112,26 @@ tbody tr td.no-margin-padding{
     padding: 0px;
 }
 
+.fondo-adquisiciones-clientes-historial {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 20px 20px;
+    overflow: auto;
+}
+
+.fondo-pagos-clientes-historial {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 20px 20px;
+    overflow: auto;
+}
 
 /*---media query---*/
-@media screen and (max-width: 768px){
+@media screen and (max-width: 767px){
 
 .fondo-de-caja-1{
   overflow: auto;
+  margin: 0px 15px 0px 15px;
 }
 
 .fondo-de-caja-2{
@@ -1130,6 +1144,20 @@ tbody tr td.no-margin-padding{
 
 .fondo-de-caja-violeta {
    overflow: auto;  
+}
+
+.fondo-adquisiciones-clientes-historial {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 15px 0px 15px 0px;
+    overflow: auto;
+}
+
+.fondo-pagos-clientes-historial {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 15px 0px 15px 0px;
+    overflow: auto;
 }
 }
 
@@ -2352,8 +2380,8 @@ tbody>tr>th.alinear-texto-derecha{
   }
 
   .fondo-fila-cajas-clientes {
-    padding: 10px;
-    margin: 10px 0px 0px 0px;
+    padding: 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 .fondo-cuelgue-descuel {
