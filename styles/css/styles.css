@@ -1509,6 +1509,11 @@ position: relative !important;
     margin: 0px 20px 5px 20px;
     padding: 20px 20px 10px 40px;
 }  
+
+.scrool-tablas-cajas{
+  padding: 0px 10px 0px 10px;
+}
+
 }
 
 /*---------------fin------------------*/
@@ -1737,45 +1742,7 @@ input.date-picker-n-ventas {
 }
 
 
-@media screen and (max-width: 767px){
-  .buscador {
-    margin: 10px 0px 10px 15px;
-}
 
-.fondo-fila-item-datepicker {
-    padding: 20px 10px 15px 10px;
-    margin: 0px;
-}
-
-.fondo-fila-item-datepicker-2 {
-    padding: 15px 10px 15px 10px;
-    margin: 0px;
-}
-
-.fondo-fila-item-nueva-venta {
-    background-color: #ffffff;
-    padding: 20px 10px 20px 10px;
-    overflow: auto;
-    margin-bottom: 20px;
-}
-
-.mobile-ajustes-datepicker{
-  padding: 0px; 
-}
-
-.fondo-comprea-nueva-venta {
-    margin: 0px 10px 0px 10px;
-}
-
-.form-control-tajeta {
-    margin: 10px 0px;
-}
-
-.form-control {
-  margin-top: 10px;
-}
-
-}
 
 .form-control-tajeta {
     display: block;
@@ -1821,6 +1788,52 @@ input.date-picker-n-ventas {
 
 .agregar-tarjetas{
   margin-top: 10px; 
+}
+
+@media screen and (max-width: 767px){
+  .buscador {
+    margin: 10px 0px 10px 15px;
+}
+
+.fondo-fila-item-datepicker {
+    padding: 20px 10px 15px 10px;
+    margin: 0px;
+}
+
+.fondo-fila-item-datepicker-2 {
+    padding: 15px 10px 15px 10px;
+    margin: 0px;
+}
+
+.fondo-fila-item-nueva-venta {
+    background-color: #ffffff;
+    padding: 20px 10px 20px 10px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.mobile-ajustes-datepicker{
+  padding: 0px; 
+}
+
+.fondo-comprea-nueva-venta {
+    margin: 0px 10px 0px 10px;
+}
+
+.form-control-tajeta {
+    margin: 10px 0px;
+}
+
+.form-control {
+  margin-top: 10px;
+}
+
+.boton-mas {
+    background-color: #888888;
+    margin: 0px 0px 0px 0px;
+    color: #ffffff;
+}
+
 }
 /*---------------fin------------------*/
 
@@ -1911,6 +1924,25 @@ span.precio{
 .inputs-espacios-catalogacion-mobile{
   margin: 5px 0px 5px 0px;
 }
+
+.mobile-ajustes-item-catalogacion{
+    padding: 0px 20px 0px 20px;
+}
+
+.botones-catalogar {
+    padding: 0px 0px 20px 20px;
+    margin: 20px 15px 20px 20px;
+}
+
+.fila-buscador-catalogacion {
+    padding: 20px 20px 0px 20px;
+    margin: 0px;
+}
+
+.fondo-comprea-nueva-venta {
+    margin: 0px 0px 0px 0px;
+}
+
 }
 
 
