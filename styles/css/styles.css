@@ -764,7 +764,7 @@ label {
   }
 
 .trasferencia-botones-alineacion {
-  padding: 20px 0px 20px 20px;
+  padding: 0px 0px 20px 20px;
   margin: 0px 0px 20px 20px;
   display: flex;
   flex-direction: row;
@@ -1864,7 +1864,11 @@ input.date-picker-n-ventas {
 
 .cancelar-btn {
     padding: 0px 0px 20px 20px;
-    margin: 0px 0px 20px 20px;
+    margin: 5px 0px 20px 20px;
+}
+.boton-facturar-vn {
+    padding: 0px 0px 20px 20px;
+    margin: 0px 10px 20px 0px;
 }
 
 }
@@ -1912,9 +1916,13 @@ span.precio{
     padding-top: 10px;
 }
 
-.botones-catalogar {
+.botones-catalogar-facturar {
     padding: 0px 0px 20px 20px;
-    margin: 20px 30px 20px 20px;
+    margin: 20px 30px 20px 0px;
+}
+.botones-catalogar-cancelar{
+    padding: 0px 0px 20px 20px;
+    margin: 20px 0px 20px 20px;
 }
 
 .text-area-catalogacion{
@@ -1969,7 +1977,7 @@ span.precio{
 }
 
 .botones-catalogar {
-    padding: 0px 0px 20px 20px;
+    padding: 0px 0px 20px 0px;
     margin: 20px 15px 20px 20px;
 }
 
@@ -1980,6 +1988,11 @@ span.precio{
 
 .fondo-comprea-nueva-venta {
     margin: 0px 0px 0px 0px;
+}
+
+.botones-catalogar-facturar {
+    padding: 0px 0px 20px 20px;
+    margin: 20px 15px 20px 0px;
 }
 
 }
