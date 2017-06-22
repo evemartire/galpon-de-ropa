@@ -674,36 +674,6 @@ h2.titulo-producto-modal{
   color: #ffffff;
 }
 
-
-
-/*---media query---*/
-@media screen and (max-width: 767px){
-
-  .item-mobile{
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  .margin-columnas-item{
-    margin: 10px 0px 10px 0px;
-    padding: 0px;
-  }
-
-  .item-padding {
-    margin: 0px;
-    padding: 0px 0px 0px 0px;
-}
-
-.trasferencia-botones-alineacion {
-    padding: 20px 0px 20px 20px;
-    margin: 0px 20px 20px 20px;
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-}
-
 .fondo-fila-prendas-seleccionadas {
     background-color: #ffffff;
     padding: 10px 30px 10px 30px;
@@ -767,6 +737,40 @@ label {
   justify-content: flex-end;
 }
 
+.fondo-transferir-local{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 0px 20px 0px;
+}
+
+/*---media query---*/
+@media screen and (max-width: 767px){
+
+  .item-mobile{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .margin-columnas-item{
+    margin: 10px 0px 10px 0px;
+    padding: 0px;
+  }
+
+  .item-padding {
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+  }
+
+.trasferencia-botones-alineacion {
+  padding: 20px 0px 20px 20px;
+  margin: 0px 20px 20px 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  }
+
+}
+
 /*---media query---*/
 @media screen and (max-width: 767px){
   .botones-trasferencia-responsive {
@@ -782,6 +786,23 @@ label {
    color: #333;
    width: 60px;
   }
+
+  .fondo-fila-item{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin: 30px 0px 20px 0px;
+    }
+
+  .fondo-fila-prendas-seleccionadas {
+    padding: 10px 30px 10px 30px;
+    margin: 0px 0px 0px 0px;
+    }
+
+  .fondo-transferir-local{
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin: 15px 0px 20px 0px;
+    }
 
 }
 /*---------------fin------------------*/
@@ -1459,7 +1480,7 @@ position: relative !important;
 
 @media screen and (max-width: 767px){
 .fondo-filtros-ventas-busqueda {
-    margin: 0px 20px 0px 20px;
+    margin: 0px 20px 15px 20px;
 } 
 }
 
@@ -1702,52 +1723,6 @@ input.date-picker-n-ventas {
   margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px){
-.codigo-espacios {
-  margin: 0px;
-}
-
-.boton-ok {
-    background-color: #888888;
-    margin: 10px 10px 0px 15px;
-    color: #ffffff;
-}
-
-.buscador {
-  margin: 10px 0px 10px 0px;
-}
-
-.desc-cred {
-  margin-left: 0px;
-}
-
-h5.alineacion {
-  margin: 10px 0px 0px 0px; 
-}
-
-.inputs-responsibe-nv{
-  padding: 0px 20px 20px 0px;
-}
-
-.espacio {
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-input.date-picker-n-ventas {
-    width: 100%;
-}
-
-.alineacion-buscador-nv{
-  display: flex;
-  justify-content: flex-start;
-}
-
-}
-
-
-
-
 .form-control-tajeta {
     display: block;
     height: 30px;
@@ -1794,18 +1769,61 @@ input.date-picker-n-ventas {
   margin-top: 10px; 
 }
 
+@media screen and (max-width: 768px){
+.codigo-espacios {
+  margin: 0px;
+}
+
+.boton-ok {
+    background-color: #888888;
+    margin: 10px 10px 0px 15px;
+    color: #ffffff;
+}
+
+.buscador {
+  margin: 10px 0px 10px 0px;
+}
+
+.desc-cred {
+  margin-left: 0px;
+}
+
+h5.alineacion {
+  margin: 10px 0px 0px 0px; 
+}
+
+.inputs-responsibe-nv{
+  padding: 0px 20px 20px 0px;
+}
+
+.espacio {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input.date-picker-n-ventas {
+    width: 100%;
+}
+
+.alineacion-buscador-nv{
+  display: flex;
+  justify-content: flex-start;
+}
+
+}
+
 @media screen and (max-width: 767px){
   .buscador {
     margin: 10px 0px 10px 15px;
 }
 
 .fondo-fila-item-datepicker {
-    padding: 20px 10px 15px 10px;
+    padding: 20px 0px 15px 0px;
     margin: 0px;
 }
 
 .fondo-fila-item-datepicker-2 {
-    padding: 15px 10px 15px 10px;
+    padding: 15px 0px 15px 0px;
     margin: 0px;
 }
 
@@ -1836,6 +1854,11 @@ input.date-picker-n-ventas {
     background-color: #888888;
     margin: 0px 0px 0px 0px;
     color: #ffffff;
+}
+
+.boton-facturar-vn {
+    padding: 0px 0px 20px 20px;
+    margin: 0px 0px 20px 20px;
 }
 
 }
@@ -1944,7 +1967,7 @@ span.precio{
 }
 
 .fondo-comprea-nueva-venta {
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 0px;
 }
 
 }
@@ -2296,6 +2319,16 @@ tbody>tr>th.alinear-texto-derecha{
     margin-bottom: 10px; 
     width: 100%;
   }
+
+  .fondo-fila-cajas-clientes {
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+}
+
+.fondo-cuelgue-descuel {
+    margin: 0px 10px 30px 10px;
+    overflow: auto;
+}
 }
     
 
