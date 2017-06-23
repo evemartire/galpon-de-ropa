@@ -1245,7 +1245,6 @@ tbody tr td.no-margin-padding{
 .backgrounds-cajas-clientes-3{
   padding: 0px;
 }
-
 }
 /*---------------fin------------------*/
 
@@ -2532,6 +2531,37 @@ tbody>tr>th.alinear-texto-derecha{
     margin: 0px;
     display: inline-block;
 }
+
+.backgrounds-cajas-clientes-1 {
+    padding: 0px 10px 0px 0px;
+    font-size: 14px;
+}
+
+.backgrounds-cajas-clientes-2{
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  color: #fff;
+
+}
+
+.backgrounds-cajas-clientes-3{
+  padding: 0px 0px 0px 10px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.fondo-de-caja-2{
+  overflow: auto; 
+}
+
+.fondo-de-caja-3{
+  overflow: auto;  
+}
+
+.fondo-de-caja-violeta {
+   overflow: auto;  
+}
+
 }
 
 @media screen and (max-width: 767px){
@@ -2552,7 +2582,26 @@ tbody>tr>th.alinear-texto-derecha{
   overflow: auto;
   }
 }
-    
+
+@media screen and (max-width: 320px){
+  .backgrounds-cajas-clientes-1 {
+    padding: 0px 0px 0px 0px;
+    font-size: 14px;
+}
+
+.backgrounds-cajas-clientes-2{
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  color: #fff;
+
+}
+
+.backgrounds-cajas-clientes-3{
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  color: #fff;
+}
+}
 
 /*---------------fin------------------*/
 
