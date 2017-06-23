@@ -2576,6 +2576,28 @@ tbody>tr>th.alinear-texto-derecha{
   margin: 0px 0px 30px 0px;
   overflow: auto;
   }
+
+.backgrounds-cajas-clientes-1 {
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+}
+
+.backgrounds-cajas-clientes-2{
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  color: #fff;
+
+}
+
+.backgrounds-cajas-clientes-3{
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+  color: #fff;
+}
+.margin-columnas-item {
+    margin: 0px 0px 10px 0px;
+    padding: 0px;
+}
 }
 
 @media screen and (max-width: 320px){
