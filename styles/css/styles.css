@@ -1511,6 +1511,14 @@ position: relative !important;
     margin-left: 10px;
 }
 
+.form-control {
+    padding: 0px 12px;
+  }
+
+.boton-pagar-operaciones{
+  margin-left: 20px;
+  overflow: hidden;
+}
 
 @media screen and (max-width: 767px){
 .fondo-filtros-ventas-busqueda {
@@ -1520,6 +1528,9 @@ position: relative !important;
 .boton-crear-operacion {
     text-align: right;
     padding-right: 0px;
+}
+.boton-pagar-operaciones{
+  margin-left: 0px;
 }
 
 }
@@ -1741,7 +1752,7 @@ input.date-picker-n-ventas {
 
 .boton-facturar-vn {
     padding: 0px 0px 20px 20px;
-    margin: 0px 10px 20px 20px;
+    margin: 0px 35px 20px 20px;
 }
 
 .porcentajes-atajos-display{
@@ -2095,6 +2106,15 @@ span.precio{
     overflow: auto;
 }
 
+.tags-espacios{
+  display: inline-block;
+}
+
+.boton-combinar-margen{
+  margin-right: 20px;  
+}    
+
+
 @media screen and (max-width: 767px){
   .filtros-espacios-elementos {
     margin: 10px 40px 10px 0px;
@@ -2112,6 +2132,10 @@ span.precio{
     padding: 10px 30px 10px 30px;
     margin: 15px 20px 0px 20px;
     overflow: auto;
+}
+
+.tags-espacios{
+  margin: 5px;
 }
 }
 
@@ -2554,3 +2578,6 @@ thead>tr>th{
 }  
 }
 
+.elementos-a{
+color: #000;
+}
