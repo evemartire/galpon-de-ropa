@@ -654,7 +654,7 @@ span.white{
 /*---------------fin------------------*/
 
 
-/*----TRASFERENCIA----*/
+/*----TRANSFERENCIA----*/
 .botones {
   background-color: #888888;
   color: #ffffff;
@@ -803,13 +803,20 @@ label {
   justify-content: flex-end;
 }
 
-.fondo-transferir-local{
+.fondo-transferir-local {
     background-color: #ffffff;
     padding: 20px 20px 20px 20px;
-    margin: 30px 0px 20px 0px;
+    margin: 0px 20px 20px 20px;
 }
 
 
+.fondo-fila-item-transferencia {
+    background-color: #ffffff;
+    padding: 0px 0px 0px 0px;
+    margin: 20px 20px 20px 20px;
+}
+
+    
 /*---media query---*/
 @media screen and (max-width: 767px){
 
@@ -854,11 +861,11 @@ label {
    width: 60px;
   }
 
-  .fondo-fila-item{
+  .fondo-fila-item-transferencia {
     background-color: #ffffff;
-    padding: 20px 20px 20px 20px;
-    margin: 30px 0px 20px 0px;
-    }
+    padding: 20px 10px 20px 20px;
+    margin: 20px 0px 20px 0px;
+}
 
   .fondo-fila-prendas-seleccionadas {
     padding: 10px 30px 10px 30px;
@@ -877,6 +884,30 @@ label {
     }
 
 }
+
+@media screen and (min-width: 768px){
+  .fondo-fila-item-transferencia {
+    background-color: #ffffff;
+    padding: 0px 10px 0px 0px;
+    margin: 20px 20px 15px 20px;
+}
+
+.item-trasferencia-tablet{
+  margin-top: 25px;
+}
+}
+
+@media screen and (min-width: 1024px){
+.fondo-fila-item-transferencia {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+}
+.item-trasferencia-tablet{
+  margin-top: 5px;
+}
+}
+
 /*---------------fin------------------*/
 
 
@@ -2771,16 +2802,14 @@ span.valor-modal{
 /*------CIERRE ADQ. BUSCADOR-----*/
 
 
-/*------talas----*/
+/*------tablas----*/
 thead>tr>th{
   font-family: "OpenSans-Bold";
 }
-/*------fin talas----*/
+/*------fin tablas----*/
 
 
 /*--CONFIGURAR-*/
-
-
 @media screen and (max-width: 767px){
   .boton-modificar-pass{
     margin-bottom: 15px;
@@ -2790,3 +2819,11 @@ thead>tr>th{
 .elementos-a{
 color: #000;
 }
+/*------fin configurar----*/
+
+
+/*------TRANSFERIR (ANEXO P PISAR BOTON BUSCADOR)----*/
+.buscador-trasferencias{
+margin-left: 10px;
+}
+/*------fin transferir----*/
