@@ -2017,6 +2017,11 @@ input.date-picker-n-ventas {
     padding: 0px;
 }
 
+.margin-columnas-item-2 {
+    margin: 10px 15px 10px 15px;
+    padding: 0px;
+}
+
 }
 
 @media screen and (max-width: 320px){
@@ -2163,6 +2168,10 @@ span.precio{
   width: 300px; 
 }
 
+.modal-adquisicion-detalle{
+  width: 300px; 
+}
+
 }
 
 
@@ -2174,6 +2183,11 @@ span.precio{
 .inputs-espacios-catalogacion-mobile{
   margin: 5px 0px 5px 0px;
 }
+
+.modal-adquisicion-detalle{
+  width: 700px; 
+}
+
 }
 
 /*---------------fin------------------*/
