@@ -557,51 +557,10 @@ table>tbody>tr>th.bold{
     vertical-align: middle;
 }
 
-/*---media query---*/
-@media screen and (max-width: 767px){
-
-  .table-responsive{
-    width: 100%;
-    margin-bottom: 15px;
-    overflow-y: hidden;
-    -ms-overflow-style: -ms-autohiding-scrollbar;
-    border: 0px solid #ddd;
-    font-size: 10px;
-  }
-
-  .dashboard-cabeceras h5 {
-    font-size: 11px;
-    font-family: "OpenSans";
-    display: inline-block;
-}
-}
 
 
 /*---media query---*/
-@media screen and (max-width: 1024px){
-  span.rosa {
-  color: #ff5196;
-  font-family: "OpenSans-Bold";
-  font-size: 12px;
-  display: inline-block;
-  position: none;
-  float: none;
-  padding: 5px 5px 5px 5px;
-}
-
-span.white{
-  font-family:"OpenSans-Bold";
-  font-size: 12px;
-  display: inline-block;
-  position: none;
-  float: none;
-  padding: 5px 5px 5px 5px;
-}  
-}
-
-
-/*---media query---*/
-@media screen and (max-width: 768px){
+@media screen and (min-width: 768px){
   span.rosa {
   color: #ff5196;
   font-family: "OpenSans-Bold";
@@ -628,8 +587,46 @@ span.white{
 }
 
 /*---media query---*/
-@media screen and (max-width: 320px){
+@media screen and (max-width: 1024px){
   span.rosa {
+  color: #ff5196;
+  font-family: "OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: none;
+  float: none;
+  padding: 5px 5px 5px 5px;
+}
+
+span.white{
+  font-family:"OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: none;
+  float: none;
+  padding: 5px 5px 5px 5px;
+}  
+}
+
+/*---media query---*/
+@media screen and (max-width: 767px){
+
+  .table-responsive{
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 0px solid #ddd;
+    font-size: 10px;
+  }
+
+  .dashboard-cabeceras h5 {
+    font-size: 11px;
+    font-family: "OpenSans";
+    display: inline-block;
+}
+
+span.rosa {
   color: #ff5196;
   font-family: "OpenSans-Bold";
   font-size: 12px;
@@ -653,8 +650,6 @@ span.white{
 }
 
 }
-
-
 
 /*---------------fin------------------*/
 
