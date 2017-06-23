@@ -84,8 +84,6 @@ span.verde {
     font-family: "OpenSans-Bold";
     font-size: 12px;
     display: inline-block;
-    position: relative;
-    float: right;
     padding: 8px 5px 5px 5px;
 }
 
@@ -457,14 +455,11 @@ h6{
 
 /*----DASHBOARD-----*/
 
-.dashboard-cabeceras{
+.dashboard-cabeceras {
   background-color: #393939;
   color: #ffffff;
-  padding: 1px 5px 1px 15px;
+  padding: 1px 15px 1px 15px;
   margin: 20px 0px 10px 0px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 
@@ -542,9 +537,24 @@ table>tbody>tr>th.bold{
 
 .ventas-semana-total{
     display: inline-block;
-    position: relative;
-    float: right;
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+
+.alineacion-derecha{
+  text-align: end;
+}
+
+.date-picker {
+    color: #000000;
+    font-size: 12px;
+    padding: 5px;
+    margin: 0px 10px 0px 5px;
+    -webkit-border-radius: 2px;
+    border: 0px none #000000;
+    width: 155px;
+    text-align: center;
+    vertical-align: middle;
 }
 
 /*---media query---*/
@@ -559,13 +569,6 @@ table>tbody>tr>th.bold{
     font-size: 10px;
   }
 
-  .dashboard-cabeceras{
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-    margin-right: 15px;
-}
-
   .dashboard-cabeceras h5 {
     font-size: 11px;
     font-family: "OpenSans";
@@ -573,17 +576,85 @@ table>tbody>tr>th.bold{
 }
 }
 
-.date-picker {
-    color: #000000;
-    font-size: 12px;
-    padding: 5px;
-    margin: 0px 25px 0px 5px;
-    -webkit-border-radius: 2px;
-    border: 0px none #000000;
-    width: 155px;
-    text-align: center;
-    vertical-align: middle;
+
+/*---media query---*/
+@media screen and (max-width: 1024px){
+  span.rosa {
+  color: #ff5196;
+  font-family: "OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: none;
+  float: none;
+  padding: 5px 5px 5px 5px;
 }
+
+span.white{
+  font-family:"OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: none;
+  float: none;
+  padding: 5px 5px 5px 5px;
+}  
+}
+
+
+/*---media query---*/
+@media screen and (max-width: 768px){
+  span.rosa {
+  color: #ff5196;
+  font-family: "OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: none;
+  float: none;
+  padding: 5px 5px 5px 5px;
+}
+
+span.white{
+  font-family:"OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: none;
+  float: none;
+  padding: 5px 5px 5px 5px;
+}  
+
+.date-picker {
+    width: 115px;
+}
+
+}
+
+/*---media query---*/
+@media screen and (max-width: 320px){
+  span.rosa {
+  color: #ff5196;
+  font-family: "OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  padding: 5px 5px 5px 5px;
+}
+
+span.white{
+  font-family:"OpenSans-Bold";
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  float: right;
+  padding: 5px 5px 5px 5px;
+}  
+
+.version-mobile{
+  text-align: center;
+}
+
+}
+
+
 
 /*---------------fin------------------*/
 
@@ -1820,6 +1891,16 @@ input.date-picker-n-ventas {
   margin-top: 10px; 
 }
 
+.buscador-btn{
+  width: 100%;
+}
+
+/*--modal--*/
+
+.modal-buscador{
+  width: 1000px;
+}
+
 @media screen and (max-width: 768px){
 .codigo-espacios {
   margin: 0px;
@@ -1914,6 +1995,10 @@ input.date-picker-n-ventas {
 .boton-facturar-vn {
     padding: 0px 0px 20px 20px;
     margin: 0px 10px 20px 0px;
+}
+
+.modal-buscador{
+  width: 300px;
 }
 
 }
@@ -2014,6 +2099,12 @@ span.precio{
 .btn-transferir{
   width: 100%;
 }
+
+.buscador-btn {
+  width: 100%;
+}
+/*---fin----*/
+
 
 .facturar{
   width: 100%;
