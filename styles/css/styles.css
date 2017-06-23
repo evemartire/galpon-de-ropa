@@ -816,7 +816,11 @@ label {
     margin: 20px 20px 20px 20px;
 }
 
-    
+ 
+ .modal-trasnferencias-buscador{
+  width: 1000px;
+ }
+
 /*---media query---*/
 @media screen and (max-width: 767px){
 
@@ -895,6 +899,10 @@ label {
 .item-trasferencia-tablet{
   margin-top: 25px;
 }
+
+.modal-trasnferencias-buscador{
+  width: 700px;
+ }
 }
 
 @media screen and (min-width: 1024px){
@@ -906,8 +914,19 @@ label {
 .item-trasferencia-tablet{
   margin-top: 5px;
 }
+
+.modal-trasnferencias-buscador{
+  width: 1000px;
+ }
 }
 
+
+
+@media screen and (max-width: 320px){
+  .modal-trasnferencias-buscador{
+  width: 300px;
+ }  
+}
 /*---------------fin------------------*/
 
 
