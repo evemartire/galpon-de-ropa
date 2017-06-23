@@ -887,6 +887,10 @@ label {
     margin: 0px 10px 20px 20px;
     }
 
+  .modal-trasnferencias-buscador{
+  width: 300px;
+ }  
+
 }
 
 @media screen and (min-width: 768px){
@@ -920,13 +924,6 @@ label {
  }
 }
 
-
-
-@media screen and (max-width: 320px){
-  .modal-trasnferencias-buscador{
-  width: 300px;
- }  
-}
 /*---------------fin------------------*/
 
 
@@ -1291,6 +1288,13 @@ tbody tr td.no-margin-padding{
   padding: 0px;
 }
 }
+
+@media screen and (max-width: 768px){
+  .fondo-de-caja-1 {
+    overflow: auto;
+}
+}
+
 /*---------------fin------------------*/
 
 
@@ -2592,7 +2596,7 @@ tbody>tr>th.alinear-texto-derecha{
 }
 
 .backgrounds-cajas-clientes-1 {
-    padding: 0px 10px 0px 0px;
+    padding: 0px 25px 0px 15px;
     font-size: 14px;
 }
 
