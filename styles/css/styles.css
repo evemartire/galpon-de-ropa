@@ -1990,6 +1990,12 @@ span.precio{
 .facturar{
   width: 100%;
 }
+
+.modal-adquisicion-detalle{
+  width: 1000px; 
+}
+
+
 @media screen and (max-width: 767px){
 .alineacion-item-titulares {
     text-align: left;
@@ -2038,6 +2044,10 @@ span.precio{
 .botones-catalogar-facturar {
     padding: 0px 0px 20px 20px;
     margin: 20px 15px 20px 0px;
+}
+
+.modal-adquisicion-detalle{
+  width: 300px; 
 }
 
 }
