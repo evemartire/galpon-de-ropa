@@ -1731,7 +1731,7 @@ position: relative !important;
 
 .fondo-fila-clientes-credito-nueva-venta{
     background-color: #ffffff;
-    padding: 20px;
+    padding: 15px;
     overflow: auto;
 }
 
@@ -2632,7 +2632,7 @@ tbody>tr>th.alinear-texto-derecha{
 }
 
 .backgrounds-cajas-clientes-1 {
-    padding: 0px 25px 0px 15px;
+    padding: 0px 15px 0px 0px;
     font-size: 14px;
 }
 
