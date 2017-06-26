@@ -1698,6 +1698,24 @@ position: relative !important;
   margin-right: 15px; 
 }
 
+.cajas-cabeceras {
+    background-color: #393939;
+    color: #ffffff;
+    padding: 2px 15px 2px 15px;
+    margin: 20px 0px 10px 0px;
+}
+
+
+.cajas-titulo-izquierda{
+  display: inline-block; 
+}
+
+.cajas-titulo-derecha{
+  display: inline-block;
+  text-align: right; 
+  margin-top: 5px;
+  }
+
 @media screen and (max-width: 767px){
   .contenedor-botones-cajas {
     background-color: #fff;
@@ -2700,6 +2718,10 @@ h6.tipo-mobile-h6{
 
 h6.tipo-mobile-h6{
   font-size: 10px;
+}
+
+.fondo-de-caja-1{
+  overflow: auto; 
 }
 
 .fondo-de-caja-2{
