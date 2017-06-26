@@ -1039,7 +1039,7 @@ label {
   font-size: 14px;
   line-height: 1.42857143;
   color: #a09999;
-  margin: 20px 0px 20px 0px;
+  margin: 20px 10px 20px 0px;
   padding: 0px;
 }
 
@@ -1800,12 +1800,14 @@ h6.desc-cred{
   margin-left: 5px;
 }
 
+
 .desc-cred{
   margin-left: 10px;
 }
 
+
 .desc-cred-tipo{
-      font-size: 10px;
+  font-size: 10px;
 }
 
 
@@ -1941,6 +1943,12 @@ input.date-picker-n-ventas {
 
 .buscador-btn{
   width: 100%;
+}
+
+.fondo-tarjetas {
+    background-color: #ffffff;
+    padding: 15px 15px 10px 15px;
+    overflow: auto;
 }
 
 /*--modal--*/
@@ -2082,6 +2090,34 @@ input.date-picker-n-ventas {
   .modal-buscador-nueva-venta{
   width: 300px;
 }
+}
+
+
+@media screen and (min-width: 769px){
+  .porcentajes-atajos {
+    display: inline-block;
+    background-color: #888888;
+    margin: 0px 2px 0px 0px;
+    color: #ffffff;
+    padding: 4px 5px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+
+}
+
+@media screen and (min-width: 1025px){
+  .porcentajes-atajos {
+    display: inline-block;
+    background-color: #888888;
+    margin: 0px 5px 0px 0px;
+    color: #ffffff;
+    padding: 4px 9px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
 }
 /*---------------fin------------------*/
 
