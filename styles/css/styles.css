@@ -2685,6 +2685,37 @@ tbody>tr>th.alinear-texto-derecha{
 
 }
 
+.tipo-mobile{
+  font-size: 14px;
+}
+
+h6.tipo-mobile-h6{
+  font-size: 12px;
+}
+
+@media screen and (max-width: 1024px){
+.tipo-mobile{
+  font-size: 10px;
+} 
+
+h6.tipo-mobile-h6{
+  font-size: 10px;
+}
+
+.fondo-de-caja-2{
+  overflow: auto; 
+}
+
+.fondo-de-caja-3{
+  overflow: auto;  
+}
+
+.fondo-de-caja-violeta {
+   overflow: auto;  
+}
+
+}
+
 @media screen and (max-width: 767px){
   .botones-adq-mobile{
     margin-bottom: 10px; 
