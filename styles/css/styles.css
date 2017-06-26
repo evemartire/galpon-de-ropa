@@ -741,10 +741,10 @@ h2.titulo-producto-modal{
 }
 
 .fondo-fila-prendas-seleccionadas {
-    background-color: #ffffff;
-    padding: 10px 30px 10px 30px;
-    margin: 0px 20px 20px 20px;
-    overflow: auto;
+  background-color: #ffffff;
+  padding: 10px 30px 10px 30px;
+  margin: 0px 20px 15px 20px;
+  overflow: auto;
 }
 
 .table>thead>tr>th.padding-tabla-prendas-seleccionadas{
@@ -896,7 +896,7 @@ label {
 @media screen and (min-width: 768px){
   .fondo-fila-item-transferencia {
     background-color: #ffffff;
-    padding: 0px 10px 0px 0px;
+    padding: 0px 10px 0px 10px;
     margin: 20px 20px 15px 20px;
 }
 
@@ -913,7 +913,7 @@ label {
 .fondo-fila-item-transferencia {
   background-color: #ffffff;
   padding: 20px;
-  margin: 20px;
+  margin: 15px 20px 15px 20px;
 }
 .item-trasferencia-tablet{
   margin-top: 5px;
@@ -2384,6 +2384,28 @@ td.archive-azul{
   margin-right: 10px;
 }
 
+.ancho-modal{
+width: 1000px;
+}
+
+@media screen and (min-width: 320px){
+.ancho-modal{
+width: 300px;
+} 
+}
+
+@media screen and (min-width: 768px){
+.ancho-modal{
+width: 700px;
+} 
+}
+
+@media screen and (min-width: 1024px){
+.ancho-modal{
+width: 1000px;
+} 
+}
+
 /*---------------modal--ESTADO PRENDAS------------------*/
 h6.modal-title-name{
   font-size: 20px;
@@ -2620,7 +2642,7 @@ tbody>tr>th.alinear-texto-derecha{
 
 .fondo-adquisicion-03 {
     background-color: #ffffff;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
     margin: 0px 20px 30px 20px;
     overflow: auto;
 }
