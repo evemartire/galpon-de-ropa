@@ -1136,6 +1136,10 @@ label {
 margin-left: 20px;
 }
 
+.top-titular{
+  padding-top: 10px;
+}
+
 /*---media query---*/
 @media screen and (max-width: 767px){
   .selector-pagina {
@@ -2401,6 +2405,18 @@ span.precio{
   margin-right: 20px;  
 }    
 
+.btn-categorias{
+  margin-top: 10px;
+}
+
+.btn-guardar-cerrar-categorias{
+  background-color:#d8d8d8;
+  color: #000;
+  padding: 5px 20px;
+  font-size: 10px;
+  margin-top: 0px;
+}
+
 
 @media screen and (max-width: 767px){
   .filtros-espacios-elementos {
@@ -2424,7 +2440,18 @@ span.precio{
 .tags-espacios{
   margin: 5px;
 }
+
+.btn-guardar-cerrar-categorias{
+  background-color:#d8d8d8;
+  color: #000;
+  padding: 5px 20px;
+  font-size: 10px;
+  margin-top: 5px;
 }
+}
+
+
+
 
 /*---------------fin------------------*/
 
