@@ -2150,12 +2150,23 @@ input.date-picker-n-ventas {
 
 }
 
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
   .modal-buscador-nueva-venta{
   width: 300px;
 }
 }
 
+@media screen and (min-width: 769px){
+  .modal-buscador-nueva-venta{
+  width: 700px;
+}
+}
+
+@media screen and (min-width: 1024px){
+  .modal-buscador-nueva-venta{
+  width: 1000px;
+}
+}
 
 @media screen and (min-width: 769px){
   .porcentajes-atajos {
