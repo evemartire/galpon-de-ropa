@@ -829,6 +829,10 @@ label {
   width: 1000px;
  }
 
+.filtros-espacios-transferencias{
+    margin: 0px 10px 20px 10px;
+}
+
 /*---media query---*/
 @media screen and (max-width: 767px){
 
@@ -854,6 +858,10 @@ label {
   display: flex;
   flex-direction: row;
   }
+
+.filtros-espacios-transferencias{
+    margin: 10px 0px 10px 0px;
+}
 
 }
 
@@ -953,6 +961,7 @@ label {
   line-height: 1.42857143;
   color: #a09999;
   padding: 6px 12px 6px 12px;
+  width: 100%;
 }
 
 .reportes-cabecera h5 {
@@ -962,12 +971,14 @@ label {
 }
 
 .margen-izq-reportes{
-  margin-left: 30px;
+  
 }
 
-.boton-generar-reportes{
-  margin-left: 20px;
+.boton-generar-reportes {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
+
 
 /*---media query---*/
 @media screen and (max-width: 767px){
@@ -991,11 +1002,14 @@ label {
 }
 
 
-.boton-generar-reportes{
-  margin-left: 0px;
+.boton-generar-reportes {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 }
+
 /*---------------fin------------------*/
 
 
@@ -1394,6 +1408,10 @@ tbody tr td.no-margin-padding{
 
 tbody.cursor{
   cursor: pointer;
+}
+
+.modal-body {
+    overflow: auto;
 }
 
 /*---media query---*/
@@ -2015,6 +2033,11 @@ input.date-picker-n-ventas {
     overflow: auto;
 }
 
+
+.filtros-espacios-nv{
+margin: 0px 10px 20px 10px;
+}
+
 /*--modal--*/
 
 .modal-buscador-nueva-venta{
@@ -2080,6 +2103,10 @@ input.date-picker-n-ventas {
   width: 300px;
 }
 
+.filtros-espacios-nv{
+margin: 10px 0px 10px 0px;
+}
+
 }
 
 @media screen and (max-width: 768px){
@@ -2134,6 +2161,12 @@ input.date-picker-n-ventas {
 .form-control {
     margin-top: 10px;
 }
+
+/*--esta clase pisa el margen definido en la clase de arriba, corresponde a la seccion REPORTES*/
+.tablet-ajuste-reporte-select{
+  margin-top: 0px;
+}
+
 
 .boton-mas {
   margin: 5px 0px 0px 0px;
@@ -2508,18 +2541,21 @@ width: 1000px;
 @media screen and (min-width: 320px){
 .ancho-modal{
 width: 300px;
+margin: auto;
 } 
 }
 
 @media screen and (min-width: 768px){
 .ancho-modal{
 width: 700px;
+margin: auto;
 } 
 }
 
 @media screen and (min-width: 1024px){
 .ancho-modal{
 width: 1000px;
+margin: auto;
 } 
 }
 
@@ -3021,6 +3057,7 @@ span.valor-modal{
 .centrado-deuda {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
 }
 
 
