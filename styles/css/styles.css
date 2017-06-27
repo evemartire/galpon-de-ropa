@@ -441,6 +441,14 @@ h6{
     justify-content: flex-end;
 }
 
+.titulo-admin-loyla-prendas h6 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
 .alineacion-titulos {
     display: flex;
     flex-direction: row;
@@ -1715,6 +1723,11 @@ position: relative !important;
   text-align: right; 
   margin-top: 5px;
   }
+
+
+.contencion-tablas{
+  padding: 0px 20px;
+}
 
 @media screen and (max-width: 767px){
   .contenedor-botones-cajas {
