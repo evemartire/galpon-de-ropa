@@ -2136,7 +2136,7 @@ input.date-picker-n-ventas {
 }
 
 .boton-mas {
-  margin: 0px 0px 0px 0px;
+  margin: 5px 0px 0px 0px;
 }
 .margin-columnas-item {
     margin: 10px 0px 10px 0px;
@@ -2262,6 +2262,10 @@ span.precio{
 }
 
 
+.modal-ancho{
+  width: 1000px;
+}
+
 @media screen and (max-width: 767px){
 .alineacion-item-titulares {
     text-align: left;
@@ -2326,6 +2330,10 @@ span.precio{
   width: 300px; 
 }
 
+.modal-ancho{
+  width: 300px;
+}
+
 }
 
 
@@ -2340,6 +2348,17 @@ span.precio{
 
 .modal-adquisicion-detalle{
   width: 700px; 
+}
+
+.modal-ancho{
+  width: 700px;
+}
+
+}
+
+@media screen and (min-width: 1024px){
+.modal-ancho{
+  width: 1000px;
 }
 
 }
