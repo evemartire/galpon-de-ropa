@@ -1125,9 +1125,15 @@ label {
 
 
 .boton-buscador-prendas{
-    position: relative;
-    float: right;
-    margin-bottom: 20px;
+  position: relative;
+  float: right;
+  margin-bottom: 15px;
+  margin-right: 20px;
+}
+
+
+.prendas-titulo{
+margin-left: 20px;
 }
 
 /*---media query---*/
@@ -1159,7 +1165,30 @@ label {
     .buscador{
       width: 100%;
     }
+
+    .prendas-titulo{
+      margin-left: 5px;
+    }
 }
+
+@media screen and (max-width: 768px){
+
+.prendas-titulo{
+  margin-left: 0px;
+}
+}
+
+@media screen and (max-width: 768px){
+  .titulo-admin-loyla-prendas h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: right;
+    margin-left: 10px;
+}
+}
+
 /*---------------fin------------------*/
 
 
@@ -2974,3 +3003,8 @@ color: #000;
 margin-left: 10px;
 }
 /*------fin transferir----*/
+
+
+.form-control-prendas{
+    margin-top: 0px;
+}
