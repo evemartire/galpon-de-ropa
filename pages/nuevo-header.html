@@ -208,11 +208,19 @@
                         <div class="col-xs-7 col-md-8 titulo-nueva-venta">
                           <h5>CREAR ADQUISICIÓN</h5> 
                         </div>
-                        <div class="col-xs-5 col-md-4 titulo-admin-loyla">
+                        <div class="col-xs-5 col-md-4 titulo-admin-loyla padding-right-no">
                           <h6>ADMIN LOYOLA</h6> 
                         </div>
-                        <div class="col-xs-5 col-md-4 titulo-admin-loyla">
-                          <h6>ADMIN LOYOLA</h6> 
+                        <div class="col-xs-3 col-md-2 titulo-admin-loyla usser-header-align">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li class="dropdown">
+                              <a href="#" class="dropdown-toggle usser-header" data-toggle="dropdown">Juan Carlos<b class="caret"></b></a>
+                              <ul class="dropdown-menu dropdown-usser-padding">
+                                <li class="drop-usser"><a class="hover-usser-drop" href="#">Cambiar contraseña</a></li>
+                                <li class="drop-usser"><a class="hover-usser-drop" href="#">Cerrar sesión</a></li>
+                              </ul>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -521,6 +529,14 @@ $(function() {
 
         return false;
     });
+</script>
+
+<script type="text/javascript">
+  $('ul.nav li.dropdown').hover(function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeIn(500);
+}, function() {
+  $(this).find('.dropdown-menu').stop(true, true).delay(200).fadeOut(500);
+});
 </script>
 </body>
 </html>

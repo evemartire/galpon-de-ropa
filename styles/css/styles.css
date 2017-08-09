@@ -3102,3 +3102,38 @@ margin-left: 10px;
 .form-control-prendas{
     margin-top: 0px;
 }
+
+
+/*---------------------nuevo header con dropdown de opciones en nombre de usuraios-------------------*/
+.nav>li>a.usser-header{
+  color: #333;
+}
+
+.usser-header-align{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav li.drop-usser{
+  padding: 0px;
+}
+
+
+.dropdown-menu>li>a.hover-usser-drop:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #393939;
+}
+
+.dropdown-menu>li>a.hover-usser-drop {
+    padding: 10px 0px 10px 15px;
+}
+
+.dropdown-usser-padding{
+  padding: 0px;
+}
+
+.padding-right-no{
+  padding-right: 0px;
+}
+/*---------------------fin nuevo header-------------------*/
