@@ -1,0 +1,150 @@
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: #d6d6d6;
+    border-color: #337ab7;
+}
+
+.fondo-filtros-ventas-busqueda {
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+    margin: 0px 20px 15px 20px;
+    overflow: auto;
+}
+
+/*OPERACIONES
+boton de crear operacion ponerle en el html: class="col-xs-12 col-sm-2 col-md-2 no-margin-padding ajustes-paginador-responsive boton-crear-operacion"
+paginador:class="col-xs-12 col-sm-6 col-md-5"
+ir a la pagina: class="col-xs-12 col-sm-3 col-md-5 input-codigo-padding margin-columnas-item";
+*/
+
+
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 10px 0;
+    border-radius: 4px;
+}
+
+.fa-pencil {
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+.completes-clientes {
+    margin: 10px;
+    width: 95%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    height: 42px;
+}
+
+/*adquisicion, crear adquisicion:
+caja celesteponer: class="col-md-3" y de nombre "CONSIG."", al contenido que le sigue ponerlo en class="col-md-8"
+agragarle una nueva clase al input de numero de contrato con la el siguiente css: 
+{
+width: 100px;
+float: right;
+padding-top: 3px;
+margin-top: 3px;
+}
+a la tabla ponerle una clase nueva con: margin-bottom: 7px;
+*/
+
+.input-contrato{
+width: 100px;
+float: right;
+padding-top: 3px;
+margin-top: 3px;
+}
+
+.tabla-celeste-bottom{
+	margin-bottom: 7px;
+}
+
+.fondo-datepicker-nueva-venta {
+    background-color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    overflow: auto;
+}
+
+
+/*ventas, buscar ventas:
+agregar una clase a el contedor del boton de buscar con los siguientes parametros:
+{
+    padding-bottom: 10px;
+}
+*/
+
+.button-buscar-contain{
+	padding-bottom: 10px;	
+}
+
+/*reportes
+agregar al select y al date picker
+{
+    margin-top: 5px;
+}
+y a los date picker ademas heigth 30px
+{
+    margin-top: 5px;
+    height: 30px;
+}
+*/
+
+.aling-on-bk{
+	margin-top: 5px;
+}
+
+.date-aling-on-bk{
+    margin-top: 5px;
+    height: 30px;
+}
+
+/*clientes
+cambiar en el paginador las columas por : class="col-xs-12 col-sm-6 col-md-5"
+y ponerle un clase con 
+{
+    margin-top: 0px;
+}
+*/
+
+.pagination-out-top{
+    margin-top: 0px;
+}
+
+
+.filtros-clientes{
+    margin: 0px 20px 10px 0px;
+}
+
+/*
+prendas
+en la columna del paginador poner: class="col-xs-12 col-sm-6 col-md-5"
+*/
+
+/*clientes
+en el div del boton "aceptar" porner {
+    margin-top: 0px;
+}
+cabiar en abiertos: class="col-xs-12 col-sm-6 col-md-3"
+*/
+
+.aceptar-prendas{
+    margin-top: 0px;
+}
+
+/*elementos, categorias:
+ponerle a los botones de confirmar y cancelar una clase nueva con 
+{
+    padding: 5px 10px;
+}
+*/
+
+.confirmar-cancelar-table{
+    padding: 5px 10px;
+}
